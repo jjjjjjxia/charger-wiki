@@ -24,3 +24,5 @@ site/
 # Overview artifact
 overview.md
 deploy.yml
+raw.rar
+*.rar
