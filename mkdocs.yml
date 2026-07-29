@@ -39,7 +39,8 @@ theme:
 plugins:
   - search:
       lang:
-        - ja
+        - zh
+        - en
   - roamlinks
 
 markdown_extensions:
