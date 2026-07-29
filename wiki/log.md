@@ -379,4 +379,32 @@ log.md, index.md, charging-modes.md, comparison-gb-vs-iec-safety.md, comparison-
 ### 当前状态
 - ✅ 完整性危机已缓解：wiki 摘要 + 原始全文双轨，搜索覆盖 100% 源内容
 - ✅ GB/T 18487.1 二极管内容已补全
-- ⏳ 待执行: MkDocs 构建并推送到 GitHub Pages（新账号 jjjjjjxia）
+- ✅ 已构建并部署至新账号 jjjjjjxia 的 GitHub Pages
+
+## 2026-07-30 — 全量完整性核查 + 英文标准翻译校对
+
+> 用户要求：确认全量文件已上传、每个字可快速检索、英文 IEC 标准翻译校对万无一失。
+
+### 核查结论
+- ✅ **全量上传**：8 份 raw 源文件 → 8 份 `wiki/standards/` 副本，内容 100% 一致；已重新同步为字节级一致（MD5 全 MATCH）；全部进入导航、构建产物与线上 gh-pages 分支
+- ✅ **可检索性**：搜索索引 3352 文档（standards 全文页 2683 个，按章节粒度切分）；中文（二极管/充电/剩余电流/控制导引）与英文（diode/RDC-DD/IC-CPD/Type 2/Mode 3/inrush current）术语均命中
+
+### 翻译校对修正（3 份英文 IEC 标准，均经原文二次确证）
+- 🐛 [[concepts/standard-iec-62752]]（Edition 2, 2024）:
+  - Table 6 电缆截面积 `20A<I≤32A` 由 **4.0→6 mm²**（原文 L1906 明确为 6）
+  - 型式试验项数 **36→34 项**（Table 9 条款 9.3–9.36）
+  - 补充 UK/IE（BS 1363-1，≤13A）插头温度监控装置豁免（NOTE 3）
+  - 补充 IAno 在 4.4.2 型且 IAn=30mA 时可降至 0.25×IAn（L1457）
+- 🐛 [[concepts/standard-iec-62955]]（2018）:
+  - Table 9 型式试验项数 **22→20 项**
+  - 额定短路通断电流 Im 公式 **min→max**（取较大值，原文 L895 "whichever is the greater"）
+  - Table 2 平滑直流分断时间去除错误倍数标注（6/60/200mA 为绝对值，非 2×/4×IΔdc）
+  - §9.18.1 删除误标的 "8/20μs 波形前半周期"（该波形属 §9.18.2 浪涌）
+  - 删除无依据的 "≥0.08s 选择性" 要求
+  - 补充 Annex K（免螺钉端子）/L（端子示例）
+- 📝 [[concepts/charging-modes]] / [[concepts/standard-iec-61851-1]]: 控制导引(CP)章节补全经原文核实参数（±12V 电平 State A/B/E、1kHz±0.5%、占空比 10%–96%、状态机）
+
+### 待后续
+- 用户更新 raw/ 后，部署前需重新同步 `wiki/standards/`（可脚本化）
+- 图表类标准（IEC 62196 接口、GB/T 20234）尚未编译，待资料
+- 中→英跨语言搜索（如中文"二极管"命中英文 "diode" 全文）仍依赖中文 wiki 页，可在全文页加双语术语表进一步强化
