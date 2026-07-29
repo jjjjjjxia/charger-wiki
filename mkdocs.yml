@@ -1,0 +1,90 @@
+site_name: 充电桩产品认证知识库
+site_description: 国标/欧标/美标交流充电桩认证查询 · 国内CCC/CQC · 海外CE/CB及多国认证
+site_url: ""
+docs_dir: wiki
+use_directory_urls: false
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色模式
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: 切换亮色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  icon:
+    logo: material/ev-station
+
+plugins:
+  - search:
+      lang:
+        - ja
+  - roamlinks
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - 总索引: index.md
+  - 使用指南: guide.md
+  - 按地区查认证: topics/certification-by-region.md
+  - 认证流程总览: topics/certification-process-overview.md
+  - 全球插头查询: topics/global-plug-lookup.md
+  - 产品线:
+      - 国标交流桩: entities/product-ac-charger-cn.md
+      - 欧标交流桩: entities/product-ac-charger-eu.md
+      - 美标交流桩: entities/product-ac-charger-us.md
+  - 认证类型:
+      - CCC 强制认证: entities/certification-ccc.md
+      - CQC 标志认证: entities/certification-cqc.md
+      - CE 认证: entities/certification-ce.md
+      - CB 体系: entities/certification-cb.md
+  - 地区:
+      - 中国大陆: entities/region-china.md
+      - 欧洲: entities/region-europe.md
+      - 北美: entities/region-north-america.md
+      - 亚太其他: entities/region-asia-pacific.md
+      - 中东/非洲: entities/region-mea.md
+  - 标准与概念:
+      - GB 39752-2024 供电设备安全: concepts/standard-gb-39752.md
+      - GB 44263-2024 充电系统安全: concepts/standard-gb-44263.md
+      - GB/T 18487.1-2023 通用要求: concepts/standard-gb-t-18487-1.md
+      - IEC 61851-1 标准: concepts/standard-iec-61851-1.md
+      - IEC 62752 随车充标准: concepts/standard-iec-62752.md
+      - IEC 62955 RDC-DD 漏电保护: concepts/standard-iec-62955.md
+      - "⚡ 国标 vs IEC 安规对比": concepts/comparison-gb-vs-iec-safety.md
+      - "⚡ IEC 61851 vs 62752 对比": concepts/comparison-iec-61851-vs-62752.md
+      - 充电模式 Mode 1-4: concepts/charging-modes.md
+      - 安规测试项目: concepts/safety-tests-iec-61851.md
+      - 全球插头型号体系 A-O: concepts/plug-types-worldwide.md
+  - 变更日志: log.md

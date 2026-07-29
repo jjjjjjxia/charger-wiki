@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Raw source materials (PDFs, Excel, extracted text) — not needed for site build
+# Wiki pages already contain compiled knowledge
+raw/
+
+# WorkBuddy internal files
+.workbuddy/
+
+# Extraction scripts (not needed for site)
+*.py
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# MkDocs build output (CI rebuilds automatically)
+site/
+
+# Overview artifact
+overview.md
+deploy.yml
