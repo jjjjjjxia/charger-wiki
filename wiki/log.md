@@ -42,7 +42,7 @@
 
 ### Ingest: IEC 61851-1:2017 安规标准
 
-> 来源: `raw/1_IEC 61851-1-2017.pdf`（292页，IEC 61851-1 Edition 3.0）
+> 来源: `raw/欧标/桩标准/IEC 61851-1-2017-1.md`（292页，IEC 61851-1 Edition 3.0）
 
 #### 新增概念页
 - ✨ **新增**: [[concepts/standard-iec-61851-1]] — IEC 61851-1:2017 标准详解（基本信息、范围、结构16章+附录、关键引用文件）
@@ -88,7 +88,7 @@
 
 ### Ingest: GB 39752-2024 + GB 44263-2024 国标安规标准
 
-> 来源: `raw/国标/GB 39752-2024 电动汽车供电设备安全要求.pdf`（31页，强制性国标）、`raw/国标/GB 44263-2024 电动汽车传导充电系统安全要求_unlocked.pdf`（35页，强制性国标）
+> 来源: `raw/国标/GB 39752-2024 电动汽车供电设备安全要求.md`（31页，强制性国标）、`raw/国标/GB 44263-2024 电动汽车传导充电系统安全要求_unlocked.md`（35页，强制性国标）
 
 #### 新增概念页
 - ✨ **新增**: [[concepts/standard-gb-39752]] — GB 39752-2024 供电设备安全要求（强制标准、安全要素全表、试验方法、标准实施过渡期）
@@ -135,7 +135,7 @@
 
 ### Ingest: GB/T 18487.1-2023 传导充电系统通用要求
 
-> 来源: `raw/国标/GB_T 18487.1-2023 电动汽车传导充电系统　第1部分：通用要求_unlocked.pdf`（160页，推荐性国标，代替 2015 版，2024-04-01 实施）
+> 来源: `raw/国标/GB_T 18487.1-2023 电动汽车传导充电系统　第1部分：通用要求.md`（160页，推荐性国标，代替 2015 版，2024-04-01 实施）
 
 #### 新增概念页
 - ✨ **新增**: [[concepts/standard-gb-t-18487-1]] — GB/T 18487.1-2023 通用要求详解（范围、分类体系、充电模式、电击防护、性能要求、结构要求、使用条件、附录体系、与2015版变化）
@@ -246,7 +246,7 @@
 ## 2026-07-23
 
 ### IEC 62752:2024 OCR 提取与编译
-- ✅ **OCR完成**: 162页全部 OCR 提取完成（rapidocr-onnxruntime，约35分钟），输出至 `raw/_extracted/IEC_62752_ocr.txt`（约7200行）
+- ✅ **OCR完成**: 162页全部 OCR 提取完成（rapidocr-onnxruntime，约35分钟），输出至 `raw/欧标/随车充标准/IEC 62752 2024(1).md`（约7200行）
 - ✨ **新增**: [[concepts/standard-iec-62752]] — IEC 62752:2024 IC-CPD 随车充标准概念页
   - 全文编译：适用范围、术语定义、分类（4.1-4.6）、特性参数（Table 1-4）、标志信息、标准工作条件
   - 构造要求（§8.1-8.25）：温度控制70°C/10s、IP55、电缆截面Table 6、电气间隙Table 7、温升Table 8、自检功能
@@ -264,7 +264,7 @@
 
 ### Ingest: IEC 62955:2018 RDC-DD 直流剩余电流检测装置标准
 
-> 来源: `raw/漏电/IEC62955_2018.pdf`（157页，IEC 62955 Edition 1.0）
+> 来源: `raw/漏电/IEC62955_2018.md`（157页，IEC 62955 Edition 1.0）
 > PDF 使用标准字体编码，pypdf 成功提取全文（343KB，约6600行），无需 OCR
 
 #### 新增概念页
@@ -293,7 +293,7 @@
 
 ### Ingest: 全球插头插座标准 + 全球插头查询模块
 
-> 来源: `raw/插头标准/世界各国插头型号信息_插头插座分栏.xlsx`（Excel，2个工作表：208国插头信息 + 15种插头型号说明）
+> 来源: `raw/插头标准/多国插头及电压标准.md`（Excel，2个工作表：208国插头信息 + 15种插头型号说明）
 > 使用 openpyxl 提取全文数据，输出至 `raw/_extracted/plug_types_worldwide.txt`（11.8KB）
 
 #### 新增概念页
@@ -327,3 +327,33 @@
 - 208国数据按大洲分15组，支持正查（国家→插头）和反查（插头→国家）
 - 充电桩出口参考：10个主要目标市场的插头/电压/频率/认证一览
 - IC-CPD随车充特别提醒：必须匹配目标国民用插座插头型号
+
+## 2026-07-23（续）
+
+### 源文件格式迁移：PDF/OCR/Excel → Markdown
+
+> 用户将 `raw/` 目录中所有原始资料从 PDF/OCR/Excel 格式全部替换为干净的 Markdown 格式，重新编译引用路径。
+
+#### 源文件变更（8个文件，约29,600行）
+- 📄 `raw/欧标/桩标准/IEC 61851-1-2017-1.md`（7084行）— 代替原 PDF（分为2个文件）
+- 📄 `raw/欧标/桩标准/IEC 61851-1-2017-2.md`（2174行）— 第二部分
+- 📄 `raw/欧标/随车充标准/IEC 62752 2024(1).md`（5617行）— 代替原 PDF + OCR 中间文件，不再依赖 OCR
+- 📄 `raw/漏电/IEC62955_2018.md`（5229行）— 代替原 PDF
+- 📄 `raw/国标/GB 39752-2024 电动汽车供电设备安全要求.md`（1311行）— 代替原 PDF
+- 📄 `raw/国标/GB 44263-2024 电动汽车传导充电系统安全要求_unlocked.md`（908行）— 代替原 PDF
+- 📄 `raw/国标/GB_T 18487.1-2023 电动汽车传导充电系统　第1部分：通用要求.md`（5051行）— 代替原 PDF
+- 📄 `raw/插头标准/多国插头及电压标准.md`（2234行）— 代替原 Excel 文件
+
+#### Wiki 页面批量更新（22个文件，102处路径替换）
+- 📝 **批量更新**: 全部22个 wiki 文件中的 `[[raw/...]]` 源文件引用路径从旧的 PDF/OCR/Excel 路径更新为新的 Markdown 路径
+- 📝 **描述更新**: "OCR提取全文编译" → "Markdown全文编译"、"XX页" → "XXXX行"等描述文本同步更新
+- 🔧 **修复**: `standard-iec-62752.md` 和 `comparison-iec-61851-vs-62752.md` 中批量替换产生的重复引用（原 PDF 引用和 OCR 中间文件引用指向同一新文件），合并为单条引用
+- 🗑️ **废弃**: IEC 62752 不再需要 OCR 中间文件（`raw/_extracted/IEC_62752_ocr.txt`），用户提供的干净 Markdown 直接作为源文件
+
+#### 涉及的 wiki 文件清单
+log.md, index.md, charging-modes.md, comparison-gb-vs-iec-safety.md, comparison-iec-61851-vs-62752.md, plug-types-worldwide.md, safety-tests-iec-61851.md, standard-gb-39752.md, standard-gb-44263.md, standard-gb-t-18487-1.md, standard-iec-61851-1.md, standard-iec-62752.md, standard-iec-62955.md, certification-cb.md, certification-ccc.md, certification-ce.md, certification-cqc.md, product-ac-charger-cn.md, product-ac-charger-eu.md, region-china.md, region-europe.md, certification-process-overview.md, global-plug-lookup.md
+
+### 当前状态
+- ✅ 源文件格式统一为 Markdown，不再依赖 PDF/OCR/Excel 中间产物
+- ✅ 全部 wiki 页面引用路径已同步更新
+- ⏳ 待执行: MkDocs 构建并推送到 GitHub Pages

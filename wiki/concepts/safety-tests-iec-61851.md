@@ -3,7 +3,7 @@
 > **类型**: concept (method)
 > **创建时间**: 2026-07-22
 > **最后更新**: 2026-07-22
-> **来源**: [[raw/1_IEC 61851-1-2017.pdf]]
+> **来源**: [[raw/欧标/桩标准/IEC 61851-1-2017-1.md]]
 > **标签**: #安规测试 #IEC61851 #绝缘 #耐压 #IP等级
 
 ## 摘要
@@ -131,8 +131,8 @@ IEC 61851-1 第12章规定了 EV 供电设备的结构要求和测试项目。�
 - 参见: [[topics/certification-process-overview]]
 
 ## 引用来源
-- [1] [[raw/1_IEC 61851-1-2017.pdf]] — 第8章 Protection against electric shock（页34-37）、第12章 Constructional requirements and tests（页41-46）
+- [1] [[raw/欧标/桩标准/IEC 61851-1-2017-1.md]] — 第8章 Protection against electric shock（页34-37）、第12章 Constructional requirements and tests（页41-46）
 
 ## 变更记录
-- 2026-07-22: 初始创建，来源 [[raw/1_IEC 61851-1-2017.pdf]] 第8章、第12章
+- 2026-07-22: 初始创建，来源 [[raw/欧标/桩标准/IEC 61851-1-2017-1.md]] 第8章、第12章
 - 2026-07-22: 完整性审查补全——填充机械强度(§12.11) IK08 详细要求，来源 [1]
