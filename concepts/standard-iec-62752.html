@@ -3160,7 +3160,7 @@
 <blockquote>
 <p><strong>类型</strong>: concept
 <strong>创建时间</strong>: 2026-07-23
-<strong>最后更新</strong>: 2026-07-23
+<strong>最后更新</strong>: 2026-07-30
 <strong>来源</strong>: <a href="../standards/iec-62752-2024.html">IEC 62752:2024 全文</a></p>
 </blockquote>
 <h2 id="_1">摘要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
@@ -3215,7 +3215,10 @@
 <h2 id="2">第2版主要技术变更<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
 <p>与第1版（2016+Am1:2018）相比，Edition 2.0 的重大变更：</p>
 <ol>
-<li><strong>§8.3.1 修订</strong>：强制要求家用插头配备温度控制装置，检测载流部件温度，达到 70°C 时 10秒内断电</li>
+<li><strong>§8.3.1 修订</strong>：强制要求家用插头配备温度控制装置，检测载流部件温度，达到 70°C 时 10秒内断电<blockquote>
+<p>注：英国和爱尔兰（采用 BS 1363-1 插头，最大充电电流 13A）不强制要求插头温度监控装置（标准 NOTE 3）。</p>
+</blockquote>
+</li>
 <li><strong>新增 §9.36</strong>：温度控制装置验证测试（60°C 起以 5K/h 速率升温至 70°C 断电）</li>
 <li><strong>EMC 要求协调</strong>：与 IEC 61543:2022 和 IEC 61851-21-2 新版保持一致</li>
 <li><strong>测试和要求全面改进</strong>：通用技术改进</li>
@@ -3359,7 +3362,7 @@
 </tr>
 <tr>
 <td>IAno（额定剩余不动作电流）</td>
-<td>标准 AC 值：0.5×IAn</td>
+<td>标准 AC 值：0.5×IAn（4.4.2 型且 IAn=30mA 时，可降至 0.25×IAn）</td>
 </tr>
 <tr>
 <td>额定频率</td>
@@ -3491,7 +3494,7 @@ o) 最大充电电流（如低于额定电流）</p>
 |---------------------|-----------------|-----|
 | ≤13A | 1.5 | 16 |
 | 13A &lt; I ≤ 20A | 2.5 | 14 |
-| 20A &lt; I ≤ 32A | 4.0 | 10 |</p>
+| 20A &lt; I ≤ 32A | 6 | 10 |</p>
 <blockquote>
 <p>控制导引线最小截面积：0.5mm² / AWG 20
 电缆须符合 IEC 60227、IEC 60245 或 IEC 62893-3 系列</p>
@@ -3629,7 +3632,7 @@ o) 最大充电电流（如低于额定电流）</p>
 <h2 id="9-tests">测试要求（§9 Tests）<a class="headerlink" href="#9-tests" title="Permanent link">&para;</a></h2>
 <h3 id="91">§9.1 总则<a class="headerlink" href="#91" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>型式试验</strong>：36项（Table 9），分测试序列进行（Annex A）</li>
+<li><strong>型式试验</strong>：34项（Table 9，条款 9.3–9.36），分测试序列进行（Annex A）</li>
 <li><strong>例行试验</strong>：每个器件均须进行（Annex B）</li>
 <li>测试条件：20-25°C，额定电压，额定频率±5%</li>
 <li>安全相关嵌入式软件版本须在所有型式试验中一致</li>
@@ -3765,6 +3768,7 @@ o) 最大充电电流（如低于额定电流）</p>
 <ul>
 <li>2026-07-23: 初始创建，来源 <a href="../standards/iec-62752-2024.html">IEC 62752:2024 全文</a>（Markdown全文编译）</li>
 <li>2026-07-29: 源文件格式从 PDF(OCR) 替换为 Markdown，更新引用路径</li>
+<li>2026-07-30: 翻译校对修正——Table 6 截面积 4.0→6 mm²、型式试验 36→34 项、补充 UK/IE 插头温度监控豁免(NOTE 3) 与 IAno 0.25×IAn 例外(§4.4.2/IAn=30mA)</li>
 </ul>
 
 

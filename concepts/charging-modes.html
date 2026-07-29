@@ -2240,7 +2240,7 @@
 <blockquote>
 <p><strong>类型</strong>: concept
 <strong>创建时间</strong>: 2026-07-22
-<strong>最后更新</strong>: 2026-07-22
+<strong>最后更新</strong>: 2026-07-30
 <strong>来源</strong>: <a href="../standards/iec-61851-1-2017-part1.html">IEC 61851-1:2017 全文</a>
 <strong>标签</strong>: #充电模式 #IEC61851 #交流充电</p>
 </blockquote>
@@ -2326,9 +2326,12 @@
 4. <strong>供电 de-energization</strong> — 断电
 5. <strong>最大允许电流控制</strong> — 限制充电电流</p>
 <h3 id="control-pilot">控制导引 (Control Pilot)<a class="headerlink" href="#control-pilot" title="Permanent link">&para;</a></h3>
+<p>通过 PWM（脉宽调制）信号在供电设备与 EV 之间交互（Annex A，规范性）：</p>
 <ul>
-<li>通过 PWM 信号实现（Annex A，规范性）</li>
-<li>充电站与 EV 之间的状态机交互（State A → B → C → D 等）</li>
+<li><strong>信号电平</strong>：标称 ±12 V；State A（车辆未连接）= <strong>+12 V</strong>，State B（已连接）= <strong>+9 V</strong>，State E（二极管/故障检测）= <strong>−12 V</strong></li>
+<li><strong>频率</strong>：<strong>1 kHz ±0.5%</strong>（State B2/C2/D2）</li>
+<li><strong>占空比 (Duty Cycle)</strong>：常规范围 <strong>10%–96%</strong>（5% 保留用于鉴权/未供电状态）；占空比映射最大允许电流见 Table A.7，车辆侧最大吸取电流见 Table A.8</li>
+<li><strong>状态机</strong>：A（未连接）→ B（已连接）→ C（充电中）→ D（通风/就绪）→ E（−12V 二极管检测/故障）→ F；供电设备合闸前须至少检测一次 −12V 与二极管存在性</li>
 <li>详见 <a href="standard-iec-61851-1.html">concepts/standard-iec-61851-1</a> Annex A</li>
 </ul>
 <hr />
@@ -2429,6 +2432,7 @@
 <ul>
 <li>2026-07-22: 初始创建，来源 [1] IEC 61851-1 第6章</li>
 <li>2026-07-22: 补充国标 GB/T 18487.1-2023 充电模式定义、连接方式D/E、国标新增充电唤醒功能，来源 [2]</li>
+<li>2026-07-30: 翻译校对补全——控制导引(CP)章节补充经原文核实的关键参数：±12V 信号电平(State A/B/E)、1kHz±0.5% 频率、占空比 10%–96%、状态机定义</li>
 </ul>
 
 

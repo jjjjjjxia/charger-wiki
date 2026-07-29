@@ -1871,10 +1871,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#table-9-22" class="md-nav__link">
+  <a href="#table-9-20" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Table 9 — 型式试验清单（22 项）
+        Table 9 — 型式试验清单（20 项）
       
     </span>
   </a>
@@ -2096,6 +2096,28 @@
     <span class="md-ellipsis">
       
         Annex G — 获取带电部件的专用工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annex-k-rdc-dd-4114" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annex K — 免螺钉端子型 RDC-DD 附加要求（§4.1.1.4）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annex-l" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annex L — 端子设计示例（资料性）
       
     </span>
   </a>
@@ -3217,10 +3239,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#table-9-22" class="md-nav__link">
+  <a href="#table-9-20" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Table 9 — 型式试验清单（22 项）
+        Table 9 — 型式试验清单（20 项）
       
     </span>
   </a>
@@ -3449,6 +3471,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#annex-k-rdc-dd-4114" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annex K — 免螺钉端子型 RDC-DD 附加要求（§4.1.1.4）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#annex-l" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Annex L — 端子设计示例（资料性）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#annex-m-rdc-md-4112" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3590,7 +3634,7 @@
 <blockquote>
 <p><strong>类型</strong>: concept
 <strong>创建时间</strong>: 2026-07-23
-<strong>最后更新</strong>: 2026-07-23
+<strong>最后更新</strong>: 2026-07-30
 <strong>来源</strong>: <a href="../standards/iec-62955-2018.html">IEC 62955:2018 全文</a></p>
 </blockquote>
 <h2 id="_1">摘要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
@@ -3783,11 +3827,11 @@
 <td>10 s</td>
 </tr>
 <tr>
-<td>2×IΔdc = 60mA</td>
+<td>60mA</td>
 <td>0.3 s</td>
 </tr>
 <tr>
-<td>4×IΔdc ≈ 200mA</td>
+<td>200mA</td>
 <td>0.1 s</td>
 </tr>
 </tbody>
@@ -4101,7 +4145,7 @@
 </tbody>
 </table>
 <h2 id="9">测试要求（§9）<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
-<h3 id="table-9-22">Table 9 — 型式试验清单（22 项）<a class="headerlink" href="#table-9-22" title="Permanent link">&para;</a></h3>
+<h3 id="table-9-20">Table 9 — 型式试验清单（20 项）<a class="headerlink" href="#table-9-20" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -4245,7 +4289,7 @@
 <h4 id="911">§9.11 短路性能<a class="headerlink" href="#911" title="Permanent link">&para;</a></h4>
 <ul>
 <li>额定条件短路电流 Inc：3000~25000A</li>
-<li>额定短路通断电流 Im：min(10×In, 500A)</li>
+<li>额定短路通断电流 Im：max(10×In, 500A)（取较大值）</li>
 <li>测试按 Table 16 的 I²t/Ip 限值和 Table 17 功率因数</li>
 <li>"O-t-CO" 操作序列（分断-延时-合分）</li>
 </ul>
@@ -4256,12 +4300,11 @@
 </ul>
 <h4 id="918">§9.18 电流浪涌<a class="headerlink" href="#918" title="Permanent link">&para;</a></h4>
 <p><strong>§9.18.1 环波电流（0.5μs/100kHz Ring Wave）：</strong>
-- 测试电流：200A（8/20μs 波形前半周期）
+- 测试电流：200A
 - 不应误脱扣</p>
 <p><strong>§9.18.2 浪涌电流（8/20μs Surge）：</strong>
 - 测试电流：3000A
-- 不应误脱扣
-- 如脱扣，分断时间 ≥ 0.08s（选择性）</p>
+- 不应误脱扣</p>
 <h4 id="919">§9.19 可靠性<a class="headerlink" href="#919" title="Permanent link">&para;</a></h4>
 <p><strong>§9.19.2 气候循环试验（28 次循环）：</strong>
 - 每循环 24h：高温高湿 55°C / 93% RH
@@ -4362,6 +4405,13 @@
 <h3 id="annex-e">Annex E — 低压电路绝缘配合<a class="headerlink" href="#annex-e" title="Permanent link">&para;</a></h3>
 <h3 id="annex-f">Annex F — 铜铝兼容端子<a class="headerlink" href="#annex-f" title="Permanent link">&para;</a></h3>
 <h3 id="annex-g">Annex G — 获取带电部件的专用工具<a class="headerlink" href="#annex-g" title="Permanent link">&para;</a></h3>
+<h3 id="annex-k-rdc-dd-4114">Annex K — 免螺钉端子型 RDC-DD 附加要求（§4.1.1.4）<a class="headerlink" href="#annex-k-rdc-dd-4114" title="Permanent link">&para;</a></h3>
+<p>适用于采用免螺钉型端子连接外部铜导体的 RDC-DD：
+- 使用国家：BE、FR、IT、ES、PT、US 允许用于额定电流 ≤20A
+- 可连接导体：软铜导体 ≤4 mm²，硬绞合铜导体 ≤2.5 mm²（AWG ≥12）
+- 可靠性试验：端子连接可靠性、循环试验（§I.9）</p>
+<h3 id="annex-l">Annex L — 端子设计示例（资料性）<a class="headerlink" href="#annex-l" title="Permanent link">&para;</a></h3>
+<p>提供 RDC-DD 端子结构设计的图示示例，供型式评价参考（非规范性要求）。</p>
 <h3 id="annex-m-rdc-md-4112">Annex M — RDC-MD 机械耦合型附加要求（§4.1.1.2）<a class="headerlink" href="#annex-m-rdc-md-4112" title="Permanent link">&para;</a></h3>
 <p>适用于检测单元与外接保护器件（断路器/RCD）机械耦合的 RDC-MD：
 - <strong>组装/拆装</strong>：可现场组装，不可拆装型拆后应留永久痕迹
@@ -4429,6 +4479,7 @@
 <h2 id="_15">变更记录<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
 <ul>
 <li>2026-07-23: 初始创建，全文编译 IEC 62955:2018 Edition 1.0（157页），来源 <a href="../standards/iec-62955-2018.html">IEC 62955:2018 全文</a></li>
+<li>2026-07-30: 翻译校对修正——Table 9 试验项数 22→20、Im 公式 min→max(取较大值)、Table 2 平滑直流值去除错误倍数标注(6/60/200mA)、§9.18.1 删除误标 8/20μs 波形、删除无依据的 ≥0.08s 选择性要求、补充 Annex K(免螺钉端子)/L(端子示例)</li>
 </ul>
 
 
