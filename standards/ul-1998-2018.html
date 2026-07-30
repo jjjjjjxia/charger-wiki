@@ -1,0 +1,2769 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="国标/欧标/美标交流充电桩认证查询 · 国内CCC/CQC · 海外CE/CB及多国认证">
+      
+      
+      
+      
+        <link rel="prev" href="sae-j1772-2017.html">
+      
+      
+        <link rel="next" href="ul-2202-2022.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>UL 1998-2018 可编程组件软件（全文） - 充电桩产品认证知识库</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#standard-for-safety-software-in-programmable-components" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-header__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            充电桩产品认证知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              UL 1998-2018 可编程组件软件（全文）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  总索引
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guide.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  使用指南
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-by-region.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  按地区查认证
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-process-overview.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  认证流程总览
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/global-plug-lookup.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  全球插头查询
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/product-ac-charger-cn.html" class="md-tabs__link">
+          
+  
+  
+  产品线
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/certification-ccc.html" class="md-tabs__link">
+          
+  
+  
+  认证类型
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/region-china.html" class="md-tabs__link">
+          
+  
+  
+  地区
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../concepts/standard-gb-39752.html" class="md-tabs__link">
+          
+  
+  
+  标准与概念
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="gb-39752-2024.html" class="md-tabs__link">
+          
+  
+  
+  原始标准全文
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../log.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  变更日志
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-nav__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    充电桩产品认证知识库
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    总索引
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-by-region.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按地区查认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-process-overview.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证流程总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/global-plug-lookup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头查询
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    产品线
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    产品线
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-cn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-eu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-us.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证类型
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    认证类型
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ccc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCC 强制认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cqc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CQC 标志认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ce.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE 认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cb.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CB 体系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    地区
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    地区
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-china.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国大陆
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-europe.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-north-america.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北美
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-asia-pacific.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亚太其他
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-mea.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中东/非洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    标准与概念
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    标准与概念
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-39752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-44263.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-t-18487-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-61851-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1 标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752 随车充标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62955.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955 RDC-DD 漏电保护
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-gb-vs-iec-safety.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ 国标 vs IEC 安规对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-iec-61851-vs-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ IEC 61851 vs 62752 对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/charging-modes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    充电模式 Mode 1-4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/safety-tests-iec-61851.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安规测试项目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/plug-types-worldwide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头型号体系 A-O
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    原始标准全文
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    原始标准全文
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-39752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-44263-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-t-18487-1-2023.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·上）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·下）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752:2024 随车充（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62955-2018.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955:2018 RDC-DD（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="global-plug-standards.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头及电压标准（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-2099-7-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 2099.7-2024 插头插座（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-23-2014.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-23:2014 直流充电（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-21-1-2017-emc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-21-1:2017 车载充电机 EMC（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="en-61851-21-2-emc-cn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EN 61851-21-2 EMC 中文版（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2012.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2012 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2017.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2017 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 1998-2018 可编程组件软件（全文）
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="ul-1998-2018.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 1998-2018 可编程组件软件（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#clarification-of-applicability-of-appendix-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clarification of Applicability of Appendix A
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2202-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2202-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-1-2016.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-1-2016 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-2-2020.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-2-2020 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2594-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2594-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bacl-ev-charger-safety-certification.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BACL EV Charger 安全认证指南（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../log.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    变更日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#clarification-of-applicability-of-appendix-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clarification of Applicability of Appendix A
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>UL 1998 </p>
+<h1 id="standard-for-safety-software-in-programmable-components">STANDARD FOR SAFETY Software in Programmable Components<a class="headerlink" href="#standard-for-safety-software-in-programmable-components" title="Permanent link">&para;</a></h1>
+<p>UL Standard for Safety for Software in Programmable Components, UL 1998 </p>
+<p>Third Edition, Dated December 18, 2013 </p>
+<p>Summary of Topics </p>
+<p>This revision of ANSI/UL 1998 includes the following: </p>
+<p>Clarification of Scope </p>
+<p>Clarification of Process Definition and Risk Analysis </p>
+<p>Clarification of Variable Initialization </p>
+<p>Clarification Regarding Use of Volatile Memory for Program Execution and Data Storage During Operation </p>
+<p>Addition of Consideration of Programmable Component Errata as a Potential Cause of Microelectronic Hardware Failures </p>
+<p>Clarification of Requirements for User Cancellation </p>
+<p>Clarification of Requirements for Unique Identifier </p>
+<h2 id="clarification-of-applicability-of-appendix-a">Clarification of Applicability of Appendix A<a class="headerlink" href="#clarification-of-applicability-of-appendix-a" title="Permanent link">&para;</a></h2>
+<p>The new and revised requirements are substantially in accordance with Proposal(s) on this subject dated May 4, 2018 and August 3, 2018. </p>
+<p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form by any means, electronic, mechanical photocopying, recording, or otherwise without prior permission of UL. </p>
+<p>UL provides this Standard ″as is″ without warranty of any kind, either expressed or implied, including but not limited to, the implied warranties of merchantability or fitness for any purpose. </p>
+<p>In no event will UL be liable for any special, incidental, consequential, indirect or similar damages, including loss of profits, lost savings, loss of data, or any other damages arising out of the use of or the inability to use this Standard, even if UL or an authorized UL representative has been advised of the possibility of such damage. In no event shall UL’s liability for any damage ever exceed the price paid for this Standard, regardless of the form of the claim. </p>
+<p>Users of the electronic versions of UL’s Standards for Safety agree to defend, indemnify, and hold UL harmless from and against any loss, expense, liability, damage, claim, or judgment (including reasonable attorney’s fees) resulting from any error or deviation introduced while purchaser is storing an electronic Standard on the purchaser’s computer system. </p>
+<p>No Text on This Page </p>
+<p>UL 1998 </p>
+<h1 id="standard-for-software-in-programmable-components">Standard for Software in Programmable Components<a class="headerlink" href="#standard-for-software-in-programmable-components" title="Permanent link">&para;</a></h1>
+<h1 id="first-edition-january-1994-second-edition-may-1998">First Edition – January, 1994 Second Edition – May, 1998<a class="headerlink" href="#first-edition-january-1994-second-edition-may-1998" title="Permanent link">&para;</a></h1>
+<h2 id="third-edition">Third Edition<a class="headerlink" href="#third-edition" title="Permanent link">&para;</a></h2>
+<h2 id="december-18-2013">December 18, 2013<a class="headerlink" href="#december-18-2013" title="Permanent link">&para;</a></h2>
+<p>This ANSI/UL Standard for Safety consists of the Third Edition including revisions through September 24, 2018. </p>
+<p>The most recent designation of ANSI/UL 1998 as an American National Standard (ANSI) occurred on September 21, 2018. ANSI approval for a standard does not include the Cover Page, Transmittal Pages, and Title Page. </p>
+<p>Comments or proposals for revisions on any part of the Standard may be submitted to UL at any time. Proposals should be submitted via a Proposal Request in UL’s On-Line Collaborative Standards Development System (CSDS) at https://csds.ul.com. </p>
+<p>UL’s Standards for Safety are copyrighted by UL. Neither a printed nor electronic copy of a Standard should be altered in any way. All of UL’s Standards and all copyrights, ownerships, and rights regarding those Standards shall remain the sole and exclusive property of UL. </p>
+<h2 id="copyright-2018-underwriters-laboratories-inc">COPYRIGHT © 2018 UNDERWRITERS LABORATORIES INC.<a class="headerlink" href="#copyright-2018-underwriters-laboratories-inc" title="Permanent link">&para;</a></h2>
+<p>No Text on This Page </p>
+<h2 id="contents">CONTENTS<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<p>1 Scope ....5 <br />
+2 Definitions of Terms Used ....6 <br />
+3 Risk Analysis ....10 <br />
+4 Process Definition ....11 <br />
+5 Qualification of Design, Implementation, and Verification Tools ....11 <br />
+6 Software Design ....12 <br />
+7 Critical and Supervisory Sections of Software ....12 <br />
+8 Measures To Address Microelectronic Hardware Failure Modes ....13 <br />
+9 Product Interface ....14 <br />
+10 User Interfaces ....14 <br />
+11 Software Analysis and Testing ....15 <br />
+11.1 Software analysis ....15 <br />
+11.2 Software testing ....15 <br />
+11.3 Failure mode and stress testing ....16 <br />
+12 Documentation ....17 <br />
+12.1 User documentation ....17 <br />
+12.2 Software plan ....17 <br />
+12.3 Risk analysis approach and results ....17 <br />
+12.4 Configuration management plan ....17 <br />
+12.5 Programmable system architecture ....18 <br />
+12.6 Programmable component and software requirements specification ....18 <br />
+12.7 Software design documentation ....18 <br />
+12.8 Analysis and test documentation ....19 <br />
+13 Off-the-Shelf (OTS) Software ....19 <br />
+14 Software Changes and Document Control ....20 <br />
+15 Identification ....20 </p>
+<h2 id="appendix-a-informative-examples-of-measures-to-address-microelectronic-hardware-failure-modes">APPENDIX A (INFORMATIVE) – EXAMPLES OF MEASURES TO ADDRESS MICROELECTRONIC HARDWARE FAILURE MODES<a class="headerlink" href="#appendix-a-informative-examples-of-measures-to-address-microelectronic-hardware-failure-modes" title="Permanent link">&para;</a></h2>
+<p>A1 Scope ....A1
+A2 Examples of Acceptable Measures for Microelectronic Hardware Failure Modes ....A1
+A3 Software Classes ....A8
+A4 Description of Fault Models ....A9
+A5 Description of System Structures ....A9
+A6 Example of the Application of Table A2.1 ....A10
+A7 Descriptions of Acceptable Measures for Providing the Required Fault/Error Coverage Specified in Table A2.1 ....A11
+A7.1 Descriptions of fault/error control techniques ....A11
+A7.2 Description of memory tests ....A13
+A7.3 Word protection ....A14 </p>
+<p>This page intentionally left blank. </p>
+<h2 id="1-scope">1 Scope<a class="headerlink" href="#1-scope" title="Permanent link">&para;</a></h2>
+<p>1.1 These requirements apply to non-networked embedded software residing in programmable components performing safety-related functions whose failure is capable of resulting in a risk of fire, electric shock, or injury to persons. </p>
+<p>1.2 This is a reference standard in which the requirements are to be applied when specifically referenced by other standards or product safety requirements. </p>
+<p>1.3 These requirements address the risks unique to product hardware controlled by software in programmable components. </p>
+<p>1.4 These requirements are intended to supplement applicable product or component standards and requirements, and are not intended to serve as the sole basis for investigating the risk of fire, electric shock, or injury to persons. </p>
+<p>1.5 These requirements are intended to address risks that occur in the software or in the process used to develop and maintain the software, such as the following: </p>
+<p>a) Requirements conversion faults that cause differences between the specification for the programmable component and the software design; </p>
+<p>b) Design faults such as incorrect software algorithms or interfaces; </p>
+<p>c) Coding faults, including syntax, incorrect signs, endless loops, and other coding faults; </p>
+<p>d) Timing faults that cause program execution to occur prematurely or late; </p>
+<p>e) Microelectronic memory faults, such as memory failure, not enough memory, or memory overlap; </p>
+<p>f) Induced faults caused by microelectronic hardware failure; </p>
+<p>g) Latent, user, input/output, range, and other faults that are only detectable when a given state occurs; and </p>
+<p>h) Failure of the programmable component to perform any function at all. </p>
+<p>1.6 Product standard requirements may amend or supersede the requirements in this standard, as appropriate. </p>
+<p>1.7 These requirements are not intended to address cybersecurity. Risks associated with unauthorized access or attack through a network shall be addressed in the product standard or other referenced standard such as the Standard for Software Cybersecurity for Network-Connectable Products, Part 1: General Requirements, UL 2900-1. </p>
+<h2 id="2-definitions-of-terms-used">2 Definitions of Terms Used<a class="headerlink" href="#2-definitions-of-terms-used" title="Permanent link">&para;</a></h2>
+<p>2.1 For the purpose of this standard, the following definitions apply. </p>
+<p>2.2 APPLICATION-SPECIFIC INTEGRATED CIRCUIT (ASIC) – An electronic device comprised of many transistors and other semiconductor components which integrate standard cells and arrays from a library into one piece of silicon intended for a particular use. </p>
+<p>2.3 BUILT-IN TEST – A design method that allows a product to test itself by adding logic for test signal generation and analysis of test results. </p>
+<p>2.4 CENTRAL PROCESSING UNIT (CPU) – The unit of a computing and controlling system that includes the circuits controlling the interpretation of instructions and their execution. </p>
+<p>2.5 CRITICAL SECTION – A segment of the software that is intended to perform the functions that address or control risks. </p>
+<p>2.6 DATA – A representation of facts, concepts, or instructions in a manner suitable for storage, communication, interpretation, or processing. </p>
+<p>2.7 DESIGN – The process of defining the software architecture, components, modules, interfaces, test approach, and data for a software system to satisfy specified requirements. </p>
+<p>2.8 ELECTRONICALLY ERASABLE PROGRAMMABLE READ ONLY MEMORY (EEPROM) – A reprogrammable read-only memory in which cells may be erased electrically and in which each cell is capable of being reprogrammed electrically. </p>
+<p>2.9 EMBEDDED SOFTWARE – Software that is physically part of a product and whose primary purpose is to maintain some property or relationship between other components of the product in order to achieve the overall system objective. </p>
+<p>2.10 ERASABLE PROGRAMMABLE READ ONLY MEMORY (EPROM) – A type of programmable memory device which can only be read and not altered under normal use. The memory is capable of being erased by ultraviolet light and reprogrammed. </p>
+<p>2.11 ERROR – A discrepancy between a computed, observed, or measured value or condition and the true, specified, or theoretically correct value or condition. </p>
+<p>2.12 FAIL-OPERATIONAL PROCEDURE – A procedure executed in the event that a failure has occurred which continues product operation but provides degraded performance or reduced functional capabilities. </p>
+<p>2.13 FAIL-SAFE PROCEDURE – A procedure executed to maintain the Risks Addressed (RA) state of a product while transitioning into a non-operational mode. </p>
+<p>2.14 FAILURE – The inability of a product or component to perform its specified function. </p>
+<p>2.15 FAILURE MODE – The physical or functional manifestation of a failure. </p>
+<p>2.16 FAILURE MODE TEST – A suite of tests that have been specifically developed based upon the failure modes that exist in a programmable component or product. </p>
+<p>UL COPYRIGHTED MATERIAL – NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL </p>
+<p>2.17 FAULT – A deficiency in a product or component which is capable of, under some operational conditions, contributing to a failure. </p>
+<p>2.18 FAULT-TOLERANT – The capability of software to provide continued correct execution in the presence of a defined set of microelectronic hardware and software faults. </p>
+<p>2.19 FLASH MEMORY – A type of non-volatile memory which is capable of being erased electrically and reprogrammed, but only in blocks, as opposed to one byte increments. </p>
+<p>2.20 HAZARD – A potential source of physical injury to persons. </p>
+<p>2.21 INSTRUCTION – A statement that specifies an operation to be performed and that is capable of identifying data involved in the operation. </p>
+<p>2.22 INTEGRITY – The degree to which a system or component prevents unauthorized access to, or modification of, computer programs or data. </p>
+<p>2.23 MICROCONTROLLER – A microcomputer chip capable of executing instructions. </p>
+<p>2.24 MICROELECTRONICS – Monolithic, hybrid, or module circuits, where the internal connections are not accessible, which satisfy one or more of the following criteria: </p>
+<p>a) More than 1000 gates are used in digital mode; </p>
+<p>b) More than 24 functionally different external electrical connections are available for use; or </p>
+<p>c) The functions can be reprogrammed. </p>
+<p>The circuits are capable of functioning in the analogue mode, digital mode, or a combination of the two modes. Examples of microelectronics include: ASICs, ROMs, RAMs, PROMs, EPROMs, PALs, and PLDs. </p>
+<p>2.25 NEGATIVE CONDITION BRANCH – A code construct implementing an alternate path of program control flow intended to provide a deterministic path from the normal operating path to the Risks Addressed (RA) state whenever the normal operating path cannot be taken. </p>
+<p>2.26 NON-DETERMINISM – The state in which output is not predictable in advance because data dependencies effect task execution order. </p>
+<p>2.27 NON-NETWORKED EMBEDDED SOFTWARE – Embedded software that executes on a single microprocessor/microcontroller or on microprocessors/microcontrollers residing in the same physical enclosure, which does not depend on data received or transmitted outside of the enclosure. </p>
+<p>2.28 NON-TERMINATING STATE – Any state of the software characterized by the execution of instructions that do not permit exiting from that state. </p>
+<p>2.29 NON-VOLATILE MEMORY – A storage device not alterable by the interruption of the power to the memory, for example; ROM, FLASH, PROM, EPROM, and EEPROM. </p>
+<p>2.30 OFF-THE-SHELF (OTS) SOFTWARE – Software which is made available on the market and intended for broad distribution, generally without the need for additional tailoring, including, but not limited to, operating system software, runtime libraries, real-time executives, kernel primitives, shareable re-entrant library-type routines, and the like. This includes software that has been developed by another developer. </p>
+<p>2.31 OPERATIONAL TESTING – Evaluations on a product or component using an input profile representative of its operational environment. </p>
+<p>2.32 PARAMETER SETTINGS – A finite collection of values assigned to variables to select, enable or disable known pre-existing function(s) or features of the software. </p>
+<p>2.33 PARTITIONING – The act of segregating the functions of a system into verifiably distinct and protected collections of functions. </p>
+<p>2.34 POST-RELEASE TESTING – All testing for changes implemented after the final production software is released. </p>
+<p>2.35 PROCEDURE – A course of action taken to perform a task. </p>
+<p>2.36 PROCESS – A sequence of steps performed to produce a given result. </p>
+<p>2.37 PRODUCT – An instrument, apparatus, implement, or machine intended for personal, household, industrial, laboratory, office, or transportation use. </p>
+<p>2.38 PRODUCT HARDWARE – Any hardware that is part of a product and that provides electrical, mechanical, and (or) electromechanical functions. </p>
+<p>2.39 PROGRAMMABLE COMPONENT – Any microelectronic hardware that can be programmed in the design center, the factory, or in the field. Here the term ″programmable″ is taken to be ″any manner in which one can alter the software wherein the behavior of the component can be altered.″ </p>
+<p>2.40 PROGRAMMABLE COMPONENT CONFIGURATION – The configuration of the microelectronic hardware and software that must be present and functioning for the software to operate and control the equipment as intended. This configuration includes, but is not limited to, the operating system or executive software, communication software, microcontroller, network, input/output hardware, any generic software libraries, database management and user interface software. </p>
+<p>2.41 PROGRAMMABLE READ-ONLY MEMORY (PROM) – A memory chip whose contents are capable of being programmed by a user or manufacturer for a specific purpose. </p>
+<p>2.42 RANDOM ACCESS MEMORY (RAM) – Data storage where the time required for data access is independent of the location of the data most recently obtained or placed in storage. </p>
+<p>2.43 READ ONLY MEMORY (ROM) – Data storage that stores data not alterable by computer instructions. </p>
+<p>2.44 RISK – The potential for fire, electric shock, or injury to persons associated with the intended use of the product as specified by the product safety requirements. </p>
+<p>2.45 RISKS ADDRESSED (RA) STATE – A state that is characterized by all reasonably foreseeable risks associated with the intended use of the product being addressed such that there is no longer a likelihood of the risk. </p>
+<p>2.46 SAFETY-RELATED FUNCTIONS – Control, protection, and monitoring functions which are intended to reduce the risk of fire, electric shock, or injury to persons. </p>
+<p>2.47 SOFTWARE – Computer programs, procedures, and data pertaining to the operation of a programmable component that provides safety-related functions as follows: </p>
+<p>a) Exercises direct control over the state of microelectronic or product hardware. When not performed, performed out of sequence, or performed incorrectly, such programs, procedures, and data are capable of resulting in a risk. </p>
+<p>b) Monitors the state of microelectronic or product hardware. When not performed, performed out of sequence, or performed incorrectly, such programs, procedures, and data provide data that is capable of resulting in a risk. </p>
+<p>c) Exercises direct control over the state of the microelectronic or product hardware. When not performed, performed out of sequence, or performed incorrectly, such programs, procedures, and data are capable of, in conjunction with other human actions, product hardware or environmental failure, resulting in a risk. </p>
+<p>2.48 SOFTWARE CODE – Computer instructions and data definitions expressed in a programming language or in a form output by an assembler, compiler, or other translator. </p>
+<p>2.49 SOFTWARE DESIGN – The process of defining the software architecture, components, modules, interfaces, test approach, and data for a software implementation to satisfy specified requirements. </p>
+<p>2.50 STATE – The values assumed, at a given instant in time, by a collection of variables that define certain specified characteristics of the product or its components. </p>
+<p>2.51 STRESS TESTING – Testing conducted to evaluate a product or component at or beyond the limits of its specified requirements. </p>
+<p>2.52 SUPERVISORY SECTION – The main section of software that controls the execution of the critical and non-critical sections of the software (e.g., the operating system of a microprocessor). </p>
+<p>2.53 TEST CONFIGURATION – The detailed identification and layout of the test and measurement equipment used for testing. The test configuration is often documented directly in the test plan or the test procedures and specifies all special test fixtures, supplementary software, software tools, and data files along with a description of the test set-up and any preparation activities. </p>
+<p>2.54 TEST CRITERIA – Objectives that a product or component must meet in order to comply with a given test. </p>
+<p>2.55 TEST PARAMETERS – Variables used to alter and define a test. </p>
+<p>2.56 TEST PLAN – A document describing the scope, approach, resources, and schedule of intended test activities. It defines test items, the features to be tested, the testing tasks, who will do each task, and any risks requiring contingency planning. </p>
+<p>2.57 TEST PROCEDURES – Detailed instructions for the set-up, execution, and evaluation of results for a given test case. </p>
+<p>2.58 TOOL – Any equipment (e.g., logic analyzers, oscilloscopes, multimeters, digital and analog computers), devices, or software programs [e.g., simulators, computer-aided software/systems engineering (CASE) tools, compilers, type checkers, static analyzers, automated testing scripts, debuggers, linkers, loaders, assemblers, code generators, code librarians, editors, and software analyzers] used to automate or partially automate software development activities, including design, implementation, and testing. </p>
+<p>2.59 TOOL QUALIFICATION – The acceptance of analysis, testing, and resulting evidence for which confidence is obtained regarding the correctness of a tool’s outputs. </p>
+<p>2.60 TOOL VENDOR – The organization responsible for providing the tool. </p>
+<p>2.61 UNIQUE IDENTIFIER – A value that distinctively characterizes each individual version or revision of a manufacturer’s critical and supervisory sections of software. </p>
+<p>2.62 USER – A qualified service person or an operator of the programmable component. </p>
+<p>2.63 VALIDATION – The test and evaluation of the integrated computer system (hardware and software) and its specification to determine whether it carries out its intended purpose. </p>
+<p>2.64 VERIFICATION – The process of determining whether the products of a given development phase are correct and consistent with the products and standards provided as input to that phase. </p>
+<h2 id="3-risk-analysis">3 Risk Analysis<a class="headerlink" href="#3-risk-analysis" title="Permanent link">&para;</a></h2>
+<p>3.1 A risk analysis shall be conducted to determine: </p>
+<p>a) The set of risks; and </p>
+<p>b) That the software addresses the identified risks. </p>
+<p>3.2 The risk analysis shall be based on the safety requirements for the programmable component. </p>
+<p>3.3 An analysis shall be conducted to identify the critical, non-critical, and supervisory sections of the software. </p>
+<p>3.4 An analysis shall be conducted to identify states or transitions that are capable of resulting in a risk. </p>
+<h2 id="4-process-definition">4 Process Definition<a class="headerlink" href="#4-process-definition" title="Permanent link">&para;</a></h2>
+<p>4.1 All software process activities shall be described (see Section 12, Documentation). </p>
+<p>4.2 The software process activities shall be identified with distinct entry points, exit points, and criteria for transitioning among activities. </p>
+<p>4.3 The software process shall include a risk analysis in accordance with the requirements of Section 3, Risk Analysis. The risk analysis shall be traceable to the Programmable Component and Software Requirements Specification (see 12.6). </p>
+<p>4.4 Criteria for transitioning among activities shall include consideration of the safety-related requirements for the programmable component. </p>
+<p>4.5 Work products (e.g., meeting minutes, analysis and test results, formal documentation, etc.) shall be identified and associated with software process activities. </p>
+<p>4.6 All software process activities shall support the communication of issues that could impact the safety-related functioning of the programmable component. </p>
+<p>4.7 Safety-related requirements for the programmable component shall be traceable throughout the software process activities and documented evidence supporting compliance with this standard. </p>
+<p>4.8 The verification, validation, and testing activities in the software process shall address errors at their source. </p>
+<h2 id="5-qualification-of-design-implementation-and-verification-tools">5 Qualification of Design, Implementation, and Verification Tools<a class="headerlink" href="#5-qualification-of-design-implementation-and-verification-tools" title="Permanent link">&para;</a></h2>
+<p>5.1 Evidence of tool qualification shall be provided for all tools used in the design, implementation, and verification of software in the programmable component using at least one of the following forms: </p>
+<p>a) Documentation attesting to tool calibration, verification, and validation activities in accordance with 11.1.1, 11.2.1, 11.2.4, 12.1, 12.2, 12.4, 12.8 and Sections 14, and 15 of this standard. </p>
+<p>b) Evidence that the tool(s) has met formally defined requirements by a third-party tool certification program. </p>
+<p>5.2 When available from the tool vendor or other sources (e.g., the user community), the manufacturer shall provide a list of known bugs for the precise revision/version of the tool that the manufacturer intends to use to develop software. For each identified error in the known bug report for the tool, the following evidence shall be provided when implementing 5.1(a). </p>
+<p>a) The feature that leads to an error has been fixed, tested, and approved for distribution by the tool vendor in a new release that has been incorporated into the manufacturer’s version of the tool, or </p>
+<p>b) The feature that leads to an error has not been used by the manufacturer in the development of safety-related software and does not lead to a risk. </p>
+<p>UL COPYRIGHTED MATERIAL – NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL </p>
+<h2 id="6-software-design">6 Software Design<a class="headerlink" href="#6-software-design" title="Permanent link">&para;</a></h2>
+<p>6.1 A fault in the software shall not initiate an event that results in a risk. </p>
+<p>6.2 The software shall maintain an RA state upon detection of a condition that is capable of resulting in a risk as identified in Section 3, Risk Analysis. </p>
+<p>6.3 Detection of a failure in the software during the intended operation of the product shall be handled in a manner that is in accordance with the product safety requirements. </p>
+<p>6.4 The software shall employ means to identify and respond to states that are capable of resulting in a risk. Examples of such means include initialization, fail-safe and fault-tolerant concepts, run-time checks, and built-in tests. </p>
+<p>6.5 In allocating resources to tasks, consideration shall be given to the scheduling frequency of the task, the criticality of the task, and the resources utilized by the task, as well as the impact that each of these factors has on the ability to address the identified risks. </p>
+<p>6.6 Means shall be employed for the prevention, detection, and resolution of non-terminating and non-deterministic states and error states such as division by zero, under/overvoltage condition of internal/external power supplies to the programmable components, and under/overflow that are capable of affecting the intended operation of the software. </p>
+<p>6.7 All variables shall be set to initial values before being used by any instruction. If a design, implementation, or verification tool is responsible for ensuring that variables are set to initial values, the tool’s qualification shall include verification of this (see Section 5). </p>
+<h2 id="7-critical-and-supervisory-sections-of-software">7 Critical and Supervisory Sections of Software<a class="headerlink" href="#7-critical-and-supervisory-sections-of-software" title="Permanent link">&para;</a></h2>
+<p>7.1 The software shall be initialized to a documented RA state. </p>
+<p>7.2 All critical and supervisory sections of the software shall be partitioned from other critical and supervisory sections of the software, as well as from non-critical sections. </p>
+<p>7.3 When it is not possible to partition the critical and supervisory sections from the non-critical sections of the software as in 7.2, all of the software shall be considered critical or supervisory. </p>
+<p>7.4 Means shall be employed to avoid, or detect and recover from, memory usage and addressing conflicts. </p>
+<p>7.5 The supervisory section shall maintain control of the execution of the software during the operation of the programmable component. </p>
+<p>7.6 Software shall initiate a fail-safe or a fail-operational procedure in the event that a failure in a critical or supervisory section is detected. </p>
+<p>7.7 When the initiation of a safety-related function is capable of resulting in a risk, a minimum of two instruction sequences shall be employed to verify the initiation of the safety-related function, unless otherwise specified in the product safety requirements. </p>
+<p>7.8 There shall be provisions to control the accessibility of instructions and data dedicated to critical and supervisory section functions. </p>
+<p>7.9 There shall be provisions to protect instructions and data for critical and supervisory sections of software from being affected by any function except critical and supervisory section functions. </p>
+<p>7.10 Supervisory and critical sections of software shall be resident in non-volatile memory. If supervisory and critical sections of software are transferred to volatile memory during operation, risks associated with the transfer and execution of software from volatile memory shall be considered in Section 3, Risk Analysis. </p>
+<p>7.11 Means shall be employed to preserve the integrity of data used by critical and supervisory sections of software. </p>
+<p>7.12 Fixed or one-time changing data used for critical and supervisory sections of software shall reside in non-volatile memory. If fixed or one-time changing data used for critical and supervisory sections of software are transferred to volatile memory during operation, risks associated with the transfer and access of this data from volatile memory shall be considered in Section 3, Risk Analysis. </p>
+<h2 id="8-measures-to-address-microelectronic-hardware-failure-modes">8 Measures To Address Microelectronic Hardware Failure Modes<a class="headerlink" href="#8-measures-to-address-microelectronic-hardware-failure-modes" title="Permanent link">&para;</a></h2>
+<p>8.1 Means shall be employed to address all microelectronic hardware failure modes identified by Section 3, Risk Analysis. Appendix A contains examples of acceptable measures for microelectronic hardware. </p>
+<p>8.2 Physical failures of the following microelectronic hardware shall be considered: </p>
+<p>a) CPU registers, instruction decoding and execution, program counter, addressing and data paths; </p>
+<p>b) Interrupt handling and execution; </p>
+<p>c) Clock; </p>
+<p>d) Non-volatile and volatile memory and memory addressing; </p>
+<p>e) Internal data path and data addressing; </p>
+<p>f) External communication and data, addressing, and timing; </p>
+<p>g) Input/output devices such as analog I/O, D/A and A/D converters, and analog multiplexers; </p>
+<p>h) Monitoring devices and comparitors; and </p>
+<p>i) Application-Specific Integrated Circuits (ASICs), Gate Array Logics (GALs), Programmable Logic Arrays (PLAs), and Programmable Gate Arrays (PGAs) hardware. </p>
+<p>8.3 Analysis of possible combinations of microelectronic hardware failures, software faults, and other events that are capable of resulting in a risk shall be conducted. This includes, for example, microelectronic hardware failures that cause software faults that are capable of resulting in a risk. </p>
+<p>8.4 When available from the programmable component vendor or other sources (e.g. the user community), the manufacturer shall provide erratum for the precise revision/version of the programmable component that the manufacturer intends to use. For each identified error in the erratum, the following evidence shall be provided: </p>
+<p>a) The error has been fixed, tested, and approved for distribution by the programmable component vendor in a new release that has been incorporated into the manufacturer’s version of the programmable component, or </p>
+<p>b) Feature(s) affected by the error have not been used by the manufacturer in the development of safety-related software. </p>
+<h2 id="9-product-interface">9 Product Interface<a class="headerlink" href="#9-product-interface" title="Permanent link">&para;</a></h2>
+<p>9.1 For power interruptions of any duration, the software shall maintain a documented RA state. </p>
+<p>9.2 When initialization is allocated as a software function, the software shall initialize the product to a documented RA state. </p>
+<p>9.3 Upon any situation in which the software terminates, the product shall maintain a documented RA state. </p>
+<p>9.4 A procedure or instruction intended to halt the programmable component shall maintain an RA state of the product. </p>
+<h2 id="10-user-interfaces">10 User Interfaces<a class="headerlink" href="#10-user-interfaces" title="Permanent link">&para;</a></h2>
+<p>10.1 The requirements in this section only apply to software that accepts user input, unless otherwise specified in the product safety requirements. </p>
+<p>10.2 The time limits and other parameters of the software shall not be changeable by a user such that the intended execution of critical and supervisory sections of software is adversely affected. </p>
+<p>10.3 The time limits and other parameters of the software that are intended to be configured by qualified service personnel shall be prevented from being changed to the extent that the intended operation of the critical or supervisory sections of software is adversely affected. </p>
+<p>10.4 The software shall require two or more user responses to initiate an operation that is capable of resulting in a risk. </p>
+<p>10.5 Input commands which are capable of resulting in a risk when executed, shall not be initiated without operator intervention when those commands are received from an external source. </p>
+<p>10.6 For a system as described in 10.5, no operation that is capable of resulting in a risk shall be initiated by a single user input. </p>
+<p>10.7 Incorrect input shall not adversely affect execution of critical sections of software. </p>
+<p>10.8 If required to do so by the product safety requirements and when determined by the Risk Analysis, the software shall provide for user cancellation of the current operation and return the programmable component to an RA state. </p>
+<p>10.9 User cancellation of the current operation shall require a single input by the user. </p>
+<p>10.10 Cancellation of processing shall leave the software in an RA state. </p>
+<p>No Text on This Page </p>
+<h2 id="11-software-analysis-and-testing">11 Software Analysis and Testing<a class="headerlink" href="#11-software-analysis-and-testing" title="Permanent link">&para;</a></h2>
+<h2 id="111-software-analysis">11.1 Software analysis<a class="headerlink" href="#111-software-analysis" title="Permanent link">&para;</a></h2>
+<p>11.1.1 Software design and code analysis shall be conducted to evaluate that the critical and supervisory sections of software only perform those functions which they are intended to perform and do not result in a risk. </p>
+<p>11.1.2 The software design and code analysis shall be conducted to demonstrate: </p>
+<p>a) Correctness and completeness with respect to the safety requirements for the programmable component; </p>
+<p>b) Coverage of each branching condition and function evaluation that addresses and remediates risks associated with abnormal operations, or involves a risk associated with its normal operation; </p>
+<p>c) That fail-safe and fail-operational procedures bring the product to an RA state. See 6.3, 6.4, and 7.6; </p>
+<p>d) That the scheduling requirements are met and safety-related functions meet the timing constraints specified by the safety requirements for the programmable component. See 6.5; </p>
+<p>e) The integrity of the partitions between supervisory, critical, and non-critical sections of software. See 7.2; </p>
+<p>f) That partition violations caused by such occurrences as data handling errors, control errors, timing errors, and misuse of resources do not occur; and </p>
+<p>g) Consistency in the data and control flows across interfaces. </p>
+<h2 id="112-software-testing">11.2 Software testing<a class="headerlink" href="#112-software-testing" title="Permanent link">&para;</a></h2>
+<p>11.2.1 Software testing shall include development and post-release testing. </p>
+<p>11.2.2 Tests of the software shall be conducted and test results documented to evaluate that the software only performs those functions for which it is intended and does not result in a risk. </p>
+<p>11.2.3 Test cases shall be developed based on the risk analysis, the documented descriptions of the software operation and safety features (see 12.7.2), and the software analysis. See 11.1. </p>
+<p>11.2.4 Tests shall be conducted to demonstrate: </p>
+<p>a) Correctness and completeness with respect to the safety requirements for the programmable component; </p>
+<p>b) Coverage of each decision and function that is capable of involving a risk; </p>
+<p>c) That fail-safe and fail-operational procedures bring the product to an RA state. See 6.3, 6.4, and 7.6; </p>
+<p>d) That the scheduling requirements are met and safety-related functions meet the timing constraints specified by the safety requirements for the programmable component. See 6.5; </p>
+<p>e) The integrity of the partitions between supervisory, critical, and non-critical sections of software. See 7.2; </p>
+<p>f) That partition violations caused by such occurrences as data handling errors, control errors, timing errors, and misuse of resources do not occur; and </p>
+<p>g) Consistency in the data and control flows across interfaces. </p>
+<p>11.2.5 The outputs that the software generates to control product hardware shall be tested to determine their effects on the product hardware, based on the expected output. </p>
+<h2 id="113-failure-mode-and-stress-testing">11.3 Failure mode and stress testing<a class="headerlink" href="#113-failure-mode-and-stress-testing" title="Permanent link">&para;</a></h2>
+<p>11.3.1 In addition to testing under normal usage, failure mode tests and stress tests shall be conducted. </p>
+<p>11.3.2 Failure mode and stress testing shall include consideration of the following: </p>
+<p>a) Operator errors that are capable of adversely affecting the intended operation or the control of the programmable component; </p>
+<p>b) Microelectronic hardware component faults; </p>
+<p>c) Errors in data received from external sensors or other software processes; </p>
+<p>d) Failures associated with the entry into, and execution of, critical and supervisory sections of software; </p>
+<p>e) Failures, errors, and other abnormal conditions associated with decisions and functions that are capable of providing risk reduction, including negative condition branches; and </p>
+<p>f) Other processes and procedures that are capable of adversely affecting the intended operation of the software. </p>
+<p>11.3.3 Test cases shall include the following, as determined in accordance with 11.1.2(b): </p>
+<p>a) Out-of-range; </p>
+<p>b) Boundary condition; and </p>
+<p>c) Type mismatched values for parameters at which decisions are made. </p>
+<p>11.3.4 Failure mode tests shall address all foreseeable faults identified in Risk Analysis, Section 3. </p>
+<h2 id="12-documentation">12 Documentation<a class="headerlink" href="#12-documentation" title="Permanent link">&para;</a></h2>
+<h2 id="121-user-documentation">12.1 User documentation<a class="headerlink" href="#121-user-documentation" title="Permanent link">&para;</a></h2>
+<p>12.1.1 Except for embedded software that has no direct user interaction, user documentation (e.g, manual, guide, or other documents) shall be prepared. </p>
+<p>12.1.2 The user documentation shall describe the required data and control inputs, input sequences, options, program limitations and other activities or items necessary for intended execution of the software. </p>
+<p>12.1.3 All error messages shall be identified and corrective actions described in the user documentation. </p>
+<h2 id="122-software-plan">12.2 Software plan<a class="headerlink" href="#122-software-plan" title="Permanent link">&para;</a></h2>
+<p>12.2.1 A software plan shall be documented, which describes the software development activities. </p>
+<p>12.2.2 The software plan shall include a description of the software design methodology, development rationale, any metrics to be collected, applicable standards and the engineering methods/techniques employed, and an itemized list of all documents produced throughout the software process. </p>
+<h2 id="123-risk-analysis-approach-and-results">12.3 Risk analysis approach and results<a class="headerlink" href="#123-risk-analysis-approach-and-results" title="Permanent link">&para;</a></h2>
+<p>12.3.1 The risk analysis approach and results (see Section 3) shall be documented. </p>
+<p>12.3.2 The risk analysis shall illustrate how events, or logical combinations of events, are capable of leading to an identified hazard. </p>
+<p>12.3.3 The risk analysis shall list all identified risks associated with the product. </p>
+<h2 id="124-configuration-management-plan">12.4 Configuration management plan<a class="headerlink" href="#124-configuration-management-plan" title="Permanent link">&para;</a></h2>
+<p>12.4.1 A configuration management plan, which applies to off-the-shelf software, software tools, and the manufacturer-provided software, shall be documented. </p>
+<p>12.4.2 The configuration management plan shall describe: </p>
+<p>a) How changes to the software and hardware are managed; </p>
+<p>b) The initiation, transmittal, review, disposition, implementation and tracking of discrepancy reports and change requests; and </p>
+<p>c) The methods and activities employed to formally control receipt, storage and backup, handling, and release of software and all documentation identified in this section. </p>
+<h2 id="125-programmable-system-architecture">12.5 Programmable system architecture<a class="headerlink" href="#125-programmable-system-architecture" title="Permanent link">&para;</a></h2>
+<p>12.5.1 The programmable system architecture shall be documented. </p>
+<p>12.5.2 The programmable system architecture shall describe the programmable component, including interfaces to users, sensors, actuators, displays, microelectronic hardware architecture, top-level software architecture, the mapping of the software to the hardware, and block diagrams of the programmable system showing a high-level view of the product architecture. </p>
+<p>12.5.3 The programmable system architecture shall describe the software-to-software interfaces and the hardware-to-software interfaces. </p>
+<p>12.5.4 The configuration(s) of the programmable component(s) that the software is intended to be operated with shall be identified. See 2.39. </p>
+<h2 id="126-programmable-component-and-software-requirements-specification">12.6 Programmable component and software requirements specification<a class="headerlink" href="#126-programmable-component-and-software-requirements-specification" title="Permanent link">&para;</a></h2>
+<p>12.6.1 A programmable component and software requirements specification shall be documented. </p>
+<p>12.6.2 The programmable component and software requirements specification shall describe functional, performance, and interface requirements of the programmable system and the software. </p>
+<p>12.6.3 The specification shall include a description of all modes of operation, identification of failure behavior, and required responses. </p>
+<p>12.6.4 The programmable system and software requirements specification shall be traceable to the risk analysis results documented in 12.3. </p>
+<h2 id="127-software-design-documentation">12.7 Software design documentation<a class="headerlink" href="#127-software-design-documentation" title="Permanent link">&para;</a></h2>
+<p>12.7.1 Software design documentation shall be prepared. </p>
+<p>12.7.2 The software design documentation shall include a description of the operation and safety features of the software, with respect to the intended function. </p>
+<p>12.7.3 The software design documentation shall include the inputs and outputs, functions, data descriptions and relationships, control and data flow, fault handling, and algorithms. </p>
+<p>12.7.4 The software design documentation shall describe details of how the design of the software meets the system and software requirements specification. </p>
+<h2 id="128-analysis-and-test-documentation">12.8 Analysis and test documentation<a class="headerlink" href="#128-analysis-and-test-documentation" title="Permanent link">&para;</a></h2>
+<p>12.8.1 All analysis and test methods and results shall be documented. </p>
+<p>12.8.2 A test plan shall be documented which covers all software that is used in the programmable component, including off-the-shelf and third-party supplied software (See Off-The-Shelf Software, Section 13). </p>
+<p>12.8.3 The test plan shall include or reference the documented test procedures which are used to verify the correct implementation of the software in the programmable component. </p>
+<p>12.8.4 Test procedures shall include a description of the test parameters, test criteria, test configuration, and any special provisions or assumptions regarding the set-up, execution, and interpretation of the test cases (See 11.2.3, 11.2.4, and 11.3.2). </p>
+<p>12.8.5 Test cases shall be documented and traceable to the software implementation. </p>
+<p>12.8.6 Test results shall be documented and traceable to the test case(s) that produced them. </p>
+<h2 id="13-off-the-shelf-ots-software">13 Off-the-Shelf (OTS) Software<a class="headerlink" href="#13-off-the-shelf-ots-software" title="Permanent link">&para;</a></h2>
+<p>13.1 For all OTS software that interfaces with the manufacturer-supplied software, the following information shall be provided in the software plan, see 12.2: </p>
+<p>a) The name and version/revision identifier of the OTS software; </p>
+<p>b) The name of the OTS software provider; </p>
+<p>c) A description of the purpose for which the software is being used; </p>
+<p>d) A clear description of the function provided by the software; </p>
+<p>e) An interface specification showing all control and data flows in and out of the OTS software; and </p>
+<p>f) References to the OTS software documentation for each callable routine that interfaces with the manufacturer’s software. </p>
+<p>13.2 At least one of the following forms of evidence shall be provided for OTS software: </p>
+<p>a) Documentation attesting to verification and testing activities of the OTS software to the extent that risks involving the OTS software are addressed. </p>
+<p>b) Evidence that the OTS software has met formally defined requirements by an independent OTS software certification program. </p>
+<p>13.3 When available from the OTS software developer or other sources (e.g., the user community), the manufacturer shall provide a list of known bugs for the precise revision/version of the OTS software that the manufacturer intends to use in the embedded software. For each identified error in the known bug report for the OTS software the following evidence shall be provided when implementing 13.2(a): </p>
+<p>a) The feature that leads to an error has been fixed, tested, and approved for distribution by the OTS software developer in a new release that has been incorporated into the manufacturer’s version of the software; or </p>
+<p>b) The feature that leads to an error has not been used by the manufacturer in the development of safety-related software and does not lead to a risk. </p>
+<p>13.4 For OTS software that performs supervisory section functions or is used by the supervisory section of software, the requirements contained in 6.5, 11.1.2(d), 11.1.2(e), 11.1.2(f), and Section 7, of this standard apply. </p>
+<h2 id="14-software-changes-and-document-control">14 Software Changes and Document Control<a class="headerlink" href="#14-software-changes-and-document-control" title="Permanent link">&para;</a></h2>
+<p>14.1 Changes to parameter settings and data shall not create a risk or impact a risk that has previously been identified other than to reduce or eliminate it. </p>
+<p>14.2 Changes or patches to the software shall not create a risk or impact a risk that has previously been identified other than to reduce or eliminate it. </p>
+<p>14.3 To determine compliance, all changes are to be evaluated in accordance with this standard. </p>
+<p>14.4 Documentation shall be reviewed to determine that it correctly reflects safety-related changes that have been made in the software. </p>
+<p>14.5 There shall be procedures to maintain and control software changes to the configuration of the programmable components and critical and supervisory sections of software to facilitate traceability. </p>
+<h2 id="15-identification">15 Identification<a class="headerlink" href="#15-identification" title="Permanent link">&para;</a></h2>
+<p>15.1 Software shall be traceable to a unique identifier stored in non-volatile memory. </p>
+<p>15.2 The unique identifier shall reflect changes that have been made to critical and supervisory sections of the software. </p>
+<p>15.3 Each time a change or patch is incorporated in the critical or supervisory sections of software, a new unique identifier shall be assigned. </p>
+<p>15.4 Documentation shall include sufficient information to identify each item that is investigated with the software. For example, identification of software elements shall include the version number, release number, and date. Microelectronic hardware elements shall include the component vendor, part number and revision level that uniquely identifies the programmable component die. </p>
+<h2 id="appendix-a-informative-examples-of-measures-to-address-microelectronic-hardware-failure-modes_1">APPENDIX A (INFORMATIVE) – EXAMPLES OF MEASURES TO ADDRESS MICROELECTRONIC HARDWARE FAILURE MODES<a class="headerlink" href="#appendix-a-informative-examples-of-measures-to-address-microelectronic-hardware-failure-modes_1" title="Permanent link">&para;</a></h2>
+<h2 id="a1-scope">A1 Scope<a class="headerlink" href="#a1-scope" title="Permanent link">&para;</a></h2>
+<p>A1.1 Appendix A is to be considered normative when so stated by a product standard, directive, or regulation. Appendix A is otherwise to be considered informative. </p>
+<p>A1.2 Table A2.1 of this appendix provides examples of acceptable measures for microelectronic hardware failure modes consistent with the requirements in Automatic Electrical Controls, Part 1, IEC 60730-1. </p>
+<p>A1.3 Examples of software class definitions and requirements are provided in this appendix. These examples do not account for all software class definitions that may be developed in the context of applying the requirements in UL 1998. When referencing UL 1998, software classes will be further determined based on risk identification methods associated with the application of software to perform safety-related functions in products. </p>
+<p>A1.4 Also included in this appendix are descriptions of fault models, system structures, and an example application of Table A2.1. </p>
+<h2 id="a2-examples-of-acceptable-measures-for-microelectronic-hardware-failure-modes">A2 Examples of Acceptable Measures for Microelectronic Hardware Failure Modes<a class="headerlink" href="#a2-examples-of-acceptable-measures-for-microelectronic-hardware-failure-modes" title="Permanent link">&para;</a></h2>
+<p>A2.1 The following table provides examples of acceptable measures for covering various failure modes for select components. </p>
+<p>A2.2 Other measures not specified in Table A2.1 are permitted if they can be shown to detect faults/error conditions specified in Table A2.1. </p>
+<p>Table A2.1</p>
+<p>Coverage for microelectronic hardware failure modes</p>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of acceptable <eq>measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td colspan="6">1. CPU</td></tr><tr><td rowspan="6">1.1 Registers</td><td rowspan="2">stuck-at</td><td rowspan="2">rq</td><td rowspan="2"></td><td>functional test; or</td><td>A5.5</td></tr><tr><td>periodic self test using either: - static memory test - word protection with single-bit redundancy</td><td>A5.6 A7.2.9 A7.3.2</td></tr><tr><td rowspan="4">DC fault</td><td rowspan="4"></td><td rowspan="4">rq</td><td>comparison of redundant CPU&#x27;s by either: - reciprocal comparison - independent HW comparator; or</td><td>A7.1.19 A7.1.6</td></tr><tr><td>internal error detection; or</td><td>A7.1.10</td></tr><tr><td>redundant memory with comparison; or</td><td>A7.2.8</td></tr><tr><td>periodic self tests using either: - walkpat memory test - abraham test -transparent galpat test; or</td><td>A7.2.10 A7.2.1 A7.2.3</td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – </p>
+<p>NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<h2 id="table-a21-continued">Table A2.1 Continued<a class="headerlink" href="#table-a21-continued" title="Permanent link">&para;</a></h2>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of <eq>acceptable measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td>word protection with multi-bit redundancy; or</td><td>A7.3.1</td></tr><tr><td>static memory test and word protection with single-bit redundancy</td><td>A7.2.9A7.3.2</td></tr><tr><td rowspan="4">1.2Instruction decoding and execution</td><td rowspan="4">wrong decoding and execution</td><td rowspan="4"></td><td rowspan="4">rq</td><td rowspan="2">comparison of redundant CPU&#x27;s by either:– reciprocal comparison– independent HW comparator; or</td><td rowspan="2">A7.1.19A7.1.6</td></tr><tr></tr><tr><td>internal error detection; or</td><td>A7.1.10</td></tr><tr><td>periodic self test using equivalence class test</td><td>A7.1.7</td></tr><tr><td rowspan="6">1.3Program counter</td><td rowspan="4">stuck-at</td><td rowspan="4">rq</td><td rowspan="4"></td><td>functional test; or</td><td>A5.5</td></tr><tr><td>periodic self test; or</td><td>A5.6</td></tr><tr><td>independent time-slot monitoring; or</td><td>A7.1.13</td></tr><tr><td>logical monitoring of the program sequence</td><td>A7.1.12</td></tr><tr><td rowspan="2">DC fault</td><td rowspan="2"></td><td rowspan="2">rq</td><td>periodic self test and monitoring using either:– independent time-slot and logical monitoring– internal error detection; or</td><td>A5.7A7.1.14A7.1.10</td></tr><tr><td>comparison of redundant functional channels by either:– reciprocal comparison– independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td rowspan="5">1.4Addressing</td><td rowspan="5">DC fault</td><td rowspan="5"></td><td rowspan="5">rq</td><td>comparison of redundant CPU&#x27;s by either:– reciprocal comparison– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>Internal error detection; or</td><td>A7.1.10</td></tr><tr><td>periodic self test using a testing pattern of the address lines; or</td><td>A5.7</td></tr><tr><td>full bus redundancy; or</td><td>A7.1.1</td></tr><tr><td>multi-bit bus parity including the address</td><td>A7.1.2</td></tr><tr><td rowspan="5">1.5Data paths</td><td rowspan="5">DC fault</td><td rowspan="5"></td><td rowspan="5">rq</td><td>comparison of redundant CPU&#x27;s by either:– reciprocal comparison or– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>Internal error detection; or</td><td>A7.1.10</td></tr><tr><td>periodic self test using a testing pattern; or</td><td>A5.7</td></tr><tr><td>data redundancy; or</td><td>A7.1.4</td></tr><tr><td>multi-bit bus parity</td><td>A7.1.2</td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – </p>
+<p>NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<h2 id="table-a21-continued_1">Table A2.1 Continued<a class="headerlink" href="#table-a21-continued_1" title="Permanent link">&para;</a></h2>
+<table><tr><td rowspan="2">Componenta</td><td rowspan="2">Fault/error</td><td colspan="2">SW classb</td><td rowspan="2">Examples of acceptable measuresc, d, e</td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2.</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+<p>No Text on This Page </p>
+<p>Table A2.1 Continued</p>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of acceptable <eq>measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td rowspan="4">Interrupt handling and execution</td><td rowspan="2">no interrupt or too frequent interrupt</td><td rowspan="2">rq</td><td rowspan="2"></td><td>functional test; or</td><td>A5.5</td></tr><tr><td>time-slot monitoring</td><td>A7.1.13</td></tr><tr><td rowspan="2">no interrupt or too frequent interrupt and interrupt related to different sources</td><td rowspan="2"></td><td rowspan="2">rq</td><td>comparison of redundant functional channels by either:- reciprocal comparison- independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>independent time-slot and logical monitoring</td><td>A7.1.14</td></tr><tr><td rowspan="5">3.</td><td rowspan="5">wrong frequency (for quartz synchronized clock: harmonics/subharmonics only)</td><td rowspan="2">rq</td><td rowspan="2"></td><td>frequency monitoring; or</td><td>A7.1.11</td></tr><tr><td>time slot monitoring</td><td>A7.1.13</td></tr><tr><td rowspan="3"></td><td rowspan="3">rq</td><td>frequency monitoring; or</td><td>A7.1.11</td></tr><tr><td>time slot monitoring; or</td><td>A7.1.13</td></tr><tr><td>comparison of redundant functional channels by either:- reciprocal comparison- independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td>4. Memory</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="7">4.1 Non-volatile memory</td><td rowspan="3">all single-bit faults</td><td rowspan="3">rq</td><td rowspan="3"></td><td>periodic modified checksum; or</td><td>A7.2.4</td></tr><tr><td>multiple checksum; or</td><td>A7.2.5</td></tr><tr><td>word protection with single-bit redundancy</td><td>A7.3.2</td></tr><tr><td rowspan="4">all single and double bit errors</td><td rowspan="4"></td><td rowspan="4">rq</td><td>comparison of redundant CPU&#x27;s by either:- reciprocal comparison or- independent HW comparator; or</td><td>A7.1.11A7.1.6</td></tr><tr><td>redundant memory with comparison; or</td><td>A7.2.8</td></tr><tr><td>period cyclic redundancy check, either:- single word- double word; or</td><td>A7.2.6A7.2.7</td></tr><tr><td>word protection with multi-bit redundancy</td><td>A7.3.1</td></tr><tr><td>4.2 Volatile memory</td><td>DC fault</td><td>rq</td><td></td><td>periodic static memory test; or</td><td>A7.2.9</td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – </p>
+<p>NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<h2 id="table-a21-continued_2">Table A2.1 Continued<a class="headerlink" href="#table-a21-continued_2" title="Permanent link">&para;</a></h2>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of acceptable <eq>measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td rowspan="5"></td><td></td><td></td><td></td><td>word protection with single-bit redundancy</td><td>A7.3.2</td></tr><tr><td rowspan="4">DC fault and dynamic cross links</td><td rowspan="4"></td><td rowspan="4">rq</td><td>comparison of redundant CPU&#x27;s by either:– reciprocal comparison– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>redundant memory with comparison; or</td><td>A7.2.8</td></tr><tr><td>periodic self tests using either:– walkpat memory test– abraham test– transparent galpat test; or</td><td>A7.2.10A7.2.1A7.2.3</td></tr><tr><td>word protection with multi-bit redundancy</td><td>A7.3.1</td></tr><tr><td rowspan="6">4.3Addressing (relevant to variable and invariable memory)</td><td>stuck-at</td><td>rq</td><td></td><td>word protection with bit parity including the address</td><td>A7.3.2</td></tr><tr><td rowspan="5">DC fault</td><td rowspan="5"></td><td rowspan="5">rq</td><td>comparison of redundant CPU&#x27;s by either:– reciprocal comparison or– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>full bus redundancy</td><td>A7.1.1</td></tr><tr><td>testing pattern; or</td><td>A7.1.24</td></tr><tr><td>period cyclic redundancy check, either:– single word– double word; or</td><td>A7.2.6A7.2.7</td></tr><tr><td>word protection with multi-bit redundancy including the address</td><td>A7.3.1</td></tr><tr><td colspan="6">5.Internal data path</td></tr><tr><td rowspan="6">5.1Data</td><td>stuck-at</td><td>rq</td><td></td><td>word protection with single-bit redundancy</td><td>A7.3.2</td></tr><tr><td rowspan="5">DC fault</td><td rowspan="5"></td><td rowspan="5">rq</td><td>comparison of redundant CPU&#x27;s by either:– reciprocal comparison– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>word protection with multi-bit redundancy including the address; or</td><td>A7.3.1</td></tr><tr><td>data redundancy; or</td><td>A7.1.4</td></tr><tr><td>testing pattern: or</td><td>A7.1.24</td></tr><tr><td>protocol test</td><td>A7.1.18</td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<h2 id="table-a21-continued_3">Table A2.1 Continued<a class="headerlink" href="#table-a21-continued_3" title="Permanent link">&para;</a></h2>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of acceptable <eq>measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td rowspan="5">5.2Addressing</td><td>wrong address</td><td>rq</td><td></td><td>word protection with single-bit redundancy including the address</td><td>A7.3.2</td></tr><tr><td rowspan="4">wrong and multiple addressing</td><td rowspan="4"></td><td rowspan="4">rq</td><td>comparison of redundant CPU&#x27;s by:– reciprocal comparison– independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>word protection with multi-bit redundancy, including the address; or</td><td>A7.3.1</td></tr><tr><td>full bus redundancy; or</td><td>A7.1.1</td></tr><tr><td>testing pattern including the address</td><td>A7.1.24</td></tr><tr><td colspan="6">6.External communication</td></tr><tr><td rowspan="7">6.1Data</td><td rowspan="4">all single-bit and double bit errors</td><td rowspan="4">rq</td><td rowspan="4"></td><td>word protection with multi-bit redundancy; or</td><td>A7.3.1</td></tr><tr><td>CRC – single word; or</td><td>A7.2.6</td></tr><tr><td>transfer redundancy; or</td><td>A7.1.5</td></tr><tr><td>protocol test</td><td>A7.1.18</td></tr><tr><td rowspan="3">all single-bit, double bit and triple bit errors</td><td rowspan="3"></td><td rowspan="3">rq</td><td>CRC – double word; or</td><td>A7.2.7</td></tr><tr><td>data redundancy; or</td><td>A7.1.4</td></tr><tr><td>comparison of redundant functional channels by either:– reciprocal comparison– independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td rowspan="7">6.2Addressing</td><td rowspan="4">wrong address</td><td rowspan="4">rq</td><td rowspan="4"></td><td>word protection with multi-bit redundancy, including the address; or</td><td>A7.3.1</td></tr><tr><td>CRC – single word, including the addresses; or</td><td>A7.2.6</td></tr><tr><td>transfer redundancy; or</td><td>A7.1.5</td></tr><tr><td>protocol test</td><td>A7.1.18</td></tr><tr><td rowspan="3">wrong and multiple addressing</td><td rowspan="3"></td><td rowspan="3">rq</td><td>CRC – double word, including the address; or</td><td>A7.2.7</td></tr><tr><td>full bus redundancy of data and address; or</td><td>A7.1.1</td></tr><tr><td>comparison of redundancy communication channels by either:</td><td></td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – </p>
+<p>NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<p>UL COPYRIGHTED MATERIAL – NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL<sub>Table</sub> <sub>A2.1</sub> <sub>Continued</sub> <sub>on</sub> <sub>Next</sub> <sub>Page</sub> </p>
+<p>Table A2.1 Continued</p>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of <eq>acceptable measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td></td><td></td><td></td><td></td><td>- reciprocal comparison- independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td rowspan="9">6.3Timing</td><td rowspan="4">wrong point in time</td><td rowspan="2">rq</td><td rowspan="2"></td><td>time slot monitoring; or</td><td>A7.1.13</td></tr><tr><td>scheduled transmission</td><td>A7.1.21</td></tr><tr><td rowspan="2"></td><td rowspan="2">rq</td><td>time slot and logical monitoring; or</td><td>A7.1.15</td></tr><tr><td>comparison of redundant communication channels by either:- reciprocal comparison- independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td rowspan="5">wrong sequence</td><td rowspan="3">rq</td><td rowspan="3"></td><td>logical monitoring; or</td><td>A7.1.12</td></tr><tr><td>time slot monitoring; or</td><td>A7.1.13</td></tr><tr><td>scheduled transmission</td><td>A7.1.21</td></tr><tr><td rowspan="2"></td><td rowspan="2">rq</td><td>time slot and logical monitoring; or</td><td>A7.1.14</td></tr><tr><td>comparison of redundant communication channels by either:- reciprocal comparison- independent HW comparator</td><td>A7.1.19A7.1.6</td></tr><tr><td colspan="6">7.Input/outputperiphery</td></tr><tr><td rowspan="7">7.1Digital I/O</td><td rowspan="7">open and short circuit or as specified in the product standard</td><td>rq</td><td></td><td>plausibility check</td><td>A7.1.17</td></tr><tr><td rowspan="6"></td><td rowspan="6">rq</td><td>comparison of redundant CPU&#x27;s by either:- reciprocal comparison- independent HW comparator; or</td><td>A7.1.19A7.1.6</td></tr><tr><td>Input comparison; or</td><td>A7.1.9</td></tr><tr><td>multiple parallel outputs; or</td><td>A7.1.15</td></tr><tr><td>output verification; or</td><td>A7.1.16</td></tr><tr><td>testing pattern; or</td><td>A7.1.24</td></tr><tr><td>code safety</td><td>A7.1.3</td></tr><tr><td colspan="6">7.2Analog I/O</td></tr><tr><td rowspan="2">7.2.1A/D-and D/A-converter</td><td rowspan="2">open and short circuit or as specified in the product standard</td><td>rq</td><td></td><td>plausibility check</td><td>A7.1.17</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+
+<h2 id="table-a21-continued_4">Table A2.1 Continued<a class="headerlink" href="#table-a21-continued_4" title="Permanent link">&para;</a></h2>
+<table><tr><td rowspan="2"><eq>Component^a</eq></td><td rowspan="2">Fault/error</td><td colspan="2">SW <eq>class^b</eq></td><td rowspan="2">Examples of acceptable <eq>measures^{c, d, e}</eq></td><td rowspan="2">Description</td></tr><tr><td>1</td><td>2</td></tr><tr><td rowspan="5"></td><td rowspan="5"></td><td rowspan="5"></td><td rowspan="5">rq</td><td>comparison of redundant CPU&#x27;s by either: - reciprocal comparison - independent HW comparator; or</td><td>A7.1.19 A7.1.6</td></tr><tr><td>Input comparison; or</td><td>A7.1.9</td></tr><tr><td>multiple parallel outputs; or</td><td>A7.1.15</td></tr><tr><td>output verification; or</td><td>A7.1.16</td></tr><tr><td>testing pattern</td><td>A7.1.24</td></tr><tr><td rowspan="4">7.2.2 Analog multiplexer</td><td rowspan="4">wrong addressing</td><td>rq</td><td></td><td>plausibility check</td><td>A7.1.17</td></tr><tr><td rowspan="3"></td><td rowspan="3">rq</td><td>comparison of redundant CPU&#x27;s by either: - reciprocal comparison - independent HW comparator; or</td><td>A7.1.19 A7.1.6</td></tr><tr><td>Input comparison; or</td><td>A7.1.9</td></tr><tr><td>testing pattern</td><td>A7.1.24</td></tr><tr><td rowspan="3">8. Monitoring devices and comparators</td><td rowspan="3">any output outside the static and dynamic functional specification</td><td rowspan="3"></td><td rowspan="3">rq</td><td>tested monitoring; or</td><td>A7.1.23</td></tr><tr><td>redundant monitoring and comparison; or</td><td>A7.1.20</td></tr><tr><td>error recognizing means</td><td>A7.1.8</td></tr><tr><td rowspan="4">9. Components not covered by items 1 - 8<eq>^f</eq>e.g. ASIC, GAL, Gate Array</td><td rowspan="4">any output outside the static and dynamic functional specification</td><td>rq</td><td></td><td>periodic self test</td><td>A5.6</td></tr><tr><td rowspan="3"></td><td rowspan="3">rq</td><td>periodic self test and monitoring; or</td><td>A5.7</td></tr><tr><td>dual channel (diverse) with comparison); or</td><td>A5.2</td></tr><tr><td>error recognizing means</td><td>A7.1.8</td></tr><tr><td colspan="6">NOTE - rq = Coverage of the fault is required for the indicated Software class.</td></tr><tr><td colspan="6"><eq>^a</eq> For fault/error assessment, some components are divided into their subfunctions.</td></tr><tr><td colspan="6"><eq>^b</eq> Software class determination is a product safety consideration.</td></tr><tr><td colspan="6"><eq>^c</eq> For each subfunction in the table, the Software Class 2 measure will cover the Software Class 1 fault/error.</td></tr><tr><td colspan="6"><eq>^d</eq> It is recognized that some of the examples of acceptable measures provide greater coverage than is required by this Standard.</td></tr><tr><td colspan="6"><eq>^e</eq> Where more than one measure is given for a subfunction, these are alternatives.</td></tr><tr><td colspan="6"><eq>^f</eq> To be divided as necessary by the manufacturer into subfunctions.</td></tr></table>
+
+<p>UL COPYRIGHTED MATERIAL – NOT AUTHORIZED FOR FURTHER REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM UL </p>
+<h2 id="a3-software-classes">A3 Software Classes<a class="headerlink" href="#a3-software-classes" title="Permanent link">&para;</a></h2>
+<p>A3.1 Software Class 1 – Sections of software intended to control function to reduce the likelihood of a risk associated with the equipment. Examples of sections that may be considered Software Class 1 functions are: thermal cut-outs and door locks for laundry equipment. </p>
+<p>A3.2 Software Class 2 – Sections of software intended to control functions to reduce the likelihood of special risks (e.g., explosion) associated with the equipment. Examples of sections that may be considered Software Class 2 functions are: automatic burner controls and thermal cut-outs for closed water heater systems (unvented). </p>
+<p>A3.3 All software shall be considered Class 1 unless otherwise specified by the product safety requirements. </p>
+<p>A3.4 Sections of the software declared as Software Class 1 shall be utilized on a system having one of the following structures: </p>
+<p>a) Single channel with functional test, A5.5; or </p>
+<p>b) Single channel with periodic self test, A5.6. </p>
+<p>A3.5 Sections of the software declared as Software Class 2 shall be utilized on a system having one of the following structures: </p>
+<p>a) Single channel with periodic self test and monitoring, A5.7; </p>
+<p>b) Dual channel (homogenous) with comparison, A5.3; or </p>
+<p>c) Dual channel (diverse) with comparison, A5.2. </p>
+<p>A3.6 Other structures are employed when they can be shown to provide an equivalent level of protection against a risk to those in A3.3 and A3.4. </p>
+<p>A3.7 Sections of the software declared as Software Class 2 using dual channel structures with comparison shall have additional fault/error detection means (such as periodic functional tests, periodic self tests, or independent monitoring) for any fault/errors not detected by the comparison. </p>
+<p>A3.8 For sections of the software declared as Software Class 1 or 2, means shall be provided for the recognition and control of errors in transmissions to external safety-related data paths. Such means shall take into account errors in data, addressing, transmission timing and sequence of communication protocol. </p>
+<p>A3.9 The loss of dual channel capability is considered to be an error in a control using a dual channel structure with functions declared as Software Class 2. </p>
+<p>A3.10 When redundant memory with comparison is provided on the same component, the data in one memory shall be stored in a different format from that in the other memory (See A7.1.22). </p>
+<p>A3.11 Faults/errors shall be detected before the faults/errors result in a risk. </p>
+<h2 id="a4-description-of-fault-models">A4 Description of Fault Models<a class="headerlink" href="#a4-description-of-fault-models" title="Permanent link">&para;</a></h2>
+<p>A4.1 DC FAULT MODEL – DC fault model denotes a stuck-at fault model incorporating short circuits between signal lines. </p>
+<p>A4.2 STUCK-AT FAULT MODEL – Stuck-at fault model denotes a fault model representing an open circuit or a non-varying signal level. </p>
+<h2 id="a5-description-of-system-structures">A5 Description of System Structures<a class="headerlink" href="#a5-description-of-system-structures" title="Permanent link">&para;</a></h2>
+<p>A5.1 DUAL CHANNEL – Dual channel denotes a structure which contains two mutually independent functional means to execute specified operations. </p>
+<p>A5.2 DUAL CHANNEL (DIVERSE) WITH COMPARISON – Dual channel (diverse) with comparison denotes a dual channel structure containing two different and mutually independent functional means, each capable of providing a declared response, in which comparison of output signals is performed for fault/error recognition. </p>
+<p>A5.3 DUAL CHANNEL (HOMOGENEOUS) WITH COMPARISON – Dual channel (homogeneous) with comparison denotes a dual channel structure containing two identical and mutually independent functional means, each capable of providing a declared response, in which comparison of internal signals or output signals is performed for fault/error recognition. </p>
+<p>A5.4 SINGLE CHANNEL – Single channel denotes a structure in which a single functional means is used to execute specified operations. </p>
+<p>A5.5 SINGLE CHANNEL WITH FUNCTIONAL TEST – Single channel with functional test denotes a single channel structure in which test data is introduced to the functional unit prior to its operation. </p>
+<p>A5.6 SINGLE CHANNEL WITH PERIODIC SELF TEST – Single channel with periodic self test denotes a single channel structure in which components of the control are periodically tested during operation. </p>
+<p>A5.7 SINGLE CHANNEL WITH PERIODIC SELF TEST AND MONITORING – Single channel with periodic self test and monitoring denotes a single channel structure with periodic self test in which independent means, each capable of providing a required response, monitor such aspects as safety-related timing, sequences and software operations. </p>
+<p>Table A6.1 Measures to control fault/errors</p>
+<h2 id="a6-example-of-the-application-of-table-a21">A6 Example of the Application of Table A2.1<a class="headerlink" href="#a6-example-of-the-application-of-table-a21" title="Permanent link">&para;</a></h2>
+<p>A6.1 Table A6.1 contains example of measures to control fault/errors in a product using a single chip microcomputer (8 bit) Software Class 2, single channel with self test and monitoring. </p>
+<table><tr><td colspan="2">Component/function from Table A2.1</td><td>Examples of acceptable measures</td><td>Description</td></tr><tr><td>1.1</td><td>CPU / registers</td><td>periodic self tests using walkpat memory test</td><td>A7.2.10</td></tr><tr><td>1.2</td><td>CPU / instruction decoding and execution</td><td>periodic self test using equivalence class test with values inside, outside, and at the limits of the specified ranges:The instructions are grouped as follows:– move instructions– arithmetic instructions– bit and shift instructions– conditional instructions– other instructions</td><td>A7.1.7</td></tr><tr><td>1.3</td><td>CPU / Program counter</td><td>independent time-slot and logical monitoring</td><td>A7.1.14</td></tr><tr><td>1.45.2</td><td>Addressing of volatile memoryAddressing of non-volatile memoryAddressing of I/O components</td><td>periodic self test using a testing pattern of the address linescovered by test of non-volatile memory, see 4.1 (This table)I/O address lines covered by I/O tests, see 7.1 (This table)</td><td>A7.1.24</td></tr><tr><td>1.55.1</td><td>Data path to volatile memoryData path to non-volatile memoryData path to I/O components</td><td>covered by test of volatile memory, see 4.2 (This table)covered by test of non-volatile memory, see 4.1 (This table)covered by I/O tests, See 7.1 (This table)</td><td></td></tr><tr><td>2</td><td>Interrupt handling and execution</td><td>covered by test of 1.3</td><td></td></tr><tr><td>3</td><td>Clock</td><td>frequency monitoring</td><td>A7.1.11</td></tr><tr><td>4.1</td><td>Non-volatile memory</td><td>CRC – single word (8bit)</td><td>A7.2.6</td></tr><tr><td>4.2</td><td>Volatile memory</td><td>redundant memory with software comparison</td><td>A7.2.8</td></tr><tr><td>6.16.2</td><td>External communication, data and addressing</td><td>CRCv– double word (16 bit) incorporating data, source, and destination addresses</td><td>A7.2.7</td></tr><tr><td>6.3</td><td>Timing</td><td>scheduled transmission</td><td>A7.1.21</td></tr><tr><td>7.1</td><td>Digital inputDigital output</td><td>testing pattern for inputsoutput verification</td><td>A7.1.24A7.1.16</td></tr><tr><td>7.2</td><td>Analog input, Multiplexer and A/D-converter</td><td>input comparison (inverted polarity)</td><td>A7.1.9</td></tr><tr><td colspan="4">Other components external to the microcomputer</td></tr><tr><td>8</td><td>Monitoring device</td><td>tested monitoring</td><td>A7.1.23</td></tr><tr><td>9</td><td>PAL (programmable logic array)</td><td>periodic self test and monitoring</td><td>A5.7</td></tr></table>
+
+<p>A7 Descriptions of Acceptable Measures for Providing the Required Fault/Error Coverage Specified in Table A2.1 </p>
+<h2 id="a71-descriptions-of-faulterror-control-techniques">A7.1 Descriptions of fault/error control techniques<a class="headerlink" href="#a71-descriptions-of-faulterror-control-techniques" title="Permanent link">&para;</a></h2>
+<p>A7.1.1 FULL BUS REDUNDANCY – Full bus redundancy denotes a fault/error control technique in which full redundant data and/or address are provided by means of redundant bus structure. </p>
+<p>A7.1.2 MULTI-BIT BUS PARITY – Multi-bit bus parity denotes a fault/error control technique in which the bus is extended by two or more bits and these additional bits are used for error detection. </p>
+<p>A7.1.3 CODE SAFETY – Code safety denotes fault/error control techniques in which protection against coincidental and/or systematic errors in input and output information is provided by the use of data redundancy and/or transfer redundancy. (see also A7.1.4 and A7.1.5). </p>
+<p>A7.1.4 DATA REDUNDANCY – Data redundancy denotes a form of code safety in which the storage of redundant data occurs. </p>
+<p>A7.1.5 TRANSFER REDUNDANCY – Transfer redundancy denotes a form of code safety in which data is transferred at least twice in succession and then compared. </p>
+<p>A7.1.6 COMPARATOR – Comparator denotes a device used for fault/error control in dual channel structures. The device compares data from the two channels and initiates a declared response if a difference is detected. </p>
+<p>A7.1.7 EQUIVALENCE CLASS TEST – Equivalence class test denotes a systematic test intended to determine whether the instruction decoding and execution are performed correctly. The test data is derived from the CPU instruction specification. </p>
+<p>A7.1.8 ERROR RECOGNIZING MEANS – Error recognizing means denotes independent means provided for the purpose of recognizing errors internal to the system. </p>
+<p>A7.1.9 INPUT COMPARISON – Input comparison denotes a fault/error control technique by which inputs that are designed to be within specified tolerances are compared. </p>
+<p>A7.1.10 INTERNAL ERROR DETECTING OR CORRECTING – Internal error detecting or correcting denotes a fault/error control technique in which additional circuitry is incorporated to detect or correct errors. </p>
+<p>A7.1.11 FREQUENCY MONITORING – Frequency monitoring denotes a fault/error control technique in which the clock frequency is compared with an independent fixed frequency. </p>
+<p>A7.1.12 LOGICAL MONITORING OF THE PROGRAM SEQUENCE – Logical monitoring of the program sequence denotes a fault/error control technique in which the logical execution of the program sequence is monitored. </p>
+<p>A7.1.13 TIME-SLOT MONITORING OF THE PROGRAM SEQUENCE – Time-slot monitoring of the program sequence denotes a fault/error control technique in which timing devices with an independent time base are periodically triggered in order to monitor the program function and sequence. </p>
+<p>A7.1.14 TIME-SLOT AND LOGICAL MONITORING – This is a combination of A7.1.12 and A7.1.13. </p>
+<p>A7.1.15 MULTIPLE PARALLEL OUTPUTS – Multiple parallel outputs denotes a fault/error control technique in which independent outputs are provided for operational error detection or for independent comparators. </p>
+<p>A7.1.16 OUTPUT VERIFICATION – Output verification denotes a fault/error control technique in which outputs are compared to independent inputs. </p>
+<p>A7.1.17 PLAUSIBILITY CHECK – Plausibility check denotes a fault/error control technique in which program execution, inputs or outputs are checked for incorrect program sequence, timing or data. </p>
+<p>A7.1.18 PROTOCOL TEST – Protocol test denotes a fault/error control technique in which data is transferred to and from computer components to detect errors in the internal communications protocol. </p>
+<p>A7.1.19 RECIPROCAL COMPARISON – Reciprocal comparison denotes a fault/error control technique used in dual channel (homogeneous) structures in which a comparison is performed on data reciprocally exchanged between the two processing units. </p>
+<p>A7.1.20 REDUNDANT MONITORING – Redundant monitoring denotes the availability of two or more independent means such as watchdog devices and comparators to perform the same task. </p>
+<p>A7.1.21 SCHEDULED TRANSMISSION – Scheduled transmission denotes a communication procedure in which information from a particular transmitter is allowed to be sent only at a predefined point in time and sequence, otherwise the receiver will treat it as a communication error. </p>
+<p>A7.1.22 DATA DIVERSITY – Data diversity denotes a fault/error control technique in which all or parts of the data are incorporated at least twice in the form of alternate data representations. </p>
+<p>A7.1.23 TESTED MONITORING – Tested monitoring denotes the provision of independent means such as watchdog devices and comparators which are tested at start up or periodically during operation. </p>
+<p>A7.1.24 TESTING PATTERN – Testing pattern denotes a fault/error control technique used for periodic testing of input units, output units and interfaces of the control. A test pattern is introduced to the unit and the results are compared to expected values. Mutually independent means for introducing the test pattern and evaluating the results are used. The test pattern is constructed so as not to influence the correct operation of the control. </p>
+<h2 id="a72-description-of-memory-tests">A7.2 Description of memory tests<a class="headerlink" href="#a72-description-of-memory-tests" title="Permanent link">&para;</a></h2>
+<p>A7.2.1 ABRAHAM TEST – Abraham test denotes a specific form of a variable memory pattern test in which all stuck-at and coupling faults between memory cells are identified. The number of operations required to perform the entire memory test is about 30n, where n is the number of cells in the memory. The test can be made transparent for use during the operating cycle by partitioning the memory and testing each partition in different time segments. </p>
+<p>A7.2.2 GALPAT MEMORY TEST – Galpat memory test denotes a fault/error control technique in which a single cell in a field of uniformly written memory cells is inversely written, after which the remaining memory under test is inspected. After each read operation to one of the remaining cells in the field, the inversely written cell is also inspected and read. This process is repeated for all memory cells under test. A second test is then performed as above on the same memory range without inverse writing to the test cell. </p>
+<p>A7.2.3 TRANSPARENT GALPAT TEST – Transparent galpat test denotes a Galpat memory test (see A7.2.2), in which first a signature word is formed representing the content of the memory range to be tested and this word is saved. The cell to be tested is inversely written and the test is performed as above. However, the remaining cells are not inspected individually but by formation of and comparison to a second signature word. A second test is then performed as above by inversely writing the previously inverted value to the test cell. </p>
+<p>A7.2.4 MODIFIED CHECKSUM – Modified checksum denotes a fault/error control technique in which a single word representing the contents of all words in memory is generated and saved. During self test, a checksum is formed from the same algorithm and compared with the saved checksum. </p>
+<p>A7.2.5 MULTIPLE CHECKSUM – Multiple checksum denotes a fault/error control technique in which separate words representing the contents of the memory areas to be tested are generated and saved. During self test, a checksum is formed from the same algorithm and compared with the saved checksum for that area. </p>
+<p>A7.2.6 CYCLIC REDUNDANCY CHECK (CRC) – SINGLE WORD – CRC – single word denotes a fault/error control technique in which a single word is generated to represent the contents of memory. During self test the same algorithm is used to generate another signature word which is compared with the saved word. </p>
+<p>A7.2.7 CYCLIC REDUNDANCY CHECK (CRC) – DOUBLE WORD – CRC – double word denotes a fault/error control technique in which at least two words are generated to represent the contents of memory. During self test the same algorithm is used to generate the same number of signature words which are compared with the saved words. </p>
+<p>A7.2.8 REDUNDANT MEMORY WITH COMPARISON – Redundant memory with comparison denotes a structure in which the safety-related contents of memory are stored twice in different format in separate areas so that they can be compared for error control. </p>
+<p>A7.2.9 STATIC MEMORY TEST – Static memory test denotes a fault/error control technique which is intended to detect only static errors. </p>
+<p>A7.2.10 WALKPAT MEMORY TEST – Walkpat memory test denotes a fault/error control technique in which a standard data pattern is written to the memory area under test as in normal operation. A bit inversion is performed on the first cell and the remaining memory area is inspected. Then the first cell is again inverted and the memory inspected. This process is repeated for all memory cells under test. A second test is conducted by performing a bit inversion of all cells in memory under test and proceeding as above. </p>
+<h2 id="a73-word-protection">A7.3 Word protection<a class="headerlink" href="#a73-word-protection" title="Permanent link">&para;</a></h2>
+<p>A7.3.1 WORD PROTECTION WITH MULTI-BIT REDUNDANCY– Word protection with multi-bit redundancy denotes a fault/error control technique in which redundant bits are generated and saved for each word in the memory area under test. As each word is read, a parity check is conducted. </p>
+<p>A7.3.2 WORD PROTECTION WITH SINGLE-BIT REDUNDANCY– Word protection with single-bit redundancy denotes a fault/error control technique in which a single-bit is added to each word in the memory area under test and saved, creating either even parity or odd parity. As each word is read, a parity check is conducted. </p>
+<p>333 Pfingsten Road Northbrook, Illinois 60062-2096 847.272.8800 </p>
+<p>For other locations in the UL family of companies please visit UL.com/contact </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

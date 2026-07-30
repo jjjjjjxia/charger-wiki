@@ -1,0 +1,2993 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="国标/欧标/美标交流充电桩认证查询 · 国内CCC/CQC · 海外CE/CB及多国认证">
+      
+      
+      
+      
+        <link rel="prev" href="iec-61851-23-2014.html">
+      
+      
+        <link rel="next" href="en-61851-21-2-emc-cn.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>IEC 61851-21-1:2017 车载充电机 EMC（全文） - 充电桩产品认证知识库</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#international-standard" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-header__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            充电桩产品认证知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IEC 61851-21-1:2017 车载充电机 EMC（全文）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  总索引
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guide.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  使用指南
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-by-region.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  按地区查认证
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-process-overview.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  认证流程总览
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/global-plug-lookup.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  全球插头查询
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/product-ac-charger-cn.html" class="md-tabs__link">
+          
+  
+  
+  产品线
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/certification-ccc.html" class="md-tabs__link">
+          
+  
+  
+  认证类型
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/region-china.html" class="md-tabs__link">
+          
+  
+  
+  地区
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../concepts/standard-gb-39752.html" class="md-tabs__link">
+          
+  
+  
+  标准与概念
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="gb-39752-2024.html" class="md-tabs__link">
+          
+  
+  
+  原始标准全文
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../log.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  变更日志
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-nav__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    充电桩产品认证知识库
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    总索引
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-by-region.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按地区查认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-process-overview.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证流程总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/global-plug-lookup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头查询
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    产品线
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    产品线
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-cn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-eu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-us.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证类型
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    认证类型
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ccc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCC 强制认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cqc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CQC 标志认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ce.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE 认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cb.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CB 体系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    地区
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    地区
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-china.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国大陆
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-europe.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-north-america.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北美
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-asia-pacific.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亚太其他
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-mea.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中东/非洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    标准与概念
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    标准与概念
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-39752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-44263.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-t-18487-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-61851-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1 标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752 随车充标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62955.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955 RDC-DD 漏电保护
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-gb-vs-iec-safety.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ 国标 vs IEC 安规对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-iec-61851-vs-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ IEC 61851 vs 62752 对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/charging-modes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    充电模式 Mode 1-4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/safety-tests-iec-61851.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安规测试项目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/plug-types-worldwide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头型号体系 A-O
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    原始标准全文
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    原始标准全文
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-39752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-44263-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-t-18487-1-2023.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·上）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·下）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752:2024 随车充（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62955-2018.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955:2018 RDC-DD（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="global-plug-standards.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头及电压标准（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-2099-7-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 2099.7-2024 插头插座（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-23-2014.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-23:2014 直流充电（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-21-1:2017 车载充电机 EMC（全文）
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="iec-61851-21-1-2017-emc.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-21-1:2017 车载充电机 EMC（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CONTENTS
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="en-61851-21-2-emc-cn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EN 61851-21-2 EMC 中文版（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2012.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2012 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2017.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2017 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-1998-2018.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 1998-2018 可编程组件软件（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2202-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2202-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-1-2016.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-1-2016 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-2-2020.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-2-2020 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2594-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2594-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bacl-ev-charger-safety-certification.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BACL EV Charger 安全认证指南（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../log.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    变更日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CONTENTS
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>Electric vehicle conductive charging system – Part 21-1: Electric vehicle on-board charger EMC requirements for conductive connection to an AC/DC supply </p>
+<p><img alt="" src="images/ac0441914774b741a3accecae2eda388ae9e090e923b1ac3d82cd206e84cdc28.jpg" /></p>
+<h1 id="international-standard">INTERNATIONAL STANDARD<a class="headerlink" href="#international-standard" title="Permanent link">&para;</a></h1>
+<p>Edition 1.0 2017-06 </p>
+<p><img alt="" src="images/fc104a82e6e92793e29901c46fce8c4a46bb781f6e1de2a0049d5e66aabfb4a0.jpg" /></p>
+<p>Electric vehicle conductive charging system – Part 21-1: Electric vehicle on-board charger EMC requirements for conductive connection to an AC/DC supply </p>
+<p>INTERNATIONAL
+ELECTROTECHNICAL
+COMMISSION </p>
+<p>ICS 43.120 </p>
+<p>ISBN 978-2-8322-4432-6 </p>
+<p>Warning! Make sure that you obtained this publication from an authorized distributor. </p>
+<h2 id="contents">CONTENTS<a class="headerlink" href="#contents" title="Permanent link">&para;</a></h2>
+<p>FOREWORD....5
+1 Scope....7
+2 Normative references....7
+3 Terms and definitions....8
+4 General test conditions....9
+5 Test methods and requirements....10
+5.1 General....10
+5.1.1 Overview....10
+5.1.2 Exceptions....10
+5.2 Immunity....10
+5.2.1 General....10
+5.2.2 Function performance criteria....11
+5.2.3 Test severity level....11
+5.2.4 Immunity of vehicles to electrical fast transient/burst disturbances conducted along AC and DC power lines....12
+5.2.5 Immunity of vehicles to surges conducted along AC and DC power lines....12
+5.2.6 Immunity to electromagnetic radiated RF-fields....15
+5.2.7 Immunity to pulses on supply lines....20
+5.2.8 Immunity test and severity level overview....20
+5.3 Emissions....23
+5.3.1 Test conditions....23
+5.3.2 Emissions of harmonics on AC power lines....23
+5.3.3 Emission of voltage changes, voltage fluctuations and flicker on AC power lines....26
+5.3.4 High-frequency conducted disturbances on AC or DC power lines....27
+5.3.5 High-frequency conducted disturbances on network and telecommunication access....30
+5.3.6 High-frequency radiated disturbances....32
+5.3.7 Radiated disturbances on supply lines....37
+Annex A (normative) Artificial networks, asymmetric artificial networks and integration of charging stations into the test setup....38
+A.1 Overview....38
+A.2 Charging station and power mains connection....38
+A.3 Artificial networks (AN)....39
+A.3.1 General....39
+A.3.2 Low voltage (LV) powered component....39
+A.3.3 High voltage (HV) powered component....40
+A.3.4 Components involved in charging mode connected to DC power supply....42
+A.4 Artificial mains networks (AMN)....43
+A.5 Asymmetric artificial networks (AAN)....43
+A.5.1 General....43
+A.5.2 Symmetric communication lines (e.g. CAN)....43
+A.5.3 PLC on power lines....44
+A.5.4 PLC (technology) on control pilot....45
+Bibliography....47 </p>
+<p>Figure 1 – Electrical fast transient/burst test vehicle setup....12 </p>
+<p>Figure 2 – Vehicle in configuration "REESS charging mode coupled to the power grid"
+– coupling between lines for AC (single phase) and DC power lines....13
+Figure 3 – Vehicle in configuration "REESS charging mode coupled to the power grid"
+– coupling between each line and earth for AC (single phase) and DC power lines....13
+Figure 4 – Vehicle in configuration "REESS charging mode coupled to the power grid"
+– coupling between lines for AC (three phases) power lines....14
+Figure 5 – Vehicle in configuration "REESS charging mode coupled to the power grid"
+– coupling between each line and earth for AC (three phases) power lines....14
+Figure 6 – Example of test setup for vehicle with inlet located on the vehicle side (AC/DC power charging without communication)....16
+Figure 7 – Example of test setup for vehicle with inlet located at the front/rear of the vehicle (AC/DC power charging without communication)....17
+Figure 8 – Example of test setup for vehicle with inlet located on vehicle side (AC or DC power charging with communication)....18
+Figure 9 – Example of test setup for vehicle with inlet located at the front/rear of the vehicle (AC or DC power charging with communication)....19
+Figure 10 – Vehicle in configuration "REESS charging mode coupled to the power grid" – Single-phase charger test setup....25
+Figure 11 – Vehicle in configuration "REESS charging mode coupled to the power grid" – Three-phase charger test setup....25
+Figure 12 – Vehicle in configuration "REESS charging mode coupled to the power grid"....26
+Figure 13 – Vehicle in configuration "REESS charging mode coupled to the power grid"....29
+Figure 14 – Vehicle in configuration "REESS charging mode coupled to the power grid"....31
+Figure 15 – Example of vehicle in configuration "REESS charging mode coupled to the power grid"....34
+Figure 16 – Test configuration for ESAs involved in REESS charging mode coupled to the power grid (example for horn antenna)....36
+Figure A.1 – Example of 5 μH AN schematic....39
+Figure A.2 – Characteristics of the AN impedance....40
+Figure A.3 – Example of 5 μH HV AN schematic....41
+Figure A.4 – Characteristics of the HV AN impedance....41
+Figure A.5 – Example of 5 μH HV AN combination in a single shielded box....42
+Figure A.6 – Impedance matching network attached between HV ANs and EUT....42
+Figure A.7 – Example of an impedance stabilization network for symmetric communication lines....44
+Figure A.8 – Example of a circuit for emission tests of PLC on AC or DC powerlines....45
+Figure A.9 – Example of a circuit for immunity tests of PLC on AC or DC powerlines....45
+Figure A.10 – Example of a circuit for emission tests of PLC on control pilot line....46
+Figure A.11 – Example of a circuit for immunity tests of PLC on control pilot line....46</p>
+<p>Table 1 – Immunity tests....21
+Table 2 – Maximum allowed harmonics (input current ≤ 16 A per phase)....24
+Table 3 – Acceptable harmonics for $R_{SCE} = 33$ (16 A &lt; $I_i$ ≤ 75 A)....24
+Table 4 – Maximum allowed radiofrequency conducted disturbances on AC power lines....27
+Table 5 – Maximum allowed radiofrequency conducted disturbances on DC power lines....28
+Table 6 – Maximum allowed radiofrequency conducted disturbances on network and telecommunication access....30 </p>
+<p>Table 7 – Maximum allowed vehicle high-frequency radiated disturbances ....32
+Table 8 – Maximum allowed ESA high-frequency radiated disturbances ....35
+Table 9 – Maximum allowed ESA radiated disturbances on supply lines ....37 </p>
+<h1 id="international-electrotechnical-commission">INTERNATIONAL ELECTROTECHNICAL COMMISSION<a class="headerlink" href="#international-electrotechnical-commission" title="Permanent link">&para;</a></h1>
+<h1 id="electric-vehicle-conductive-charging-system">ELECTRIC VEHICLE CONDUCTIVE CHARGING SYSTEM –<a class="headerlink" href="#electric-vehicle-conductive-charging-system" title="Permanent link">&para;</a></h1>
+<h1 id="part-21-1-electric-vehicle-on-board-charger-emc-requirements-for-conductive-connection-to-an-acdc-supply">Part 21-1: Electric vehicle on-board charger EMC requirements for conductive connection to an AC/DC supply<a class="headerlink" href="#part-21-1-electric-vehicle-on-board-charger-emc-requirements-for-conductive-connection-to-an-acdc-supply" title="Permanent link">&para;</a></h1>
+<p>FOREWORD </p>
+<p>1) The International Electrotechnical Commission (IEC) is a worldwide organization for standardization comprising all national electrotechnical committees (IEC National Committees). The object of IEC is to promote international co-operation on all questions concerning standardization in the electrical and electronic fields. To this end and in addition to other activities, IEC publishes International Standards, Technical Specifications, Technical Reports, Publicly Available Specifications (PAS) and Guides (hereafter referred to as "IEC Publication(s)"). Their preparation is entrusted to technical committees; any IEC National Committee interested in the subject dealt with may participate in this preparatory work. International, governmental and non-governmental organizations liaising with the IEC also participate in this preparation. IEC collaborates closely with the International Organization for Standardization (ISO) in accordance with conditions determined by agreement between the two organizations. </p>
+<p>2) The formal decisions or agreements of IEC on technical matters express, as nearly as possible, an international consensus of opinion on the relevant subjects since each technical committee has representation from all interested IEC National Committees. </p>
+<p>3) IEC Publications have the form of recommendations for international use and are accepted by IEC National Committees in that sense. While all reasonable efforts are made to ensure that the technical content of IEC Publications is accurate, IEC cannot be held responsible for the way in which they are used or for any misinterpretation by any end user. </p>
+<p>4) In order to promote international uniformity, IEC National Committees undertake to apply IEC Publications transparently to the maximum extent possible in their national and regional publications. Any divergence between any IEC Publication and the corresponding national or regional publication shall be clearly indicated in the latter. </p>
+<p>5) IEC itself does not provide any attestation of conformity. Independent certification bodies provide conformity assessment services and, in some areas, access to IEC marks of conformity. IEC is not responsible for any services carried out by independent certification bodies. </p>
+<p>6) All users should ensure that they have the latest edition of this publication. </p>
+<p>7) No liability shall attach to IEC or its directors, employees, servants or agents including individual experts and members of its technical committees and IEC National Committees for any personal injury, property damage or other damage of any nature whatsoever, whether direct or indirect, or for costs (including legal fees) and expenses arising out of the publication, use of, or reliance upon, this IEC Publication or any other IEC Publications. </p>
+<p>8) Attention is drawn to the Normative references cited in this publication. Use of the referenced publications is indispensable for the correct application of this publication. </p>
+<p>9) Attention is drawn to the possibility that some of the elements of this IEC Publication may be the subject of patent rights. IEC shall not be held responsible for identifying any or all such patent rights. </p>
+<p>International Standard IEC 61851-21-1 has been prepared by subcommittee 69: Electric road vehicles and electric industrial trucks. </p>
+<p>This first edition, together with IEC 61851-21-2, cancels and replaces IEC 61851-21:2001. It constitutes a technical revision. </p>
+<p>This edition includes the following significant technical changes with respect to IEC 61851-21:2001: </p>
+<p>a) this document addresses now only EMC tests instead of other electrical tests; </p>
+<p>b) test setups are defined more precisely; </p>
+<p>c) Annex A "Artificial networks, asymmetric artificial networks and integration of charging stations into the test setup" was added. </p>
+<p>The text of this International Standard is based on the following documents: </p>
+<table><tr><td>FDIS</td><td>Report on voting</td></tr><tr><td>69/507/FDIS</td><td>69/516/RVD</td></tr></table>
+
+<p>Full information on the voting for the approval of this International Standard can be found in the report on voting indicated in the above table. </p>
+<p>This document has been drafted in accordance with the ISO/IEC Directives, Part 2. </p>
+<p>A list of all parts of the IEC 61851 series, under the general title: Electric vehicle conductive charging system, can be found on the IEC website. </p>
+<p>The committee has decided that the contents of this document will remain unchanged until the stability date indicated on the IEC website under "http://webstore.iec.ch" in the data related to the specific document. At this date, the document will be </p>
+<ul>
+<li>
+<p>reconfirmed, </p>
+</li>
+<li>
+<p>withdrawn, </p>
+</li>
+</ul>
+<p>• replaced by a revised edition, or </p>
+<ul>
+<li>amended. </li>
+</ul>
+<p>A bilingual version of this publication may be issued at a later date. </p>
+<p>IMPORTANT – The 'colour inside' logo on the cover page of this publication indicates that it contains colours which are considered to be useful for the correct understanding of its contents. Users should therefore print this document using a colour printer. </p>
+<h1 id="electric-vehicle-conductive-charging-system_1">ELECTRIC VEHICLE CONDUCTIVE CHARGING SYSTEM –<a class="headerlink" href="#electric-vehicle-conductive-charging-system_1" title="Permanent link">&para;</a></h1>
+<h1 id="part-21-1-electric-vehicle-on-board-charger-emc-requirements-for-conductive-connection-to-an-acdc-supply_1">Part 21-1: Electric vehicle on-board charger EMC requirements for conductive connection to an AC/DC supply<a class="headerlink" href="#part-21-1-electric-vehicle-on-board-charger-emc-requirements-for-conductive-connection-to-an-acdc-supply_1" title="Permanent link">&para;</a></h1>
+<h2 id="1-scope">1 Scope<a class="headerlink" href="#1-scope" title="Permanent link">&para;</a></h2>
+<p>This part of IEC 61851, together with IEC 61851-1:2010, gives requirements for conductive connection of an electric vehicle (EV) to an AC or DC supply. It applies only to on-board charging units either tested on the complete vehicle or tested on the charging system component level (ESA – electronic sub assembly). </p>
+<p>This document covers the electromagnetic compatibility (EMC) requirements for electrically propelled vehicles in any charging mode while connected to the mains supply. </p>
+<p>This document is not applicable to trolley buses, rail vehicles, industrial trucks and vehicles designed primarily to be used off-road, such as forestry and construction machines. </p>
+<p>NOTE 1 Specific safety requirements that apply to equipment on the vehicle during charging are treated in separate documents as indicated in the corresponding clauses of this document. </p>
+<p>NOTE 2 Electric vehicle (EV) includes pure electric vehicles as well as plug-in hybrid electric vehicles with additional combustion engine. </p>
+<h2 id="2-normative-references">2 Normative references<a class="headerlink" href="#2-normative-references" title="Permanent link">&para;</a></h2>
+<p>The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies. </p>
+<p>IEC 60038:2009, IEC standard voltages </p>
+<p>IEC 61000-3-2:2014, Electromagnetic compatibility (EMC) - Part 3-2: Limits - Limits for harmonic current emissions (equipment input current ≤ 16 A per phase) </p>
+<p>IEC 61000-3-3:2013, Electromagnetic compatibility (EMC) – Part 3-3: Limits – Limitation of voltage changes, voltage fluctuations and flicker in public low-voltage supply systems, for equipment with rated current ≤ 16 A per phase and not subject to conditional connection </p>
+<p>IEC 61000-3-11:2000. Electromagnetic compatibility (EMC) - Part 3-11 - Limits - Limitation of voltage changes, voltage fluctuations and flicker in public low-voltage supply systems - Equipment with rated current ≤ 75 A and subject to conditional connection </p>
+<p>IEC 61000-3-12:2011, Electromagnetic compatibility (EMC) – Part 3-12 – Limits for harmonic currents produced by equipment connected to public low-voltage systems with input current &gt; 16 A and ≤ 75 A per phase </p>
+<p>IEC 61000-4-4:2012, Electromagnetic compatibility (EMC) - Part 4-4: Testing and measurement techniques - Electrical fast transient/burst immunity test </p>
+<p>IEC 61000-4-5:2014, Electromagnetic compatibility (EMC) - Part 4-5: Testing and measurement techniques - Surge immunity test </p>
+<p>IEC 61000-6-3:2006, Electromagnetic compatibility (EMC) – Part 6-3: Generic standards – Emission standard for residential, commercial and light-industrial environments
+IEC 61000-6-3:2006/AMD1:2010 </p>
+<p>IEC 61851-1:2010, Electric vehicle conductive charging system – Part 1: General requirements </p>
+<p>CISPR 12:2007, Vehicles, boats and internal combustion engines – Radio disturbance characteristics – Limits and methods of measurement for the protection of off-board receivers
+CISPR 12:2007/AMD1:2009 </p>
+<p>CISPR 16-1-2:2014, Specification for radio disturbance and immunity measuring apparatus and methods – Part 1-2: Radio disturbance and immunity measuring apparatus – Coupling devices for conducted disturbance measurements </p>
+<p>CISPR 16-2-1:2014, Specification for radio disturbance and immunity measuring apparatus and methods – Part 2-1: Methods of measurement of disturbances and immunity – Conducted disturbance measurements </p>
+<p>CISPR 22:2008, Information technology equipment – Radio disturbance characteristics – Limits and methods of measurement </p>
+<p>CISPR 25:2016, Vehicles, boats and internal combustion engines – Radio disturbance characteristics – Limits and methods of measurement for the protection of on-board receivers </p>
+<p>ISO/TR 8713:2012, Electrically propelled road vehicles – Vocabulary </p>
+<p>ISO 7637-2:2011, Road vehicles – Electrical disturbances from conduction and coupling -- Part 2: Electrical transient conduction along supply lines only </p>
+<p>ISO 11451-1:2015, Road vehicles – Vehicle test methods for electrical disturbances from narrowband radiated electromagnetic energy – Part 1: General principles and terminology </p>
+<p>ISO 11451-2:2015, Road vehicles – Vehicle test methods for electrical disturbances from narrowband radiated electromagnetic energy – Part 2: Off-vehicle radiation sources </p>
+<p>ISO 11452-1:2015, Road vehicles – Component test methods for electrical disturbances from narrowband radiated electromagnetic energy – Part 1: General principles and terminology </p>
+<p>ISO 11452-2:2004, Road vehicles – Component test methods for electrical disturbances from narrowband radiated electromagnetic energy – Part 2: Absorber-lined shielded enclosure </p>
+<p>ISO 11452-4:2011, Road vehicles – Component test methods for electrical disturbances from narrowband radiated electromagnetic energy – Part 4: Harness excitation methods </p>
+<h2 id="3-terms-and-definitions">3 Terms and definitions<a class="headerlink" href="#3-terms-and-definitions" title="Permanent link">&para;</a></h2>
+<p>For the purposes of this document, the terms and definitions given in IEC 61851-1:2010 and ISO/TR 8713:2012, as well as the following apply. </p>
+<p>ISO and IEC maintain terminological databases for use in standardization at the following addresses: </p>
+<p>• IEC Electropedia: available at http://www.electropedia.org/ </p>
+<p>• ISO Online browsing platform: available at http://www.iso.org/obp </p>
+<h2 id="31">3.1<a class="headerlink" href="#31" title="Permanent link">&para;</a></h2>
+<p>REESS </p>
+<p>rechargeable energy storage system that provides electric energy for electric propulsion of the vehicle </p>
+<h2 id="32">3.2<a class="headerlink" href="#32" title="Permanent link">&para;</a></h2>
+<h2 id="on-board-ev-charging-system">on-board EV charging system<a class="headerlink" href="#on-board-ev-charging-system" title="Permanent link">&para;</a></h2>
+<p>all equipment in the charge power supply chain inside the vehicle </p>
+<p>Note 1 to entry: It includes the plug and cable if physically connected to the vehicle (cable cannot be removed without any tool, i.e. case A as defined in IEC 61851-1:2010). </p>
+<h2 id="33">3.3<a class="headerlink" href="#33" title="Permanent link">&para;</a></h2>
+<h2 id="electricalelectronic-sub-assembly">electrical/electronic sub-assembly<a class="headerlink" href="#electricalelectronic-sub-assembly" title="Permanent link">&para;</a></h2>
+<h2 id="esa">ESA<a class="headerlink" href="#esa" title="Permanent link">&para;</a></h2>
+<p>electrical and/or electronic device or set(s) of devices intended to be part of a vehicle, together with any associated electrical connections and wiring, which performs one or more specialized functions </p>
+<h2 id="34">3.4<a class="headerlink" href="#34" title="Permanent link">&para;</a></h2>
+<p>low voltage </p>
+<p>Lv </p>
+<p>operating DC voltage below 60 V </p>
+<p>EXAMPLE Nominal voltages of 12 V, 24 V, 48 V. </p>
+<h2 id="35">3.5<a class="headerlink" href="#35" title="Permanent link">&para;</a></h2>
+<p>LV harness </p>
+<p>low voltage harness with operating voltages below 60 V </p>
+<h2 id="36">3.6<a class="headerlink" href="#36" title="Permanent link">&para;</a></h2>
+<p>high voltage </p>
+<p>HV </p>
+<p>operating voltages of 60 V to 1000 V </p>
+<p>Note 1 to entry: HV+ and HV- are abbreviations for the positive and negative terminal line, respectively. </p>
+<p>Note 2 to entry: HV definition is in accordance to CISPR 25, ISO 11451-1 and ISO 11452-1. </p>
+<h2 id="37">3.7<a class="headerlink" href="#37" title="Permanent link">&para;</a></h2>
+<p>electric vehicle </p>
+<h2 id="ev">EV<a class="headerlink" href="#ev" title="Permanent link">&para;</a></h2>
+<p>pure electric vehicles as well as plug-in hybrid electric vehicles with additional combustion engine </p>
+<h2 id="4-general-test-conditions">4 General test conditions<a class="headerlink" href="#4-general-test-conditions" title="Permanent link">&para;</a></h2>
+<p>The vehicle systems shall operate correctly within +10 % to -15 % of the standard nominal supply voltage. This takes into account variations that are induced by the installation as defined in Annex A of IEC 60038:2009. The rated value of the frequency is 50 Hz ± 1 % or 60 Hz ± 1 %. </p>
+<p>NOTE IEC 60038:2009 specifies the voltage at the delivery point. Annex A proposes to specify wider values to allow for further voltage variations due to installations. </p>
+<p>Test methods concern only the electric vehicle charging system with "REESS in charging mode coupled to the power grid". Tests shall be performed either on separate samples or on the whole vehicle at the vehicle manufacturer's request as defined in the test plan. </p>
+<p>The vehicle shall be in an unladen condition except for necessary test equipment. </p>
+<p>The vehicle shall be immobilized, engine OFF, and in charging mode. </p>
+<p>All other equipment which can be switched on permanently by the driver or passenger shall be OFF. </p>
+<p>The tests shall be carried out with the equipment under test (EUT) or any movable part of it placed in the most unfavourable position as defined in the test plan. </p>
+<p>Unless otherwise specified, the tests shall be carried out in a draught-free location and at an ambient temperature of $23\ ^{\circ}C \pm 5\ ^{\circ}C$ according to ISO 11451-1:2015 and ISO 11452-1:2015. </p>
+<h2 id="5-test-methods-and-requirements">5 Test methods and requirements<a class="headerlink" href="#5-test-methods-and-requirements" title="Permanent link">&para;</a></h2>
+<h2 id="51-general">5.1 General<a class="headerlink" href="#51-general" title="Permanent link">&para;</a></h2>
+<h2 id="511-overview">5.1.1 Overview<a class="headerlink" href="#511-overview" title="Permanent link">&para;</a></h2>
+<p>All tests shall be carried out using the charging cable specified or provided by the electric vehicle supply equipment (EVSE) manufacturer or the electric vehicle manufacturer as described in further detail in the test plan, for example cable lengths. </p>
+<p>If the charging cable is provided by the vehicle manufacturer the extraneous length shall be z-folded in 0,5 m width. </p>
+<p>The artificial (mains) networks (AN/AMN) for power supply and asymmetric artificial networks (AAN) for charging communications to be used for these tests are described in Annex A. </p>
+<p>For electrical/electronic sub-assembly (ESA) separated on-board charger tests an appropriate load shall be used to simulate the vehicle HV-systems terminations, for example HV battery. If specific load boxes are used, these shall also be described in the test plan. </p>
+<h2 id="512-exceptions">5.1.2 Exceptions<a class="headerlink" href="#512-exceptions" title="Permanent link">&para;</a></h2>
+<p>Vehicles and/or ESA which are intended to be used in "REESS charging mode coupled to the power grid" in the configuration connected to a DC-charging station with a length of a DC network cable shorter than 30 m do not have to fulfil the requirements of conducted emissions, surge and fast transients (burst) neither on vehicle nor ESA level. </p>
+<p>In this case, the manufacturer shall provide a statement that the vehicle and/or ESA can be used in "REESS charging mode coupled to the power grid" only with cables shorter than 30 m. This information shall be made publicly available following the type approval. </p>
+<p>Vehicles and/or ESA which are intended to be used in "REESS charging mode coupled to the power grid" in the configuration connected to a local/private DC-charging station without additional participants do not have to fulfil requirements of conducted emissions, surge and fast transients (burst) neither on vehicle nor ESA level. </p>
+<p>In this case, the manufacturer shall provide a statement that the vehicle and/or ESA can be used in "REESS charging mode coupled to the power grid" only with a local/private DC charging station without additional participants. This information shall be made publicly available following the type approval. </p>
+<h2 id="52-immunity">5.2 Immunity<a class="headerlink" href="#52-immunity" title="Permanent link">&para;</a></h2>
+<h2 id="521-general">5.2.1 General<a class="headerlink" href="#521-general" title="Permanent link">&para;</a></h2>
+<p>The tests shall be carried out individually as single tests in sequence. The tests may be performed in any order. </p>
+<p>In general, the EUT shall be tested in configuration "REESS in charging mode coupled to the power grid". </p>
+<p>If the current consumption can be adjusted, the current shall be set to at least 20 % of its nominal value. </p>
+<p>If the current consumption cannot be adjusted, the REESS state of charge (SOC) shall be kept between 20 % and 80 % of the maximum SOC during the whole time duration of the measurement </p>
+<p>NOTE This may lead to split the measurement in different time slots/sub-bands with the need to discharge the vehicle's traction battery before starting the next time slot/sub-band. </p>
+<p>The EUT shall be switched on and shall operate as defined in the test plan. </p>
+<p>The description of the test, relevant generator, appropriate methods, and the setup to be used are given in the basic standards, which are referred to in Table 1. </p>
+<p>The contents of these basic standards are not repeated here, however modifications or additional information needed for the practical application of the tests are given in this document. </p>
+<p>Only non-disturbing equipment shall be used while monitoring the vehicle or ESA. The vehicle exterior and the passenger compartment/ESA shall be monitored to determine whether the requirements are met (e.g. for vehicle test by using (a) video camera(s), a microphone, etc.). </p>
+<p>The electric vehicle shall not become dangerous or unsafe as a result of the application of the tests defined in this document. </p>
+<h2 id="522-function-performance-criteria">5.2.2 Function performance criteria<a class="headerlink" href="#522-function-performance-criteria" title="Permanent link">&para;</a></h2>
+<p>Subclause 5.2.2 defines the expected performance objectives for the function of the vehicle subjected to the test conditions. The performance criteria of the function (expected behaviour of the function observed during test) are listed below. </p>
+<p>NOTE This element is applicable to every single individual function of an equipment under test and describes the operational status of the defined function during and after a test. </p>
+<p>Performance criterion A: The vehicle shall not be set in motion. The charging function shall continue to operate as intended during and after the test. No degradation of performance or loss of function is allowed. </p>
+<p>Performance criterion B: The vehicle shall not be set in motion. The charging function shall continue to operate as intended after the test. No degradation of performance or loss of function is allowed after the test. During the test temporary loss of charging function is allowed provided the charging function is restored automatically without user interaction. </p>
+<p>Performance criterion C: The vehicle shall not be set in motion. Temporary loss of function is allowed, provided the function can be restored by simple operations of the controls and without the use of tools, by the user of the equipment or operator from remote position. </p>
+<h2 id="523-test-severity-level">5.2.3 Test severity level<a class="headerlink" href="#523-test-severity-level" title="Permanent link">&para;</a></h2>
+<p>This defines the specification of test severity level of essential signal parameters. The test severity level is the stress level applied to the equipment under test for any given test method. The test severity levels depend on the required operational characteristics of the function. Test severity levels are given in Table 1. </p>
+<h2 id="524-immunity-of-vehicles-to-electrical-fast-transientburst-disturbances-conducted-along-ac-and-dc-power-lines">5.2.4 Immunity of vehicles to electrical fast transient/burst disturbances conducted along AC and DC power lines<a class="headerlink" href="#524-immunity-of-vehicles-to-electrical-fast-transientburst-disturbances-conducted-along-ac-and-dc-power-lines" title="Permanent link">&para;</a></h2>
+<h2 id="5241-general">5.2.4.1 General<a class="headerlink" href="#5241-general" title="Permanent link">&para;</a></h2>
+<p>EV charging equipment directly powered by the AC power lines and DC power lines shall withstand common mode conducted disturbances to levels given in Table 1, generally caused by the switching of small inductive loads, relay contacts bouncing, or switching of high-voltage switchgear. </p>
+<h2 id="5242-electric-vehicle-charging-equipment-test">5.2.4.2 Electric vehicle charging equipment test<a class="headerlink" href="#5242-electric-vehicle-charging-equipment-test" title="Permanent link">&para;</a></h2>
+<p>This test is intended to demonstrate the immunity of the vehicle electronic systems network according to IEC 61000-4-4:2012. The electric vehicle charging equipment shall be subject to electrical fast transient/burst disturbances conducted along AC and DC power lines of the vehicle as described in 5.2.5.2. The vehicle shall be monitored during the tests. </p>
+<p>The test setup is depicted in Figure 1. </p>
+<p>The vehicle shall be placed directly on the ground plane. The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 (±0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/d0ce281f5b59549d967864a56c4dc81ec6bd9b442b3e3b26b1f94f9a8b289562.jpg" /></p>
+<p>Key </p>
+<p>1 EFT/burst generator </p>
+<p>2 AC/DC/mains </p>
+<p>3 filter </p>
+<p>Figure 1 – Electrical fast transient/burst test vehicle setup </p>
+<h2 id="5243-esa-separated-on-board-charger-test">5.2.4.3 ESA, separated on-board charger test<a class="headerlink" href="#5243-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure according to IEC 61000-4-4:2012 shall be applied to separated on-board charger tests. </p>
+<p>The enclosure of ESA need not be bonded to ground plane directly. </p>
+<h2 id="525-immunity-of-vehicles-to-surges-conducted-along-ac-and-dc-power-lines">5.2.5 Immunity of vehicles to surges conducted along AC and DC power lines<a class="headerlink" href="#525-immunity-of-vehicles-to-surges-conducted-along-ac-and-dc-power-lines" title="Permanent link">&para;</a></h2>
+<h2 id="5251-general">5.2.5.1 General<a class="headerlink" href="#5251-general" title="Permanent link">&para;</a></h2>
+<p>On-board EV charging equipment directly powered by the AC power mains shall withstand the voltage surges, generally caused by switching phenomena in the power grid, faults or lightning strokes (indirect strokes) as described in Table 1. </p>
+<p>The test equipment is composed of a reference ground plane (a shielded room is not required), a surge generator and a coupling/decoupling network (CDN). </p>
+<h2 id="5252-electric-vehicle-charging-system-test">5.2.5.2 Electric vehicle charging system test<a class="headerlink" href="#5252-electric-vehicle-charging-system-test" title="Permanent link">&para;</a></h2>
+<p>This test is intended to demonstrate the immunity of the vehicle electronic systems according to IEC 61000-4-5:2014. The vehicle shall be subject to surges conducted along AC and DC power lines of the vehicle. The vehicle shall be monitored during the tests. </p>
+<p>NOTE If transmitters being part of authorization and payment process might not be switched off during charging, then transmitter-specific standard applies (e.g. 3G, 4G, RFID). </p>
+<p>The vehicle shall be positioned on the ground plane. The electrical surge shall be applied on the vehicle on the AC and DC power lines between each line and earth and between lines by using CDN as described in Figures 2 to 5. </p>
+<p>The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 ( $\pm$ 0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/d3f31607051dd4e1f86c650f83799ec3ca29a4a01f2075f957a65d8fbe0975ad.jpg" /></p>
+<p>Key </p>
+<p>1 surge-generator </p>
+<p>2 AC/DC/mains </p>
+<p>3 filter </p>
+<p>Figure 2 - Vehicle in configuration "REESS charging mode coupled to the power grid" - coupling between lines for AC (single phase) and DC power lines</p>
+<p><img alt="" src="images/0d3d6e05a4eb442c7f0a22e6ae8149f3e6b698a8b920c83f15c4515ca7cf586d.jpg" /></p>
+<p>Key </p>
+<p>1 surge-generator </p>
+<p>2 AC/DC/mains </p>
+<p>3 filter </p>
+<p>Figure 3 – Vehicle in configuration "REESS charging mode coupled to the power grid" – coupling between each line and earth for AC (single phase) and DC power lines </p>
+<p><img alt="" src="images/0367467de0ef1ef0223eece1062dad58aacd2a873ae88afc6c0a9f6d2058d08b.jpg" /></p>
+<p>Figure 4 – Vehicle in configuration "REESS charging mode coupled to the power grid" – coupling between lines for AC (three phases) power lines</p>
+<p><img alt="" src="images/c7de90c7e3cfe2c993fd1113e69684b12f5a390a5fe8f294527ded94a4887ef3.jpg" /></p>
+<p>Figure 5 – Vehicle in configuration "REESS charging mode coupled to the power grid" – coupling between each line and earth for AC (three phases) power lines</p>
+<h2 id="5253-esa-separated-on-board-charger-test">5.2.5.3 ESA, separated on-board charger test<a class="headerlink" href="#5253-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure according to IEC 61000-4-5:2014 shall be applied to separated on-board charger tests. The enclosure of ESA need not be bonded to ground plane directly. </p>
+<h2 id="526-immunity-to-electromagnetic-radiated-rf-fields">5.2.6 Immunity to electromagnetic radiated RF-fields<a class="headerlink" href="#526-immunity-to-electromagnetic-radiated-rf-fields" title="Permanent link">&para;</a></h2>
+<h2 id="5261-general">5.2.6.1 General<a class="headerlink" href="#5261-general" title="Permanent link">&para;</a></h2>
+<p>The EV charging system shall withstand radiated electromagnetic disturbances according to ISO 11451-2:2015. </p>
+<h2 id="5262-electric-vehicle-charging-system-test">5.2.6.2 Electric vehicle charging system test<a class="headerlink" href="#5262-electric-vehicle-charging-system-test" title="Permanent link">&para;</a></h2>
+<p>The reference point is the middle of the vehicle (from front view), 0,2 m behind the front wheel axle. </p>
+<p>For charging cables supplied by the vehicle manufacturer, extraneous length shall be z-folded in less than 0.5 m width. The cable shall be z-folded in less than 0.5 m width if longer than 1 m, placed 0.1 ( $\pm$ 0.025) m above the ground plane and at least 0.1 m away from the car body. </p>
+<p>The EV in configuration "REESS charging mode coupled to the power grid" shall comply with the requirements of the semi-anechoic chamber test according ISO 11451-2:2015 at the manufacturer's discretion. Measurements shall be made in the 20 MHz to 2000 MHz frequency range with frequency steps according to ISO 11451-1:2015. </p>
+<p>The EV in configuration "REESS charging mode coupled to the power grid" shall be exposed to electromagnetic radiation as defined in 1.2 to 1.3 of Table 1. </p>
+<p>For vehicles with the power charging plug located at the side of the vehicle, the AMN/AN shall be placed aligned with the vehicle power charging plug and the vehicle charging cable. </p>
+<p>For vehicles with plug located front/rear or the power charging plug located at the front/rear of the vehicle, the AMN/AN shall be placed perpendicular to the vehicle power charging plug and shall be aligned with the vehicle charging cable. </p>
+<p>Figure 6 to Figure 9 depict vehicle configurations in charging mode with and without communications applied. </p>
+<p><img alt="" src="images/8db4257c2c5f4fb8dcd10f0273ff3626e4ffa6f56cb3d9cadcc485d293738162.jpg" /></p>
+<p>Top view</p>
+<p>IEC </p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable (extraneous length z-folded) </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 reference point </p>
+<p>Figure 6 - Example of test setup for vehicle with inlet located on the vehicle side (AC/DC power charging without communication) </p>
+<p><img alt="" src="images/5ea8c31d0cdf7adb6f446455770dfa8fcbbfe479af05b53e2276497ead2126d6.jpg" /></p>
+<p><img alt="" src="images/85c941fb43335a29489177788313cbfaf23cc29455b37e88eacf436bae4b7604.jpg" /></p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable (extraneous length z-folded) </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 reference point </p>
+<p>Figure 7 – Example of test setup for vehicle with inlet located at the front/rear of the vehicle (AC/DC power charging without communication) </p>
+<p><img alt="" src="images/283b3ad37efbebf6f66e9eeb2bea554887d89754c7c4ce27887f01890ae510f1.jpg" /></p>
+<p><img alt="" src="images/56afcc14af1cc0ad1749d725bce2821023478b7bdf174e709fbace886158935e.jpg" /></p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable (extraneous length z-folded) </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 impedance stabilisation network(s) grounded </p>
+<p>7 reference point </p>
+<p>Figure 8 – Example of test setup for vehicle with inlet located on vehicle side (AC or DC power charging with communication) </p>
+<p><img alt="" src="images/9bbb1bc8dc6c3ab320f93bdc683dbddac01b5d5fb4f2bf603131808e1894d3ec.jpg" /></p>
+<p><img alt="" src="images/a83556fc323ddae764543ce1a1ad6f91cd0388bd3c04daa9bc04586e34eeb73e.jpg" /></p>
+<p>Top view</p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable (extraneous length z-folded) </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 asymmetric artificial network(s) grounded </p>
+<p>7 reference point </p>
+<p>Figure 9 - Example of test setup for vehicle with inlet located at the front/rear of the vehicle (AC or DC power charging with communication) </p>
+<h2 id="5263-esa-separated-on-board-charger-test">5.2.6.3 ESA, separated on-board charger test<a class="headerlink" href="#5263-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>ESAs in configuration "REESS charging mode coupled to the power grid" shall comply with the requirements of the combination of the semi-anechoic chamber test according ISO 11452-2:2004 and bulk current injection testing according ISO 11452-4:2011 at the manufacturer's discretion. Measurements shall be made in the 20 MHz to 2000 MHz frequency range with frequency steps according to ISO 11452-1:2015. </p>
+<p>The enclosure of ESA need not be bonded to ground plane directly. </p>
+<p>ESAs in configuration "REESS charging mode coupled to the power grid" shall be exposed to electromagnetic radiation as defined in 1.9 of Table 1. </p>
+<h2 id="527-immunity-to-pulses-on-supply-lines">5.2.7 Immunity to pulses on supply lines<a class="headerlink" href="#527-immunity-to-pulses-on-supply-lines" title="Permanent link">&para;</a></h2>
+<p>The immunity of the ESA representative of its type shall be tested by the method(s) according to ISO 7637-2:2011 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines. </p>
+<p>The enclosure of ESA need not be bonded to ground plane directly. </p>
+<p>The test levels and test pulse types are given in 1.9 of Table 1. </p>
+<h2 id="528-immunity-test-and-severity-level-overview">5.2.8 Immunity test and severity level overview<a class="headerlink" href="#528-immunity-test-and-severity-level-overview" title="Permanent link">&para;</a></h2>
+<p>Table 1 summarizes the immunity test requirements. </p>
+<p>Table 1 - Immunity tests</p>
+<table><tr><td></td><td>Environmental phenomena</td><td>Test severity level</td><td>Units</td><td>Basic standards</td><td>Remarks</td><td>Performance criterion<eq>^{f}</eq></td></tr><tr><td>1.1</td><td>Radio-frequency electromagnetic field. Amplitude modulated</td><td>20 to 800<eq>^{g}</eq>3080</td><td>MHzV/m (RMS)% AM (1 kHz)</td><td>ISO 11451-2:2015</td><td>Vehicle testVertical polarization of the E field<eq>^{a\ b\ d}</eq></td><td>B</td></tr><tr><td>1.2</td><td>Radio-frequency electromagnetic field. Pulse modulated</td><td>800 to 2 00030<eq>t_{ON}: 577</eq>T: 4 600</td><td>MHzV/m (RMS)<eq>\mu s</eq><eq>\mu s</eq></td><td>ISO 11451-2:2015</td><td>Vehicle testVertical polarization of the E field<eq>^{a\ b}</eq></td><td>B</td></tr><tr><td>1.3</td><td>Fast transients (AC and DC power lines)</td><td>± 25/505</td><td>kV (open circuit test voltage)<eq>T_r/T_h ns</eq>Repetition frequency kHz</td><td>IEC 61000-4-4:2012</td><td>Vehicle or ESA testPrivate I/O lines like pilot lines are covered by the charging cable internal capacitive coupling<eq>^c</eq></td><td>B</td></tr><tr><td>1.4</td><td>Surges (AC power lines)line-to-earthline-to-line</td><td>1,2/50 (8/20)± 2± 1</td><td><eq>T_r/T_h</eq> <eq>\mu s</eq>kV (open circuit test voltage)kV (open circuit test voltage)</td><td>IEC 61000-4-5:2014</td><td>Vehicle or ESA testEach surge shall be applied 5 times at 1 min (or less, minimum 10 s) intervals for each of the following angles:0°, 90°, 180° and 270°</td><td><eq>B^g</eq></td></tr><tr><td>1.5</td><td>Surges (DC power lines)line-to-earthline-to-line</td><td>1,2/50 (8/20)± 0,5± 0,5</td><td><eq>T_r/T_h</eq> <eq>\mu s</eq>kV (open circuit test voltage)kV (open circuit test voltage)</td><td>IEC 61000-4-5:2014</td><td>Vehicle or ESA testEach surge shall be applied 5 times at 1 min (or less, minimum 10 s) intervals<eq>^{e\ f}</eq></td><td><eq>B^g</eq></td></tr><tr><td>1.6</td><td>Bulk current injection (BCi)Amplitude modulated</td><td>20 to 2006080</td><td>MHzmA (RMS)% AM (1 kHz)</td><td>ISO 11452-4:2011</td><td>ESA<eq>^b\ d</eq></td><td>B</td></tr><tr><td>1.7</td><td>Radio-frequency electromagnetic field. Amplitude modulated</td><td>200 to 8003080</td><td>MHzV/m (RMS)% AM (1 kHz)</td><td>ISO 11452-2:2004</td><td>ESAVertical polarization of the E field<eq>^{a\ b\ d}</eq></td><td>B</td></tr><tr><td></td><td>Environmental phenomena</td><td>Test severity level</td><td>Units</td><td>Basic standards</td><td>Remarks</td><td>Performance criterion1</td></tr><tr><td>1.8</td><td>Radio-frequency electromagnetic field. Pulse modulated</td><td>800 to 2 00030<eq>_{ON}</eq>: 577T: 4 600</td><td>MHzV/m (RMS)<eq>\mu s</eq><eq>\mu s</eq></td><td>ISO 11452-2:2004</td><td>ESAVertical polarization of the E field<eq>^{b}</eq>b</td><td>B</td></tr><tr><td rowspan="3">1.9</td><td rowspan="3">Immunity to pulses on supply lines</td><td>III</td><td>Pulse number 1 and 2b</td><td rowspan="3">ISO 7637-2:2011</td><td rowspan="3">ESA</td><td>C</td></tr><tr><td>III</td><td>Pulse number 2a and 4</td><td>B</td></tr><tr><td>III</td><td>Pulse number 3a/3b</td><td>A</td></tr><tr><td colspan="7">aThe field strength shall be 30 V/m RMS in over 90 % of the 20 MHz to 2 000 MHz frequency range and a minimum of 25 V/m over the whole 20 MHz to 2 000 MHz frequency range.bThe artificial mains network to be used for this test on vehicle is defined in Annex A.cWhen the coupling/decoupling network cannot be used on AC power lines, the capacitive coupling clamp defined in 6.3 of IEC 61000-4-4:2012 may be used.dAM is peak conservation according to ISO 11451-1:2015 or ISO 11452-1:2015.eVehicles and/or ESA which are intended to be used in "REESS charging mode coupled to the power grid" in the configuration connected to a DC-charging station with a length of a DC network cable shorter than 30 m need not fulfil these requirements.fVehicles and/or ESA which are intended to be used in "REESS charging mode coupled to the power grid" in the configuration connected to a local/private DC-charging station without additional participants need not fulfil these requirements.gIf protective devices and/or safety functions are implemented in the EUT, the performance criterion could be lowered to C.</td></tr></table>
+
+<h2 id="53-emissions">5.3 Emissions<a class="headerlink" href="#53-emissions" title="Permanent link">&para;</a></h2>
+<h2 id="531-test-conditions">5.3.1 Test conditions<a class="headerlink" href="#531-test-conditions" title="Permanent link">&para;</a></h2>
+<h2 id="5311-general">5.3.1.1 General<a class="headerlink" href="#5311-general" title="Permanent link">&para;</a></h2>
+<p>If the current consumption cannot be adjusted, the state of charge (SOC) of the traction battery shall be kept between 20 % and 80 % of the maximum SOC during the whole time duration of the measurement (this may lead to splitting the measurement in different time slots/sub-bands with the need to discharge the vehicle's traction battery before starting the next time slot/sub-band). If the current consumption can be adjusted, then the current shall be set to at least 80 % of its nominal value. </p>
+<h2 id="5312-telecommunication-lines-exceptions">5.3.1.2 Telecommunication lines exceptions<a class="headerlink" href="#5312-telecommunication-lines-exceptions" title="Permanent link">&para;</a></h2>
+<p>When there is no direct connection to the public telecommunication network which includes telecommunication service additional to the charging communication service, methods of testing for emission of RF conducted disturbances on network and telecommunication access from vehicle and ESA (both according to CISPR 22:2008) shall not be applied. </p>
+<p>When network and telecommunication access of the vehicle uses power line transmission (PLT) on AC and DC power lines, methods of testing for emission of RF conducted disturbances on network and telecommunication access from vehicle shall not be applied. </p>
+<p>NOTE 1 The pilot line is not a telecommunication line according to CISPR 22:2008. </p>
+<p>NOTE 2 In Europe (CENELEC members), standard EN 50561-1 gives the limits for PLT systems intentionally coupled to the grid for communication purposes. </p>
+<h2 id="532-emissions-of-harmonics-on-ac-power-lines">5.3.2 Emissions of harmonics on AC power lines<a class="headerlink" href="#532-emissions-of-harmonics-on-ac-power-lines" title="Permanent link">&para;</a></h2>
+<h2 id="5321-general">5.3.2.1 General<a class="headerlink" href="#5321-general" title="Permanent link">&para;</a></h2>
+<p>The measurements of even and odd current harmonics shall be performed up to the fortieth harmonic (see Table 2). </p>
+<p>The observation time to be used for the measurements shall be as for quasi-stationary equipment as defined in IEC 61000-3-2:2014, Table 4. </p>
+<p>The harmonic limits for the AC input current of electric vehicle charging systems (for rated current less than 16 A per phase) are covered by IEC 61000-3-2:2014 with general test conditions. In this case, compliance is checked according to IEC 61000-3-2:2014, Table 2. </p>
+<p>Table 2 – Maximum allowed harmonics (input current ≤ 16 A per phase)</p>
+<table><tr><td>Harmonic numberN</td><td>Maximum authorized harmonic currentA</td></tr><tr><td colspan="2">Odd harmonics</td></tr><tr><td>3</td><td>2.3</td></tr><tr><td>5</td><td>1.14</td></tr><tr><td>7</td><td>0.77</td></tr><tr><td>9</td><td>0.40</td></tr><tr><td>11</td><td>0.33</td></tr><tr><td>13</td><td>0.21</td></tr><tr><td><eq>15 \leq n \leq 39</eq></td><td><eq>0.15 \times 15/n</eq></td></tr><tr><td colspan="2">Even harmonics</td></tr><tr><td>2</td><td>1.08</td></tr><tr><td>4</td><td>0.43</td></tr><tr><td>6</td><td>0.30</td></tr><tr><td><eq>8 \leq n \leq 40</eq></td><td><eq>0.23 \times 8/n</eq></td></tr></table>
+
+<p>The harmonic limits for the AC input current ( $I_{i}$ ) of electric vehicle charging systems (for rated current more than 16 A, and less than 75 A per phase) are covered by IEC 61000-3-12:2011 with general test conditions. In this case, compliance is checked according to IEC 61000-3-12:2011 with $R_{sce}$ of 33 (see Table 3). </p>
+<p>Table 3 - Acceptable harmonics for $R_{sc\theta} = 33$ ( $16 \, \text{A} &lt; I_i \leq 75 \, \text{A}$ )</p>
+<table><tr><td colspan="6">Acceptable individual harmonic current <eq>I_{n}/I_{1}</eq> %</td><td colspan="2">Maximum current harmonic ratio %</td></tr><tr><td><eq>I_{3}</eq></td><td><eq>I_{5}</eq></td><td><eq>I_{7}</eq></td><td><eq>I_{9}</eq></td><td><eq>I_{11}</eq></td><td><eq>I_{13}</eq></td><td>THD</td><td>PWHD</td></tr><tr><td>21,6</td><td>10,7</td><td>7,2</td><td>3,8</td><td>3,1</td><td>2</td><td>23</td><td>23</td></tr></table>
+
+<p>Relative values of even harmonics lower than or equal to 12 shall be lower than $16/n\%$ . Even harmonics greater than 12 are taken into account in the total harmonic distortion (THD) and partial weighted harmonic distortion (PWHD) the same way as odd harmonics. </p>
+<p>Equipment that can operate over a power range that is covered by both IEC 61000-3-2:2014 and IEC 61000-3-12:2011 shall conform to each of these standards in the corresponding current range. </p>
+<p>Equipment with a rated current $\leq$ 16 A shall be tested according to IEC 61000-3-2:2014. Equipment with a rated current of, for example, 20 A shall be tested according to IEC 61000-3-12:2011 and IEC 61000-3-2:2014 with a current limited to 16 A. </p>
+<h2 id="5322-electric-vehicle-charging-system-test">5.3.2.2 Electric vehicle charging system test<a class="headerlink" href="#5322-electric-vehicle-charging-system-test" title="Permanent link">&para;</a></h2>
+<p>The test setup for single-phase vehicle in configuration "REESS charging mode coupled to the power grid" is shown in Figure 10. </p>
+<p>For charging cables supplied by the vehicle manufacturer, extraneous length shall be z-folded in less than 0,5 m width, if the cable length exceeds 1 m. The cable shall be placed 0,1 ( $\pm$ 0,025) mm above the ground plane and at least 100 mm away from the car body. </p>
+<p>Key </p>
+<p><img alt="" src="images/c89e46f7db512a24e56fd96fe7ed4ff669addf04b849b8ed99409b0fecf81311.jpg" /></p>
+<p>1 power supply of internal impedance $Z_{G}$ and open circuit voltage G</p>
+<p>2 measurement device with input impedance $Z_{M}$</p>
+<p>Figure 10 – Vehicle in configuration "REESS charging mode coupled to the power grid" – Single-phase charger test setup </p>
+<p>The test setup for three-phase charger in configuration "REESS charging mode coupled to the power grid" is shown in Figure 11. The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 (±0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/c324a167316a90128847005b52d65c2456dba3e800a36f1c5373ce81f215b761.jpg" /></p>
+<p>Key</p>
+<p>1 power supply of internal impedance $Z_{G}$ and open circuit voltage G</p>
+<p>2 measurement device with input impedance $Z_{M}$</p>
+<p>Figure 11 – Vehicle in configuration "REESS charging mode coupled to the power grid" – Three-phase charger test setup </p>
+<h2 id="5323-esa-separated-on-board-charger-test">5.3.2.3 ESA, separated on-board charger test<a class="headerlink" href="#5323-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure according to IEC 61000-3-2:2014 with general test conditions shall be applied to separated on-board charger tests (for rated current less than 16 A per phase). </p>
+<p>The test procedure according to IEC 61000-3-12:2011 with general test conditions shall be applied to separated on-board charger tests (for rated current more than 16 A and less than 75 A per phase). </p>
+<h2 id="533-emission-of-voltage-changes-voltage-fluctuations-and-flicker-on-ac-power-lines">5.3.3 Emission of voltage changes, voltage fluctuations and flicker on AC power lines<a class="headerlink" href="#533-emission-of-voltage-changes-voltage-fluctuations-and-flicker-on-ac-power-lines" title="Permanent link">&para;</a></h2>
+<h2 id="5331-general">5.3.3.1 General<a class="headerlink" href="#5331-general" title="Permanent link">&para;</a></h2>
+<p>The limits for rated current (for rated current less than 16 A per phase) and not subjected to conditional connection are those defined in Clause 5 of IEC 61000-3-3:2013. </p>
+<p>The limits for rated current (for rated current more than 16 A and less than 75 A per phase) and subjected to conditional connection are those defined in Clause 5 of IEC 61000-3-11:2000. </p>
+<p>Equipment that can operate over a power range that is covered by both IEC 61000-3-3:2013 and IEC 61000-3-11:2000 shall conform to each of these standards in the corresponding current range. </p>
+<p>Equipment with a rated current $\leq$ 16 A shall be tested according to IEC 61000-3-3:2013. Equipment with a rated current of, for example, 20 A shall be tested according to IEC 61000-3-11:2000 and IEC 61000-3-3:2013 with a current limited to 16 A. </p>
+<p>The parameters to be determined in the time-domain are "short duration flicker value", "long duration flicker value" and "voltage relative variation". </p>
+<h2 id="5332-electric-vehicle-charging-equipment-test">5.3.3.2 Electric vehicle charging equipment test<a class="headerlink" href="#5332-electric-vehicle-charging-equipment-test" title="Permanent link">&para;</a></h2>
+<p>The test setup for vehicle in configuration "REESS charging mode coupled to the power grid" is shown in Figure 12. The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 (± 0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/1d2412e3894b5d0b0230f0ffef64928f78e3561129df4b867da81a279e82d0de.jpg" /></p>
+<p>Key</p>
+<p>1 power supply with open circuit voltage G and (RP + jXP) impedance</p>
+<p>2 measurement device</p>
+<p>Figure 12 - Vehicle in configuration "REESS charging mode coupled to the power grid" </p>
+<h2 id="5333-esa-separated-on-board-charger-test">5.3.3.3 ESA, separated on-board charger test<a class="headerlink" href="#5333-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure on low frequency harmonics according to IEC 61000-3-3:2013 with general test conditions shall be applied to separated on-board charger tests (for rated current less than 16 A). </p>
+<p>The test procedure according to IEC 61000-3-11:2000 with general test conditions shall be applied to separated on-board charger tests (for rated current more than 16 A and less than 75 A). </p>
+<h2 id="534-high-frequency-conducted-disturbances-on-ac-or-dc-power-lines">5.3.4 High-frequency conducted disturbances on AC or DC power lines<a class="headerlink" href="#534-high-frequency-conducted-disturbances-on-ac-or-dc-power-lines" title="Permanent link">&para;</a></h2>
+<h2 id="5341-general">5.3.4.1 General<a class="headerlink" href="#5341-general" title="Permanent link">&para;</a></h2>
+<p>This test is intended to measure the level of radio frequency conducted disturbances generated by the vehicle/ESA in configuration "REESS charging mode coupled to the power grid" through its AC or DC power lines in order to ensure it is compatible with residential, commercial and light industrial environments. </p>
+<p>The artificial (mains) networks for power supply and asymmetric artificial networks (AAN) for charging communications to be used for this test are described in Annex A of this document. </p>
+<p>The measurements shall be performed with a spectrum analyser or a scanning receiver. The parameters to be used are respectively defined in CISPR 25:2016, 4.4.1 (Table 1) and 4.4.2 (Table 2). </p>
+<p>Measurements shall be performed with average and either quasi-peak or peak detectors. If peak detectors are used, a correction factor as defined in CISPR 12:2007/CISPR 12:2007/AMD1:2009 shall be applied. </p>
+<p>The limits on AC power lines are those defined in IEC 61000-6-3:2006/IEC 61000-6-3:2006/AMD 1:2010 and given in Table 4. </p>
+<p>Table 4 – Maximum allowed radiofrequency conducted disturbances on AC power lines</p>
+<table><tr><td>Frequency (MHz)</td><td>Limits and detector</td></tr><tr><td>0,15 to 0,5</td><td>66 dB(μV) to 56 dB(μV) (quasi-peak)56 dB(μV) to 46 dB(μV) (average)(linearly decreasing with logarithm of frequency)</td></tr><tr><td>0,5 to 5</td><td>56 dB(μV) (quasi-peak)46 dB(μV) (average)</td></tr><tr><td>5 to 30</td><td>60 dB(μV) (quasi-peak)50 dB(μV) (average)</td></tr></table>
+
+<p>The limits on DC power lines are those defined in IEC 61000-6-3:2006/IEC 61000-6-3:2006/AMD1:2010 and given in Table 5. </p>
+<p>Table 5 – Maximum allowed radiofrequency conducted disturbances on DC power lines</p>
+<table><tr><td>Frequency (MHz)</td><td>Limits and detector disturbance voltage</td></tr><tr><td>0,15 to 0,5</td><td>79 dB(μV) (quasi-peak)66 dB(μV) (average)</td></tr><tr><td>0,5 to 30</td><td>73 dB(μV) (quasi-peak)60 dB(μV) (average)</td></tr></table>
+
+<p>The limits apply throughout the frequency range 0,15 MHz to 30 MHz for measurements performed in a semi anechoic chamber or open area test site. </p>
+<h2 id="5342-electric-vehicle-charging-equipment-test">5.3.4.2 Electric vehicle charging equipment test<a class="headerlink" href="#5342-electric-vehicle-charging-equipment-test" title="Permanent link">&para;</a></h2>
+<p>The test setup for the connection of the vehicle in configuration "REESS charging mode coupled to the power grid" is shown in Figure 13. </p>
+<p>Cable configuration (communication lines separate or part of charging cable) shall be defined in the test plan. The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 (±0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/54b2c9262f9a527a6d188a7308f8e06a22334e12c0f22c59acbb0affccdb823e.jpg" /></p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable </p>
+<p>4 artificial (mains) network grounded </p>
+<p>5 AC power mains socket or AC/DC charging system (dolled line: arbitrary position) </p>
+<p>6 measuring receiver </p>
+<p>Figure 13 – Vehicle in configuration "REESS charging mode coupled to the power grid" </p>
+<h2 id="5343-esa-separated-on-board-charger-test">5.3.4.3 ESA, separated on-board charger test<a class="headerlink" href="#5343-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure according to 7.4.1 of CISPR 16-2-1:2014 with general test conditions shall be applied. </p>
+<p>Electrical connection of the enclosure of ESA and artificial networks to ground plane should be made in line with vehicle test, and grounding configuration shall be defined in the test plan. </p>
+<h2 id="535-high-frequency-conducted-disturbances-on-network-and-telecommunication-access">5.3.5 High-frequency conducted disturbances on network and telecommunication access<a class="headerlink" href="#535-high-frequency-conducted-disturbances-on-network-and-telecommunication-access" title="Permanent link">&para;</a></h2>
+<h2 id="5351-general">5.3.5.1 General<a class="headerlink" href="#5351-general" title="Permanent link">&para;</a></h2>
+<p>The test setup shall be performed according to CISPR 22:2008, Clause 5 for conducted emissions. </p>
+<p>The measurements shall be performed with a spectrum analyser or a scanning receiver. The parameters to be used are respectively defined in CISPR 25:2016, 4.4.1 (Table 1) and 4.4.2 (Table 2). </p>
+<p>Measurements shall be performed with average and either quasi-peak or peak detectors. If peak detectors are used, a correction factor as defined in CISPR 12:2007/CISPR 12:2007/AMD1:2009 shall be applied. </p>
+<p>The limits on network and telecommunication access are those defined in IEC 61000-6-3:2006/IEC 61000-6-3:2006/AMD1:2010 and given in Table 6. </p>
+<p>Table 6 – Maximum allowed radiofrequency conducted disturbances on network and telecommunication access</p>
+<table><tr><td>Frequency (MHz)</td><td colspan="2">Limits and detector</td></tr><tr><td>0,15 to 0,5</td><td>84 to 74 dB(μV) (quasi-peak)74 to 64 dB(μV) (average) (linearly decreasing with logarithm of frequency)</td><td>40 to 30 dB(μA) (quasi-peak)30 to 20 dB(μA) (average) (linearly decreasing with logarithm of frequency)</td></tr><tr><td>0.5 to 30</td><td>74 dB(μV) (quasi-peak)64 dB(μV) (average)</td><td>30 dB(μA) (quasi-peak)20 dB(μA) (average)</td></tr></table>
+
+<p>The limits apply throughout the frequency range 0,15 MHz to 30 MHz for measurements performed in a semi anechoic chamber or an open area test site. </p>
+<h2 id="5352-electric-vehicle-charging-equipment-test">5.3.5.2 Electric vehicle charging equipment test<a class="headerlink" href="#5352-electric-vehicle-charging-equipment-test" title="Permanent link">&para;</a></h2>
+<p>The test setup for the connection of the vehicle in configuration "REESS charging mode coupled to the power grid" is shown in Figure 14. </p>
+<p>Cable configuration (communication lines separate or part of charging cable) shall be defined in the test plan. The cable shall be z-folded in less than 0,5 m width if longer than 1 m, placed 0,1 ( $\pm$ 0,025) m above the ground plane and at least 0,1 m away from the car body. </p>
+<p><img alt="" src="images/2a4e941319b5dd7edf3d079ec595f0fd35fdda4a3d74a15e6328d56a65c4590d.jpg" /></p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 asymmetric artificial network(s) grounded </p>
+<p>7 measuring receiver </p>
+<p>Figure 14 – Vehicle in configuration "REESS charging mode coupled to the power grid" </p>
+<h2 id="5353-esa-separated-on-board-charger-test">5.3.5.3 ESA, separated on-board charger test<a class="headerlink" href="#5353-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<p>The test procedure according to CISPR 22:2008, Clause 5, with general test conditions shall be applied. </p>
+<p>Electrical connection of the enclosure of ESA and artificial networks to ground plane should be made in line with vehicle test, and grounding configuration shall be defined in the test plan. </p>
+<h2 id="536-high-frequency-radiated-disturbances">5.3.6 High-frequency radiated disturbances<a class="headerlink" href="#536-high-frequency-radiated-disturbances" title="Permanent link">&para;</a></h2>
+<h2 id="5361-purpose">5.3.6.1 Purpose<a class="headerlink" href="#5361-purpose" title="Permanent link">&para;</a></h2>
+<p>This test is intended to measure the level of radio frequency radiated disturbances generated by the vehicle in configuration "REESS charging mode coupled to the power grid" in order to ensure it is compatible with residential, commercial and light industrial environments. </p>
+<p>The test setup shall be performed according to CISPR 12:2007/CISPR 12:2007/AMD1:2009. </p>
+<h2 id="5362-general">5.3.6.2 General<a class="headerlink" href="#5362-general" title="Permanent link">&para;</a></h2>
+<p>For vehicles in configuration "REESS charging mode coupled to the power grid" the antenna position is towards the middle of the vehicle (Figure 15). </p>
+<p>The artificial (mains) networks for power supply and asymmetric artificial networks (AAN) for charging communications to be used for this test are described in Annex A. </p>
+<h2 id="5363-electric-vehicle-charging-equipment-test">5.3.6.3 Electric vehicle charging equipment test<a class="headerlink" href="#5363-electric-vehicle-charging-equipment-test" title="Permanent link">&para;</a></h2>
+<p>The measurements shall be performed with a spectrum analyser or a scanning receiver. The parameters to be used are respectively defined in CISPR 25:2016, 4.4.1 (Table 1) and 4.4.2 (Table 2). </p>
+<p>Measurements shall be performed with either quasi-peak or peak detectors. If peak detectors are used a correction factor as defined in CISPR 12:2007/CISPR 12:2007/AMD1:2009 shall be applied. </p>
+<p>The limits according to Table 7 apply throughout the frequency range 30 MHz to 1 000 MHz for measurements performed in a semi anechoic chamber or an outdoor test site. </p>
+<p>Table 7 – Maximum allowed vehicle high-frequency radiated disturbances</p>
+<table><tr><td>Frequency (MHz)</td><td>Limits and detector vehicle-to-antenna spacing of 10.0 m ± 0.2 m</td><td>Limits and detector vehicle-to-antenna spacing 3.0 m ± 0.05 m</td></tr><tr><td>30 to 75</td><td>32 dB(μV/m) (quasi-peak)</td><td>42 dB(μV/m) (quasi-peak)</td></tr><tr><td>75 to 400</td><td>32 dB(μV/m) to 43 dB(μV/m) (quasi-peak) (linearly increasing with logarithm of frequency)</td><td>42 dB(μV/m) to 53 dB(μV/m) (quasi-peak) (linearly increasing with logarithm of frequency)</td></tr><tr><td>400 to 1 000</td><td>43 dB(μV/m) (quasi-peak)</td><td>53 dB(μV/m) (quasi-peak)</td></tr></table>
+
+<p>Enclosed test facilities may be used if correlation can be shown between the results obtained in the enclosed test facility and those obtained at an outdoor site. Enclosed test facilities do not need to meet the dimensional requirements of the outdoor test site other than the distances from the antenna to the vehicle and the height of the antenna. </p>
+<p>The maximum of the readings relative to the limit (horizontal and vertical polarization and antenna location on the left and right-hand sides of the vehicle) shall be taken as the characteristic reading at the frequency at which the measurements were made. </p>
+<p>An example of the test setup for the connection of the vehicle in configuration "REESS charging mode coupled to the power grid" is shown in Figure 15. For further configurations with and without communications refer also to Figure 6 to Figure 9. </p>
+<p>For charging cables supplied by the vehicle manufacturer, extraneous length shall be z-folded in less than 0.5 m width if longer than 1 m, placed 0.1 ( $\pm$ 0.025) m above the ground plane and at least 0.1 m away from the car body. </p>
+<p>For vehicles with the power charging plug located at the side of the vehicle, the AMN/AN shall be placed aligned with the vehicle power charging plug and the vehicle charging cable. </p>
+<p>For vehicles with the power charging plug located at the front/rear of the vehicle, the AMN/AN shall be placed perpendicular to the vehicle power charging plug and shall be aligned with the vehicle charging cable. </p>
+<p><img alt="" src="images/f24c2e0c2b59b57a1c4d8e7a3e81efe832975a5e4419a68c908f9d3c196de243.jpg" /></p>
+<p>Key </p>
+<p>1 vehicle under test </p>
+<p>2 insulating support </p>
+<p>3 charging cable </p>
+<p>4 artificial (mains) network(s) grounded </p>
+<p>5 AC power mains socket or AC/DC charging station (dotted line: arbitrary position) </p>
+<p>6 antenna: 1.8 m high for 3.0 (± 0.05) m distance to reference point and 3.0 m high for 10 (± 0.05) m distance to reference point </p>
+<p>Figure 15 – Example of vehicle in configuration "REESS charging mode coupled to the power grid" </p>
+<h2 id="5364-esa-separated-on-board-charger-test">5.3.6.4 ESA, separated on-board charger test<a class="headerlink" href="#5364-esa-separated-on-board-charger-test" title="Permanent link">&para;</a></h2>
+<h2 id="53641-test-arrangement">5.3.6.4.1 Test arrangement<a class="headerlink" href="#53641-test-arrangement" title="Permanent link">&para;</a></h2>
+<p>For ESAs in configuration "REESS charging mode coupled to the power grid" the test arrangement shall be according to Figure 16. </p>
+<p>Electrical connection of the enclosure of ESA and artificial networks to ground plane should be made in line with vehicle test, and grounding configuration shall be defined in the test plan. </p>
+<p>The shielding configuration shall be according to the vehicle series configuration. Generally all shielded HV parts shall be properly connected with low impedance to ground (e.g. artificial network (AN), cables, connectors, etc.). ESAs and loads shall be connected to ground. The external high voltage (HV) power supply shall be connected via feed-through-filtering. </p>
+<p>Unless otherwise specified the length of the low voltage (LV) harness and the HV harness shall be $1700^{+300}_{0}$ mm. The long segment of the HV lines test harness shall be located at </p>
+<p>$100^{+100}<em 0="0">{0}$ mm from the LV lines test harness (as shown in Figure 16). Unless otherwise specified in the test plan, the configuration with the long segment of HV lines test harness at a distance of $(100 \pm 10)$ mm from the edge and the LV lines test harness located at $100^{+100}</em>$ mm from the HV lines shall also be tested. </p>
+<p>All of the harnesses shall be placed on a non-conductive, low relative permittivity material $(\varepsilon_{r} \leq 1,4)$ , at $(50 \pm 5)$ mm above the ground plane. </p>
+<p>Shielded supply lines for HV+ and HV- and three-phase lines may be coaxial cables or in a common shield depending on the high voltage connector used. The original HV harness from the vehicle may optionally be used. </p>
+<p>Unless otherwise specified the ESA housing shall be connected to the ground plane either directly or via defined impedance. </p>
+<p>For on-board chargers the AC/DC power lines shall be placed the furthest from the antenna (behind LV and HV harness). The distance between the AC/DC power lines and the closest harness (LV or HV) shall be $100^{+100}_{0}$ mm. </p>
+<p>As an alternative to an absorber lined shielded enclosure (ALSE), an open area test site (OATS) which complies with the requirements of CISPR 16-1-4:2010 may be used. </p>
+<h2 id="53642-test-requirements">5.3.6.4.2 Test requirements<a class="headerlink" href="#53642-test-requirements" title="Permanent link">&para;</a></h2>
+<p>Measurements shall be performed with either quasi-peak or peak detectors. If peak detectors are used a correction factor as defined in CISPR 12:2007/CISPR 12:2007/AMD1:2009 shall be applied. </p>
+<p>The limits according to Table 8 apply throughout the frequency range 30 MHz to 1 000 MHz for measurements performed in a semi anechoic chamber or an outdoor test site. </p>
+<p>Table 8 – Maximum allowed ESA high-frequency radiated disturbances</p>
+<table><tr><td>Frequency (MHz)</td><td>Limits and detector ESA-to-antenna spacing 1 m</td></tr><tr><td>30 to 75</td><td>62 dB(μV/m) to 52 dB(μV/m) (quasi-peak)(linearly decreasing with logarithm of frequency)</td></tr><tr><td>75 to 400</td><td>52 dB(μV/m) to 63 dB(μV/m) (quasi-peak)(linearly increasing with logarithm of frequency)</td></tr><tr><td>400 to 1 000</td><td>63 dB(μV/m) (quasi-peak)</td></tr></table>
+
+<p>The phase centre of the antenna shall be in line with the centre of the longitudinal part of the wiring harnesses. </p>
+<p>Top view (Vertical polarization) </p>
+<p><img alt="" src="images/2c6148dab2e5b4de7a2e8e7422e1f3e5c3fe2aed99bbb1517706dc35ff34d7f4.jpg" /></p>
+<p>Key
+1 ESA
+2 LV test harness
+3 LV load simulator (placement and ground connection according to CISPR 25:2016, 6.4.2.5)
+4 power supply (location optional)
+5 LV artificial network
+6 ground plane (bonded to the shielded enclosure)
+7 low relative permittivity support
+8 horn antenna
+10 high-quality coaxial cable, for example double shielded
+11 bulkhead connector
+12 measurement instrument
+13 RF absorber material
+14 stimulation and monitoring system
+15 HV harness
+16 HV load simulator
+17 HV artificial network
+18 HV power supply
+19 HV feed-through
+25 AC/DC charger harness
+26 AC/DC load simulator
+27 50 mH AMN (AC) or HV artificial network (DC)
+28 AC/DC power supply
+29 c./DC feed-through </p>
+<p>Figure 16 - Test configuration for ESAs involved in REESS charging mode coupled to the power grid (example for horn antenna) </p>
+<h2 id="537-radiated-disturbances-on-supply-lines">5.3.7 Radiated disturbances on supply lines<a class="headerlink" href="#537-radiated-disturbances-on-supply-lines" title="Permanent link">&para;</a></h2>
+<p>The emission of the ESA representative of its type shall be tested by the method(s) according to ISO 7637-2:2011 on supply lines as well as to other connections of ESAs which may be operationally connected to supply lines. </p>
+<p>The maximum allowed emission levels are given in the Table 9 below. </p>
+<p>Table 9 – Maximum allowed ESA radiated disturbances on supply lines</p>
+<table><tr><td>Polarity of pulse amplitude</td><td>Vehicles with 12 V Systems</td><td>Vehicles with 24 V Systems</td></tr><tr><td>Positive</td><td>+75 V</td><td>+150 V</td></tr><tr><td>Negative</td><td>-100 V</td><td>-450 V</td></tr></table>
+
+<h1 id="annex-a-normative">Annex A (normative)<a class="headerlink" href="#annex-a-normative" title="Permanent link">&para;</a></h1>
+<h1 id="artificial-networks-asymmetric-artificial-networks-and-integration-of-charging-stations-into-the-test-setup">Artificial networks, asymmetric artificial networks and integration of charging stations into the test setup<a class="headerlink" href="#artificial-networks-asymmetric-artificial-networks-and-integration-of-charging-stations-into-the-test-setup" title="Permanent link">&para;</a></h1>
+<h2 id="a1-overview">A.1 Overview<a class="headerlink" href="#a1-overview" title="Permanent link">&para;</a></h2>
+<p>Annex A describes artificial (mains) networks (AMN/AN) for termination of AC and DC power lines. It is necessary to use networks which provide specific load impedance and isolate the component from the power supply: </p>
+<p>• artificial networks (AN) are used for DC power supplies; </p>
+<p>• artificial mains networks (AMN) are used only for AC power mains. </p>
+<p>This annex also provides asymmetric artificial networks (AAN) for the termination and coupling of charging communication for symmetric communication lines and asymmetric communication lines. </p>
+<p>Furthermore it provides guidance on how to deal with power connections in the test setup. </p>
+<h2 id="a2-charging-station-and-power-mains-connection">A.2 Charging station and power mains connection<a class="headerlink" href="#a2-charging-station-and-power-mains-connection" title="Permanent link">&para;</a></h2>
+<p>The charging station may be placed either on the test site or outside the test location. </p>
+<p>In both cases the power mains sockets and communication sockets shall fulfil the following conditions. </p>
+<p>• The sockets shall be placed directly on the ground plane. </p>
+<ul>
+<li>
+<p>The length of the harness between the sockets and the corresponding artificial networks/asymmetric artificial networks shall be kept as short as possible. </p>
+</li>
+<li>
+<p>The harness between the sockets and the artificial networks/asymmetric artificial networks shall be placed directly on the ground plane. </p>
+</li>
+</ul>
+<p>If the charging station is located on the test site the cabling shall </p>
+<ul>
+<li>
+<p>hang vertically at the side of the charging station to ground, and </p>
+</li>
+<li>
+<p>any extraneous length of the cable shall be placed directly on the ground plane (z-folded, if necessary). </p>
+</li>
+</ul>
+<p>If the charging station is located on the test site it shall not be placed in direct line-of-sight between the measurement antenna and the vehicle. </p>
+<p>In case of a charging station located outside the test location the power mains sockets and communication line sockets should be filtered. </p>
+<p>If the communication between the vehicle and the charging station can be simulated, this communication simulation and a direct supply from power mains may replace the charging station. </p>
+<h2 id="a3-artificial-networks-an">A.3 Artificial networks (AN)<a class="headerlink" href="#a3-artificial-networks-an" title="Permanent link">&para;</a></h2>
+<h2 id="a31-general">A.3.1 General<a class="headerlink" href="#a31-general" title="Permanent link">&para;</a></h2>
+<p>Currently different types of power supplies and power supply cabling are used for a component powered by low voltage (LV) and/or high voltage (HV). </p>
+<h2 id="a32-low-voltage-lv-powered-component">A.3.2 Low voltage (LV) powered component<a class="headerlink" href="#a32-low-voltage-lv-powered-component" title="Permanent link">&para;</a></h2>
+<p>For a component powered by LV, a 5 $\mu$ H/50 $\Omega$ -AN as defined in CISPR 25:2016, Annex E, and shown in Figure A.1 shall be used. </p>
+<p>The AN(s) shall be mounted directly on the ground plane. The case of the AN(s) shall be bonded to the ground plane. The DC resistance between the ground of the AN measurement port and the ground plane shall not exceed 2,5 mΩ. </p>
+<p>Measurement ports of AN(s) shall be terminated with a 50 Ω load. </p>
+<p>The AN magnitude impedance $Z_{PB}$ (tolerance ± 20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure A.2. It is measured between the terminals P and B (of Figure A.1) with a 50 Ω load on the measurement port with terminals A and B (of Figure A.1) short circuited. </p>
+<p><img alt="" src="images/229c76d8190c66bcc5e769d77e3728586aa561091c300bf8ed081912b52ff8f8.jpg" /></p>
+<p>Key </p>
+<p>1 port for the EUT </p>
+<p>2 power supply port </p>
+<p>3 measurement port </p>
+<p>Figure A.1 - Example of 5 μH AN schematic </p>
+<p><img alt="" src="images/c54c92df670a011ee13af9a3f1ecade85ce17434f2db0dafac85461ad9413978.jpg" /></p>
+<p>Figure A.2 - Characteristics of the AN impedance</p>
+<h2 id="a33-high-voltage-hv-powered-component">A.3.3 High voltage (HV) powered component<a class="headerlink" href="#a33-high-voltage-hv-powered-component" title="Permanent link">&para;</a></h2>
+<p>For a component powered by HV, a 5 $\mu$ H/50 $\Omega$ HV-AN as defined in Figure A.3 shall be used. </p>
+<p>The AN(s) shall be mounted directly on the ground plane. The case of the AN(s) shall be bonded to the ground plane. The DC resistance between the ground of the AN measurement port and the ground plane shall not exceed 2,5 mΩ. </p>
+<p>Measurement ports of AN(s) shall be terminated with a 50 Ω load. </p>
+<p>The AN magnitude impedance $Z_{PB}$ (tolerance ± 20 %) in the measurement frequency range of 0,1 MHz to 100 MHz is shown in Figure A.4. It is measured between the terminals P and B (of Figure A.3) with a 50 Ω load on the measurement port with terminals A and B (of Figure A.3) short circuited. </p>
+<p>$R_{2}$ : 1 MΩ (discharging $C_{2}$ to &lt; 50 $V_{OC}$ within 60 s)</p>
+<p><img alt="" src="images/69387dd743306ebd3e9d22c0eed6dcbb4e2fb82a505c6ad9b456a21640d65e85.jpg" /></p>
+<p>$$
+\mathrm{C} _ {1}:
+$$</p>
+<p>$$
+\mathrm{C} _ {2}:
+$$</p>
+<p>$$
+\mu F
+$$</p>
+<p>$$
+R _ {1}:
+$$</p>
+<p>$$
+L _ {1}
+$$</p>
+<p>Figure A.3 - Example of $5\mu \mathrm{H}$ HV AN schematic</p>
+<p><img alt="" src="images/1c703e8d470ddf2c273512da64d6a2bbbf140961aad2f66c1e292b474aa8ccfc.jpg" /></p>
+<p>Figure A.4 - Characteristics of the HV AN impedance</p>
+<p>If unshielded HV ANs are used in a single shielded box, then there shall be an inner shield between the HV ANs as described in Figure A.5. </p>
+<p><img alt="" src="images/eaf7f31dc77d0445f00c0b4c03d14b3065a8742acf5b181552eb51e2d8a0926a.jpg" /></p>
+<p>Figure A.5 - Example of $5\mu \mathrm{H}$ HV AN combination in a single shielded box</p>
+<p>An optional impedance matching network may be used to simulate common mode/differential mode impedance seen by the device under test (EUT) plugged into an HV power supply (see Figure A.6). The parameters of this optional impedance matching network have to be defined in the test plan. </p>
+<p><img alt="" src="images/09e0f6a75f2087f0980c605125a14c1c690e4caf5c5090a3632c0d479cf6401f.jpg" /></p>
+<p>Figure A.6 - Impedance matching network attached between HV ANs and EUT</p>
+<h2 id="a34-components-involved-in-charging-mode-connected-to-dc-power-supply">A.3.4 Components involved in charging mode connected to DC power supply<a class="headerlink" href="#a34-components-involved-in-charging-mode-connected-to-dc-power-supply" title="Permanent link">&para;</a></h2>
+<p>For a component involved in charging mode (e.g. charger) connected to a DC power supply, 5 $\mu$ H/50 $\Omega$ -AN as defined in Clause A.3 shall be used. </p>
+<h2 id="a4-artificial-mains-networks-amn">A.4 Artificial mains networks (AMN)<a class="headerlink" href="#a4-artificial-mains-networks-amn" title="Permanent link">&para;</a></h2>
+<p>For a components involved in charging mode (e.g. charger) connected to an AC power mains, 50 $\mu$ H/50 $\Omega$ -AMN as defined in CISPR 16-1-2:2014, 4.3, shall be used. </p>
+<p>The AMN(s) shall be mounted directly on the ground plane. The case of the AMN(s) shall be bonded to the ground plane. The DC resistance between the ground of the AMN measurement port and the ground plane shall not exceed 2,5 mΩ. </p>
+<p>Measurement ports of AMN(s) shall be terminated with a 50 Ω load. </p>
+<h2 id="a5-asymmetric-artificial-networks-aan">A.5 Asymmetric artificial networks (AAN)<a class="headerlink" href="#a5-asymmetric-artificial-networks-aan" title="Permanent link">&para;</a></h2>
+<h2 id="a51-general">A.5.1 General<a class="headerlink" href="#a51-general" title="Permanent link">&para;</a></h2>
+<p>Currently different types of communication systems and communication cabling are used for the communication between charging station and vehicle. Therefore a distinction between some specific cabling/operation types is necessary. </p>
+<p>The AAN(s) shall be mounted directly on the ground plane. The grounding connection of the AAN(s) shall be bonded to the ground plane with a low inductivity connection. </p>
+<p>Unused measurement ports of AAN(s) shall be terminated with the corresponding load (50 $\Omega$ for the coaxial output of the IS in Figure A.7). </p>
+<h2 id="a52-symmetric-communication-lines-eg-can">A.5.2 Symmetric communication lines (e.g. CAN)<a class="headerlink" href="#a52-symmetric-communication-lines-eg-can" title="Permanent link">&para;</a></h2>
+<p>An asymmetric artificial network (AAN) is to be connected between vehicle and charging station, respectively. Communication simulation is defined in CISPR 22:2008, 9.6.2 and Annex D, see example in Figure A.6. The IS has a common mode impedance of 150 Ω. The impedance $Z_{cat}$ adjusts the symmetry of the cabling and attached periphery typically expressed as longitudinal conversion loss (LCL). The value of LCL should be predetermined by measurements or be defined by the manufacturer of the charging station/charging cable. The selected value for LCL and its origin shall be stated in the test report. </p>
+<p><img alt="" src="images/a63bb8e2f5684265f1e541ff968b408fcda22aea9e82ba09232d7d78d9d17de9.jpg" /></p>
+<p>C = 4.7 μF </p>
+<p>$R = 200\Omega$ </p>
+<p>L1 = 2 × 38 mH </p>
+<p>L1 = 2 × 38 mH </p>
+<p>AE = Associated equipment </p>
+<p>EUT = Equipment under test </p>
+<p>Source: CISPR 22:2008, Annex D </p>
+<p>Figure A.7 - Example of an impedance stabilization network for symmetric communication lines </p>
+<h2 id="a53-plc-on-power-lines">A.5.3 PLC on power lines<a class="headerlink" href="#a53-plc-on-power-lines" title="Permanent link">&para;</a></h2>
+<p>At present, there is no CISPR standard to cover the EMC of powerline communication (PLC) systems completely. The circuits shown in Figure A.8 and Figure A.9 allow at least emission measurements for out-of-band emissions and immunity tests. For in-band emission measurements a disturbance current (common mode) measurement (as defined in CISPR 16-2-1:2014) on the charging cable may be performed. In case of in-band emission measurements, the disturbance current should fulfil the requirements for conducted disturbance currents on network and telecommunication access. </p>
+<p>The circuit in Figure A.8 provides a common mode termination by the AN. For emission testing only the emissions from the PLC modem of the EUT should be measured. In case the aux equipment signal levels cannot be set by software (in reference to ISO 15118-3), an attenuator is located between powerline and the PLC modem on the AE side in the circuit for emission tests. This attenuator consists of two resistors in combination with the input/output impedance of the PLC modem. The value of the resistors depends on the design impedance of the PLC modems and the allowed attenuation for the PLC system. </p>
+<p><img alt="" src="images/abf7366777896f361c4a4a3ae9977e575496d83141d1dfe2d88c5b555248e9a0.jpg" /></p>
+<p>The value of the resistors depends on the allowed attenuation and the design impedance of the PLC modem (here: 40 dB attenuation, 100 Ω PLC design impedance).</p>
+<p>Figure A.8 – Example of a circuit for emission tests of PLC on AC or DC powerlines</p>
+<p>The attenuator between the two PLC modems will reduce the signal-to-noise ratio on the line, which would give unrealistic results during immunity testing. Therefore, immunity tests should be performed without the attenuator (see Figure A.9) </p>
+<p><img alt="" src="images/1b14e3655c47397a3abbe5a7ae8fe5b0f5b23f4388247eb41ee919e89ce93940.jpg" /></p>
+<p>Figure A.9 – Example of a circuit for immunity tests of PLC on AC or DC powerlines</p>
+<h2 id="a54-plc-technology-on-control-pilot">A.5.4 PLC (technology) on control pilot<a class="headerlink" href="#a54-plc-technology-on-control-pilot" title="Permanent link">&para;</a></h2>
+<p>Some communication systems make use of the control pilot line (versus PE) with a superimposed (high frequency) communication. Typically the technology developed for powerline communication (PLC) is used for that purpose. On one hand the communication lines are operated unsymmetrically, on the other hand two different communication systems operate on the same line. Therefore a special network shall be used. The network shown in Figure A.10 provides a common mode impedance of $150 \Omega \pm 20 \Omega$ (150 kHz to 30 MHz) on the control pilot line (assuming a design impedance of the modem of $100 \Omega$ ). Both types of communications (control pilot, PLC) are separated by the network. Therefore, typically a communication simulation is used in combination with this network. The attenuator built by the resistors and the design impedance of the PLC modem makes sure that the signal on the charging cable is dominated by the EUT's communication signals rather than the AE PLC modem. </p>
+<p>Alternatively in order to assure that the signal is dominated by the EUT's communication signal the transmission power of the AE PLC modem needs to be properly adjusted to be lower than EUT's transmit power. </p>
+<p><img alt="" src="images/1bc131e7cd7c17454d2424f782c0e590e484e05c9954dc55216633453e6b0fb9.jpg" /></p>
+<p>The values of the three resistors depend on the design impedance of the PLC modem connected on AE side. The values given in the schematic are valid for a design impedance of $100 \Omega$ .</p>
+<p>Figure A.10 - Example of a circuit for emission tests of PLC on control pilot line</p>
+<p>The attenuator between the two PLC modems will reduce the signal-to-noise ratio on the line, which would give unrealistic results during immunity testing. Therefore, immunity tests should be performed without the attenuator (see Figure A.11). </p>
+<p><img alt="" src="images/826637ee562e69f6a5165f00e4068062b3d5928df49a230aa2d2468632debcfa.jpg" /></p>
+<p>Figure A.11 - Example of a circuit for immunity tests of PLC on control pilot line</p>
+<h2 id="bibliography">Bibliography<a class="headerlink" href="#bibliography" title="Permanent link">&para;</a></h2>
+<p>IEC 61851-21-2:—, Electric vehicle conductive charging system - Part 21-2: EMC requirements for off-board electric vehicle charging systems $^{1}$ </p>
+<p>ISO 15118-3, Road vehicles – Vehicle to grid communication interface – Part 3: Physical and data link layer requirements </p>
+<p>CISPR 16-1-4:2010, Specification for radio disturbance and immunity measuring apparatus and methods – Part 1-4: Radio disturbance and immunity measuring apparatus – Antennas and test sites for radiated disturbance measurements
+CISPR 16-1-4:2010/AMD1:2012
+CISPR 16-1-4:2010/AMD2:2017 </p>
+<p>INTERNATIONAL
+ELECTROTECHNICAL
+COMMISSION </p>
+<ol>
+<li>rue de Varembé
+PO Box 131
+CH-1211 Geneva 20
+Switzerland </li>
+</ol>
+<p>Tel: +41 2291902 11 </p>
+<p>Fax: +41 22 919 03 00 </p>
+<p>info@iec.ch </p>
+<p>www.iec.ch </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,4365 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="国标/欧标/美标交流充电桩认证查询 · 国内CCC/CQC · 海外CE/CB及多国认证">
+      
+      
+      
+      
+        <link rel="prev" href="iec-61851-21-1-2017-emc.html">
+      
+      
+        <link rel="next" href="sae-j1772-2012.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>EN 61851-21-2 EMC 中文版（全文） - 充电桩产品认证知识库</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#-" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-header__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            充电桩产品认证知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EN 61851-21-2 EMC 中文版（全文）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="切换亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  总索引
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guide.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  使用指南
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-by-region.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  按地区查认证
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/certification-process-overview.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  认证流程总览
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../topics/global-plug-lookup.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  全球插头查询
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/product-ac-charger-cn.html" class="md-tabs__link">
+          
+  
+  
+  产品线
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/certification-ccc.html" class="md-tabs__link">
+          
+  
+  
+  认证类型
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/region-china.html" class="md-tabs__link">
+          
+  
+  
+  地区
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../concepts/standard-gb-39752.html" class="md-tabs__link">
+          
+  
+  
+  标准与概念
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="gb-39752-2024.html" class="md-tabs__link">
+          
+  
+  
+  原始标准全文
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../log.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  变更日志
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="充电桩产品认证知识库" class="md-nav__button md-logo" aria-label="充电桩产品认证知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33a2.5 2.5 0 0 0 2.5 2.5c.36 0 .69-.08 1-.21v7.21a1 1 0 0 1-1 1 1 1 0 0 1-1-1V14a2 2 0 0 0-2-2h-1V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v16h10v-7.5h1.5v5A2.5 2.5 0 0 0 18 21a2.5 2.5 0 0 0 2.5-2.5V9c0-.69-.28-1.32-.73-1.77M18 10a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1M8 18v-4.5H6L10 6v5h2z"/></svg>
+
+    </a>
+    充电桩产品认证知识库
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    总索引
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-by-region.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    按地区查认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/certification-process-overview.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证流程总览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/global-plug-lookup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头查询
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    产品线
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    产品线
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-cn.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-eu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/product-ac-charger-us.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美标交流桩
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    认证类型
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    认证类型
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ccc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CCC 强制认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cqc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CQC 标志认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-ce.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CE 认证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/certification-cb.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CB 体系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    地区
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    地区
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-china.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国大陆
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-europe.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    欧洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-north-america.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北美
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-asia-pacific.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亚太其他
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/region-mea.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中东/非洲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    标准与概念
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    标准与概念
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-39752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-44263.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-gb-t-18487-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-61851-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1 标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752 随车充标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/standard-iec-62955.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955 RDC-DD 漏电保护
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-gb-vs-iec-safety.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ 国标 vs IEC 安规对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/comparison-iec-61851-vs-62752.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚡ IEC 61851 vs 62752 对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/charging-modes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    充电模式 Mode 1-4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/safety-tests-iec-61851.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安规测试项目
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/plug-types-worldwide.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头型号体系 A-O
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    原始标准全文
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    原始标准全文
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-39752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 39752-2024 供电设备安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-44263-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 44263-2024 充电系统安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-t-18487-1-2023.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB/T 18487.1-2023 通用要求（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·上）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-1-2017-part2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-1:2017 第1部分（全文·下）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62752-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62752:2024 随车充（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-62955-2018.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 62955:2018 RDC-DD（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="global-plug-standards.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全球插头及电压标准（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gb-2099-7-2024.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GB 2099.7-2024 插头插座（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-23-2014.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-23:2014 直流充电（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="iec-61851-21-1-2017-emc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEC 61851-21-1:2017 车载充电机 EMC（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EN 61851-21-2 EMC 中文版（全文）
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="en-61851-21-2-emc-cn.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EN 61851-21-2 EMC 中文版（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        - 草案 -
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        申请开始
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全国前言
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        与欧洲和国际标准的连接
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        国家附录 NB （资料性）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-part-21-2emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动汽车的传导充电系统 - Part 21-2:电动汽车外部充电系统的EMC要求
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="电动汽车的传导充电系统 - Part 21-2:电动汽车外部充电系统的EMC要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 规范性参考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emv-prufplan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 EMV-Prüfplan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 概述 S
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 环境条件/限制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 测试负载
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-dut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 测试期间 DUT 的配置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 试验期间的工作条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#451" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 概述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#453" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.3 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 评价标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#461-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.1 评价标准A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#462-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.2 评价标准B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 考试注意事项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 抗扰度要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 排放要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 测量期间的条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 排放限值
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#621" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1 低频
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6211" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1.1 谐波
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6225-1-ghz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.2.5 外壳的辐射干扰发射(&gt;1 GHz)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 电信线路要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7 检测结果及检测报告
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-din-en-61851-21-2-vde-0122-2-1-2-2013-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        内容
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-21-2-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动汽车导电充电系统 - 第21-2部分:非车载电动汽车充电系统的 EMC 要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动车导电充电系统
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-2-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第 21-2 部分:非车载电动汽车充电系统的 EMC 要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 规范性参考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 术语和定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 EMC测试计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 概述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 环境条件/限制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 试验负荷
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#431_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 测试期间的操作条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#453_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.3 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#454" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.4 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 性能标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#461-a_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.1 性能标准A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#462-b_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.2 绩效标准 B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#463-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.3 绩效标准 C
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 测试说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 抗扰度要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        住宅以外的环境
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 排放要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        表 6 - 高频发射
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 测量期间的条件并非总是可以测试设备的每个功能。测试应
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 排放限值
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2012.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2012 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sae-j1772-2017.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAE J1772-2017 充电耦合器（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-1998-2018.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 1998-2018 可编程组件软件（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2202-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2202-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-1-2016.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-1-2016 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2231-2-2020.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2231-2-2020 人员保护系统（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ul-2594-2022.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UL 2594-2022 EVSE 安全（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bacl-ev-charger-safety-certification.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BACL EV Charger 安全认证指南（全文）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../log.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    变更日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        - 草案 -
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        申请开始
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全国前言
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        与欧洲和国际标准的连接
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        国家附录 NB （资料性）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-part-21-2emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动汽车的传导充电系统 - Part 21-2:电动汽车外部充电系统的EMC要求
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="电动汽车的传导充电系统 - Part 21-2:电动汽车外部充电系统的EMC要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1 范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 规范性参考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emv-prufplan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 EMV-Prüfplan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 概述 S
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 环境条件/限制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 测试负载
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-dut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 测试期间 DUT 的配置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 试验期间的工作条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#451" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.1 概述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#453" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.3 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 评价标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#461-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.1 评价标准A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#462-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.2 评价标准B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 考试注意事项
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 抗扰度要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 排放要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 测量期间的条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 排放限值
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#621" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1 低频
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6211" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.1.1 谐波
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6225-1-ghz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2.2.5 外壳的辐射干扰发射(&gt;1 GHz)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 电信线路要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7 检测结果及检测报告
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-din-en-61851-21-2-vde-0122-2-1-2-2013-01" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        内容
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-21-2-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动汽车导电充电系统 - 第21-2部分:非车载电动汽车充电系统的 EMC 要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        电动车导电充电系统
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-2-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第 21-2 部分:非车载电动汽车充电系统的 EMC 要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1范围
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2 规范性参考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3 术语和定义
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-emc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 EMC测试计划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 概述
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 环境条件/限制
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 试验负荷
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#431_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.1 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.2 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3.3 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 测试期间的操作条件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#452_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.2 交流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#453_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.3 直流充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#454" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5.4 无线/感应充电
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 性能标准
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#461-a_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.1 性能标准A
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#462-b_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.2 绩效标准 B
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#463-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6.3 绩效标准 C
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 测试说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 抗扰度要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        住宅以外的环境
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6 排放要求
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        表 6 - 高频发射
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#61_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 测量期间的条件并非总是可以测试设备的每个功能。测试应
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 排放限值
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p>获得TJLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p><img alt="" src="images/fd1a99e4e3e71b040c8251d5d1bb909aac33327be389521b1409455c5c86fe08.jpg" /></p>
+<p>© DIN 德国标准化研究所 e. V. 和 VDE 电气、电子和信息技术协会
+任何类型的复制,包括摘录,仅在获得柏林 DIN 和美因河畔法兰克福 VDE 的批准后才允许。 </p>
+<p>Machine Trans. 获得 TJV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<h2 id="-">- 草案 -<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<h2 id="_1">申请开始<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>本标准的应用开始时间是…… </p>
+<p>内容 边
+1 适用范围....7
+2 规范性参考....7
+3 条款....第8次
+4 EMV-Prüfplan....9
+4.1 一般的....9
+4.2 环境条件/限制....9
+4.3 测试负载....9
+4.4 测试期间DUT的配置....10
+4.5 测试期间的操作条件....10
+4.6 评价标准....11
+4.7 考试注意事项....12
+5 抗扰度要求....13
+6 排放要求....17
+6.1 测量期间的条件....17
+6.2 排放限值....18
+6.3 电信线路要求....20
+7 测试结果和测试报告....20</p>
+<p>图1-连接示例....第8次</p>
+<p>表1-交流充电的抗扰度要求-环境除外
+生活区....13
+表2-交流充电的抗扰度要求-住宅区....14
+表3-直流充电的抗扰度要求-环境除外
+生活区....15
+表4-直流充电的抗扰度要求-住宅位置....16
+表5-低频发射....17
+表6-高频发射....17 </p>
+<p>Machine Trans. 获得 TJV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<h2 id="_2">全国前言<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Das internationale Dokument IEC 69/220/CD:2012 电动汽车传导充电系统 - 第 21 部分- </p>
+<p>2:非车载电动汽车充电系统的EMC要求”(CD,en:委员会草案)在本标准草案中采用不变。本标准草案包含尚未授权的德语翻译。 </p>
+<p>为避免翻译中的疑点，根据IEC在这方面的许可，附上CD的英文原版。标准草案德文的使用条件也适用于英文IEC文本。 </p>
+<p>该国际文件由国际电工委员会（IEC）TC 69 “电动道路车辆和电动工业卡车”编写，并提交给国家委员会征求意见。 </p>
+<p>IEC 和欧洲电工标准化委员会 (CENELEC) 已同意，在 IEC 级别制定的国际标准草案可以同时（并行）提交给 IEC 和 CENELEC 进行协商 (CDV 阶段) 并作为 FDIS 投票（en:Final Draft 国际标准）或欧洲标准的最终草案是为了加速和简化标准化工作。被 CENELEC 接受和批准为欧洲标准的文件必须原封不动地作为德国标准采用。 </p>
+<p>由于 FDIS 或最终草案 prEN 的投票期只有 2 个月,因此无法做出更多的事实陈述,而只有 “是/否” </p>
+<p>如果可以做出决定,必须证明“否”决定是合理的,那么 CD 已经作为 DIN 标准草案发布,以便能够在早期阶段考虑公众意见。 </p>
+<p>DKE 德国电气、电子和信息技术委员会在 DIN 和 VDE (www.dke.de) 的国家工作组 K 353 “电动道路车辆”负责本文件。 </p>
+<p>变化 </p>
+<p>对 DIN EN 61851-22 (VDE 0122-2-2):2002-10 和 DIN EN 61851-1 (VDE 0122-1):2012-01 进行了以下修改：a) 采用和修改 11.12 来自 DIN EN 61851-1 (VDE 0122-1):2012-01；b) 采用和修改 DIN EN 61851-22 (VDE 0122 </p>
+<p>Part 2-2):2002-10 的 11.3; c) 各部分的重组； </p>
+<p>d) 条款的补充； </p>
+<p>e) 干扰抗扰度和干扰发射要求的规范； </p>
+<p>f) 测试要求的描述； </p>
+<p>g) 第 7 部分: 测试结果和测试报告。 </p>
+<p>国家附录 NA （资料性） </p>
+<h2 id="_3">与欧洲和国际标准的连接<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>在规范性文本中未注明日期的引用（引用的标准没有指明发布日期，也没有引用条款编号、表格、图形等），引用是指引用的最新有效版本标准。 </p>
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>在规范性文本中注明日期的引用的情况下,该引用总是指所引用的标准的版本。 </p>
+<p>下面给出了有关引用标准和相应德国标准之间关系的信息。 </p>
+<p>表 NA.1</p>
+<table><tr><td>欧洲标准 国际标准</td><td></td><td>德国标准</td><td>分类在VDE法规</td></tr><tr><td>EN 55011+A1</td><td>IEC/CISPR 11,修改+A1</td><td>DIN EN 55011 (VDE 0875-11)</td><td>VDE 0875-11</td></tr><tr><td>EN 55016(所有部分) CISPR</td><td colspan="2">16(所有部分) DIN EN 55016 (VDE 0876-16)(所有部分)</td><td>VDE 0876-16</td></tr><tr><td>EN 55022</td><td colspan="2">CISPR 22,修改后的 DIN EN 55022 (VDE 0878-22)</td><td>VDE 0878-22</td></tr><tr><td>EN 60038</td><td colspan="2">IEC 60038,修改后的 DIN EN 60038 (VDE 0175-1)</td><td>VDE 0175-1</td></tr><tr><td>EN 61000-3-2+A1+A2</td><td>IEC 61000-3-2+A1+A2</td><td>DIN EN 61000-3-2 (VDE 0838-2) VDE 0838-2</td><td></td></tr><tr><td>EN 61000-3-3</td><td>IEC 61000-3-3</td><td>DIN EN 61000-3-3 (VDE 0838-3) VDE 0838-3</td><td></td></tr><tr><td>-</td><td>IEC/TR 61000-3-6</td><td>-</td><td>-</td></tr><tr><td>EN 61000-3-11</td><td>IEC 61000-3-11</td><td>DIN EN 61000-3-11(VDE 0838-11)</td><td>VDE 0838-11</td></tr><tr><td>EN 61000-3-12</td><td>IEC 61000-3-12</td><td>DIN EN 61000-3-12(VDE 0838-12)</td><td>VDE 0838-12</td></tr><tr><td>EN 61000-4-2</td><td>IEC 61000-4-2</td><td>DIN EN 61000-4-2 (VDE 0847-4-2) VDE 0847-4-2</td><td></td></tr><tr><td>EN 61000-4-3+A1+A2</td><td>IEC 61000-4-3+A1+A2</td><td>DIN EN 61000-4-3 (VDE 0847-4-3) VDE 0847-4-3</td><td></td></tr><tr><td>EN 61000-4-4+A1</td><td>IEC 61000-4-4 +Cor。1+心病。2+A1</td><td>DIN EN 61000-4-4 (VDE 0847-4-4) VDE 0847-4-4</td><td></td></tr><tr><td>EN 61000-4-5</td><td>IEC 61000-4-5</td><td>DIN EN 61000-4-5 (VDE 0847-4-5) VDE 0847-4-5</td><td></td></tr><tr><td>EN 61000-4-6</td><td>IEC 61000-4-6</td><td>DIN EN 61000-4-6 (VDE 0847-4-6) VDE 0847-4-6</td><td></td></tr><tr><td>EN 61000-4-7+A1</td><td>IEC 61000-4-7+A1</td><td>DIN EN 61000-4-7 (VDE 0847-4-7) VDE 0847-4-7</td><td></td></tr><tr><td>EN 61000-4-8</td><td>IEC 61000-4-8</td><td>DIN EN 61000-4-8 (VDE 0847-4-8) VDE 0847-4-8</td><td></td></tr><tr><td>EN 61000-4-11</td><td>IEC 61000-4-11</td><td>DIN EN 61000-4-11(VDE 0847-4-11)</td><td>VDE 0847-4-11</td></tr><tr><td>EN 61000-4-34+A1</td><td>IEC 61000-4-34+A1+Cor。</td><td>DIN EN 61000-4-34(VDE 0847-4-34)</td><td>VDE 0847-4-34</td></tr><tr><td>EN 61000-6-1</td><td>IEC 61000-6-1</td><td>DIN EN 61000-6-1 (VDE 0839-6-1) VDE 0839-6-1</td><td></td></tr><tr><td>EN 61000-6-2</td><td>IEC 61000-6-2</td><td>DIN EN 61000-6-2 (VDE 0839-6-2) VDE 0839-6-2</td><td></td></tr><tr><td>EN 61000-6-3+A1</td><td>IEC 61000-6-3+A1</td><td>DIN EN 61000-6-3 (VDE 0839-6-3) VDE 0839-6-3</td><td></td></tr></table>
+
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>表 NA.1 (续)</p>
+<table><tr><td>欧洲标准 国际标准</td><td></td><td>德国标准</td><td>分类在VDE 法规</td></tr><tr><td>EN 61000-6-4+A1</td><td>IEC 61000-6-4+A1</td><td>DIN EN 61000-6-4 (VDE 0839-6-4) VDE</td><td>0839-6-4</td></tr><tr><td>EN 61851-1:2011</td><td>IEC 61851-1:2010</td><td>DIN EN 61851-1(VDE 0122-1):2012-01</td><td>VDE 0122-1</td></tr><tr><td>-</td><td>IEC 61851-24a</td><td>DIN EN 61851-24(VDE 0122-2-4)a</td><td>VDE 0122-2-4</td></tr><tr><td>-</td><td>ISO/IEC 15118-3a</td><td>-</td><td>-</td></tr><tr><td colspan="4">在筹备。</td></tr></table>
+
+<h2 id="nb">国家附录 NB （资料性）<a class="headerlink" href="#nb" title="Permanent link">&para;</a></h2>
+<p>参考 </p>
+<p>DIN EN 55011 (VDE 0875-11), 工业、科学和医疗设备 - 无线电干扰 - 限值和测量方法 </p>
+<p>DIN EN 55016 (VDE 0876-16)（所有部分），设备和设施的要求以及规范测量高频干扰发射（无线电干扰）和抗干扰性的程序 </p>
+<p>DIN EN 55022（VDE 0878-22），信息技术设备-无线电干扰特性-极限值和测量方法 </p>
+<p>DIN EN 60038 (VDE 0175-1), CENELEC 标准电压 </p>
+<p>DIN EN 61000-3-2 (VDE 0838-2),电磁兼容性 (EMC) - 第 3-2 部分:限值 - 谐波电流的限值（设备输入电流小于或等于每相 16 A） </p>
+<p>DIN EN 61000-3-3 (VDE 0838-3),电磁兼容性 (EMC) - 第 3-3 部分:限值 - 对每相额定电流小于或等于 16 A 的设备在公共低压供电网络中的电压变化、电压波动和闪变的限制,无 </p>
+<p>受特殊连接条件限制 </p>
+<p>DIN EN 61000-3-11 (VDE 0838-11),电磁兼容性 (EMC) - 第 3-11 部分:限值 - 公共低压供电网络中电压变化、电压波动和闪烁的限制 - 额定电流 $&lt; = 75\mathrm{A}$ 的设备和设备,须经特别批准 </p>
+<p>DIN EN 61000-3-12 (VDE 0838-12),电磁兼容性 (EMC) - 第 3-12 部分:限值 - </p>
+<p>用于连接公共低压电网的输入电流 $&gt;16\mathrm{A}$ 且每相 $\leqslant 75\mathrm{A}$ 的设备和设备引起的谐波电流限值 </p>
+<p>DIN EN 61000-4-2 (VDE 0847-4-2),电磁兼容性 (EMC) - 第 4-2 部分:测试和测量方法 - 静电放电抗扰度测试 </p>
+<p>DIN EN 61000-4-3 (VDE 0847-4-3),电磁兼容性 (EMC) - 第 4-3 部分:测试和测量方法 - 高频电磁场抗扰度测试 </p>
+<p>获得 TÜLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>DIN EN 61000-4-4 (VDE 0847-4-4),电磁兼容性 (EMC) - 第 4-4 部分:测试和测量方法 - 快速瞬态电气干扰变量/突发的抗扰度测试 </p>
+<p>DIN EN 61000-4-5 (VDE 0847-4-5),电磁兼容性 (EMC) - 第 4-5 部分:测试和测量方法 - 抗浪涌电压测试 </p>
+<p>DIN EN 61000-4-6 (VDE 0847-4-6),电磁兼容性 (EMC) - 第 4-6 部分:测试和测量方法 - 对高频场感应的传导干扰的抗扰度 </p>
+<p>DIN EN 61000-4-7 (VDE 0847-4-7),电磁兼容性 (EMC) - 第 4-7 部分: 测试和测量方法 - 测量谐波和测量方法和设备的通用指南 </p>
+<p>供电网络和连接设备中的间谐波 </p>
+<p>DIN EN 61000-4-8 (VDE 0847-4-8),电磁兼容性 (EMC) - 第 4-8 部分:测试和测量方法 - 与能量相关频率的磁场抗扰度测试 </p>
+<p>DIN EN 61000-4-11 (VDE 0847-4-11),电磁兼容性 (EMC) - 第 4-11 部分:测试和测量方法 - 电压骤降、短时中断和电压波动抗扰度测试 </p>
+<p>DIN EN 61000-4-34 (VDE 0847-4-34),电磁兼容性 (EMC) - 第 4-34 部分: 测试和测量方法 - 电源电流 &gt; 16 A 每相的设备和设施的抗扰度测试电压骤降、短期中断和电压波动 </p>
+<p>DIN EN 61000-6-1 (VDE 0839-6-1),电磁兼容性 (EMC) - 第 6-1 部分:基本标准 - 住宅、商业和商业区域以及小型企业的抗干扰性 </p>
+<p>DIN EN 61000-6-2 (VDE 0839-6-2),电磁兼容性 (EMC) - 第 6-2 部分:基本标准 - 工业领域的抗干扰性 </p>
+<p>DIN EN 61000-6-3 (VDE 0839-6-3),电磁兼容性 (EMC) - 第 6-3 部分:基本标准 - 住宅、商业和商业区域以及小型企业的干扰发射 </p>
+<p>DIN EN 61000-6-4 (VDE 0839-6-4),电磁兼容性 (EMC) - 第 6-4 部分:基本标准 - 工业区域的干扰发射 </p>
+<p>DIN EN 61851-1 (VDE 0122-1):2012-01,电动道路车辆的电气设备 - 电动车辆的传导充电系统 - 第 1 部分:一般要求 (IEC </p>
+<p>61851-1:2010);德语 </p>
+<p>版本 EN 61851-1:2011 </p>
+<p>DIN EN 61851-24 (VDE 0122-2-4)*),电动汽车的传导充电系统 - 第 24 部分:数字 </p>
+<p>用于控制电动汽车直流充电站和电动汽车之间的直流充电过程的通信 </p>
+<p>Machine Trans. 获得 TJV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<h1 id="-part-21-2emc">电动汽车的传导充电系统 - Part 21-2:电动汽车外部充电系统的EMC要求<a class="headerlink" href="#-part-21-2emc" title="Permanent link">&para;</a></h1>
+<h2 id="1">1 范围<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>IEC 61851 的这一部分规定了所有外部系统的 EMC 要求,这些系统用于根据 IEC 60038 使用高达 1,000 V 的交流电压进行传导充电、使用直流电压充电和非传导充电。 </p>
+<p>该标准根据 IEC 61851-1 处理充电模式 1、2、3 和 4 的外部设备。 </p>
+<p>注 1 ICCB (in-cable control box - de: Ladeleitungsintegrate Steuer- und Schutzeinrichtung) 被视为电动汽车供电设备（EVSE-electric vehicle supply equipment）的外部设备。 </p>
+<p>注2:电动汽车感应传输中电磁场(EMF)对健康的影响的特殊方面不在本标准范围内。 </p>
+<p>本标准不适用于 EMC 要求包含在 IEC 61851-21-1 中的车载充电器。 </p>
+<h2 id="2">2 规范性参考<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>以下文件,全部或部分在本文件中引用,是使用本文件所必需的。对于注明日期的参考文献,仅引用的版本适用。对于未注明日期的引用文件,引用文件的最新版本（包括任何修改）适用。 </p>
+<p>IEC 61851-1:2010,电动汽车传导充电系统 - 第 1 部分:一般要求 </p>
+<p>IEC 61000-3-2,电磁兼容性 (EMC) - 第 3-2 部分:限值 - 谐波电流发射限值（设备输入电流 $\leqslant$ 16 A 每相） </p>
+<p>IEC 61000-3-3,电磁兼容性 (EMC) - 第 3-3 部分:限制 - 公共低压供电系统中电压变化、电压波动和闪烁的限制,适用于每相额定电流 $\leqslant 16$ A 且不受约束的设备到条件连接 </p>
+<p>IEC 61000-3-11,电磁兼容性 (EMC) - 第 3-11 部分:限制 - 公共低压供电系统中电压变化、电压波动和闪烁的限制 - 额定电流 ≤ 75 A 且受条件连接的设备 </p>
+<p>IEC 61000-3-12,电磁兼容性 (EMC) - 第 3-12 部分:限值 - 连接到输入电流 $&gt;16$ A 且每相 $\leqslant 75$ A 的公共低压系统的设备产生的谐波电流限值 </p>
+<p>IEC 61000-4-2,电磁兼容性 (EMC) - 第 4-2 部分: 测试和测量技术 - 静电放电抗扰度测试 </p>
+<p>IEC 61000-4-3,电磁兼容性 (EMC) - 第 4-3 部分: 测试和测量技术 - 辐射、射频、电磁场抗扰度测试 </p>
+<p>IEC 61000-4-4,电磁兼容性 (EMC) - 第 4-4 部分:测试和测量技术 - 电快速瞬变/突发抗扰度测试 </p>
+<p>IEC 61000-4-5,电磁兼容性 (EMC) - 第 4-5 部分: 测试和测量技术 - 浪涌抗扰度测试 </p>
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>IEC 61000-4-6,电磁兼容性 (EMC) - 第 4-6 部分: 测试和测量技术 - 不受射频场引起的传导干扰的影响 </p>
+<p>IEC 61000-4-7,电磁兼容性 (EMC) - 第 4-7 部分: 测试和测量技术 - 电源系统和与其连接的设备的谐波和间谐波测量和仪器的通用指南 </p>
+<p>IEC 61000-4-8,电磁兼容性 (EMC) - 第 4-8 部分:测试和测量技术 - 工频磁场抗扰度测试修正案 1 (2000) </p>
+<p>IEC 61000-4-11,电磁兼容性 (EMC) - 第 4-11 部分:测试和测量技术 - </p>
+<p>电压骤降、短时中断和电压变化抗扰度测试 </p>
+<p>IEC 61000-6-1,电磁兼容性 (EMC) – 第 6-1 部分:通用标准 – 住宅、商业和轻工业环境的抗扰度 </p>
+<p>IEC 61000-6-2,电磁兼容性 (EMC) - 第 6-1 部分:通用标准 - 工业环境的抗扰度 </p>
+<p>IEC 61000-6-3,电磁兼容性 (EMC) – 第 6-1 部分:通用标准 – 住宅、商业和轻工业环境的辐射 </p>
+<p>IEC 61000-6-4,电磁兼容性 (EMC) - 第 6-1 部分:通用标准 - 工业环境的辐射 </p>
+<p>$$
+\text { CISPR   11,工业、科学和医疗(ISM)射频设备 - 电磁干扰特性 - 限制和测量方法 }
+$$</p>
+<p>CISPR 22,信息技术设备 - 无线电干扰特性 - 限制和测量方法 </p>
+<h2 id="3">3项<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>第 1 部分的第 3 节适用,但以下情况除外: </p>
+<p>注:外壳的示例可以是建筑物或车库等。 </p>
+<p>3.1 </p>
+<p>端口特殊接口 </p>
+<p>设备与外部电 </p>
+<p>磁环境的考虑 </p>
+<p><img alt="" src="images/3805c80a8e2d73e4d8e3230c2f76d3e295814bed31d71f3c550da06427561291.jpg" /></p>
+<p>图1-连接示例</p>
+<p>Machine T获得TJIV Anlagrotechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>3.2<br />
+外壳端口电<br />
+磁场辐射或电磁场可以进入的设施的物理边界 </p>
+<p>3.3
+功能接地端口 </p>
+<p>线路连接,不适用于信号或控制线路,也没有电源连接,用于不提供电气安全的接地连接 </p>
+<p>3.4
+信号端口 </p>
+<p>用于传输信号的导体或电缆与设施（设备、装置）连接的终端。 </p>
+<p>条目注释 示例为控制线、数据总线、通信网络等的模拟输入、输出和连接 </p>
+<p>[IEC 61000 -6-1, 3.4] </p>
+<p>3.5
+电源 orgungsanschluss (en:
+电源端口 (AC o 直流))
+设施（设备、装置）的运行（功能）所必需的导体或电缆的连接
+将所需的初级电力传输到设备（设备，设备）已连接 </p>
+<p>注 1 到入口电源连接可以入口 此定义适用于输入和输出电源连接。一条流口 既不是入口也不是出口，或两者兼而有之。 </p>
+<h2 id="4-emv-prufplan">4 EMV-Prüfplan<a class="headerlink" href="#4-emv-prufplan" title="Permanent link">&para;</a></h2>
+<h2 id="41-s">4.1 概述 S<a class="headerlink" href="#41-s" title="Permanent link">&para;</a></h2>
+<p>测试前必须制定 EMC 测试计划。该计划必须至少包含 5.2 至 5.7 中规定的要素。 </p>
+<h2 id="42">4.2 环境条件/限制<a class="headerlink" href="#42" title="Permanent link">&para;</a></h2>
+<p>现行标准 是为所有类型的外部充电器开发的,同时考虑了通常的 EMC 环境。由于它们的不同特性,这些充电器可以适应
+r 各种使用和安装的场所。本标准包括实用建筑和工业建筑的所有环境。
+住宅建筑,商业发电 </p>
+<h2 id="43">4.3 测试负载<a class="headerlink" href="#43" title="Permanent link">&para;</a></h2>
+<p>以下测试负载被认为是代表 r 实际载荷定义。 </p>
+<h2 id="431">4.3.1 交流充电<a class="headerlink" href="#431" title="Permanent link">&para;</a></h2>
+<p>充电站的输出应连接到电阻负载。所有其他连接应连接到下面定义或 CISPR 16 中规定的代表性负载。 </p>
+<p>阻性负载的值应允许充电器在额定电流下工作。 </p>
+<p>Machine Trans. 获得 TJV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>如果是为了操作d 需要它的系统,先导电路和接近电路必须符合 IEC 61851,附录 A 或附录 B。 </p>
+<p>如果是为了操作d 需要系统,PLC供电电路必须按照ISO/IEC 15118-3附录B进行设计。 </p>
+<p>4.3.2 直流充电 关于 </p>
+<p>该信息可在 CISPR 11 草案中找到 </p>
+<p>.所有其他连接应连接到下面定义或 CISPR 16 中规定的代表性 </p>
+<p>负载。 </p>
+<p>如果系统运行需要,控制电路和接近电路必须根据 IEC 61851、附录 A 或附录 B 以及 IEC 61851-24 进行设计。 </p>
+<p>如果系统运行需要,PLC供电电路必须按照ISO/IEC 15118-3附件B设计努力。 </p>
+<h2 id="433">4.3.3 无线/感应充电<a class="headerlink" href="#433" title="Permanent link">&para;</a></h2>
+<p>由于输入端的 EMC 特性该设备的 g 与直流充电器相同,因此适用 4.3.2。负载将在 IEC 61980-1 标准发布时指定。 </p>
+<h2 id="44-dut">4.4 测试期间 DUT 的配置<a class="headerlink" href="#44-dut" title="Permanent link">&para;</a></h2>
+<p>如有可能,应根据最终安装配置测试对象并存放在 L </p>
+<p>的充电模式运行。4.3 中规定的测试负载应使用制造商指定类型的电缆连接到充电器的输出端。 </p>
+<p>以代表其最终用途 </p>
+<h2 id="45">4.5 试验期间的工作条件<a class="headerlink" href="#45" title="Permanent link">&para;</a></h2>
+<h2 id="451">4.5.1 概述<a class="headerlink" href="#451" title="Permanent link">&para;</a></h2>
+<p>并非总是对每个傅 设备的功能。测试应在制造商指定的操作模式下进行，该操作模式产生最高的发射或在要检查的频率范围内对干扰具有最高的敏感性，并且与正常应用兼容。测试期间要遵守的条件由制造商在测试计划 fe 中指定 </p>
+<p>放下 </p>
+<p>测试计划必须指定实际的配置和操作模式<br />
+测试报告中准确列出。 </p>
+<p>测试期间的条件必须在 </p>
+<p>以下两家公司 必须至少考虑以下几点：待机模式（状态 B1）；活动操作（状态 C2 或状态 D2），例如 IEC 61851-1 附录 A 中定义。 </p>
+<p>如果设备有大量类似的连接,或者有许多类似的电路连接,那么应该选择足够的数量来代表实际的运行情况,并确保所有不同的连接都是正确的 </p>
+<p>已记录连接类型（例如 20% 的连接 </p>
+<p>或至少四个连接）。 </p>
+<p>除非相关基本标准另有规定，否则试验应在设备规定的工作范围内和额定电源电压下进行。 </p>
+<h2 id="452">4.5.2 交流充电<a class="headerlink" href="#452" title="Permanent link">&para;</a></h2>
+<p>主动操作:在测试期间,交流充电器必须提供制造商指定的标称值的电流。 </p>
+<p>Machine Trans. 获得 TJV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>待机模式:交流充电器必须是 i </p>
+<p>n 在代表已连接和准备充电状态的操作模式下操作。 </p>
+<h2 id="453">4.5.3 直流充电<a class="headerlink" href="#453" title="Permanent link">&para;</a></h2>
+<p>主动运行:在测试过程中,直流充电器必须提供制造商规定的最小值的电流。在测试开始之前,必须评估 DUT 以确定最高干扰发射的条件。这种情况是在 Stö </p>
+<p>遵守调度检查。 </p>
+<p>待机模式:交流充电器必须在代表已连接和准备充电状态的操作模式下操作。 </p>
+<p>4.5.4 无线/感应充电 </p>
+<p>见上文 4.5.3。 </p>
+<h2 id="46">4.6 评价标准<a class="headerlink" href="#46" title="Permanent link">&para;</a></h2>
+<p>电动汽车的充电站可能会,作为应用程序的结果 </p>
+<p>本标准中定义的测试未达到危险或不安全状态。 </p>
+<p>根据 DUT 的充电模式,有不同的评价标准,尤其是在运行中类型 3 和模式 4。 </p>
+<p>评估标准的描述和定义或制造商必须提供一个功能 </p>
+<p>作为 EMC 测试的结果,这些应包含在基于以下标准的测试报告中。 </p>
+<h2 id="461-a">4.6.1 评价标准A<a class="headerlink" href="#461-a" title="Permanent link">&para;</a></h2>
+<p>设备在使用期间和使用后必须在制造商设定的公差范围内继续按预期工作
+ng的相关测试已经确定。设备工作的那个
+，et,不得改变（即在充电状态下继续充电，在待机状态下保持待机）。 </p>
+<p>注:在模式 2 和 3 中,状态变化包括脉宽调制信号的变化,而在直流充电模式下,充电电流的变化（超过制造商规定的容差）。 </p>
+<h2 id="462-b">4.6.2 评价标准B<a class="headerlink" href="#462-b" title="Permanent link">&para;</a></h2>
+<p>该设备必须在预期 </p>
+<p>在应用相关测试期间（在制造商规定的公差范围内）保持功能。次要功能（包括显示器等）在测试过程中可能会出现性能下降，但必须在测试后恢复到原来的性能 </p>
+<p>n 达到状态。 </p>
+<p>应用适当的测试后,充电器不应改变其工作条件（即在充电模式下继续充电和 ex </p>
+<p>在待机模式下保持准备状态）。 </p>
+<p>注意 在操作 类型 2 和 3,状态变化包括脉宽调制信号的变化,以及在直流充电模式下充电电流的变化（超过制造商定义的容差）。 </p>
+<p>Machine Trans.获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawer Xing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>4.6.3 评价标准C </p>
+<p>在相关测试完成期间和完成后,充电器可能会切换到故障安全状态。如果满足 IEC 61851-1 中规定的安全条件,这种情况需要用户干预才能启动充电周期或自动恢复充电。 </p>
+<h2 id="47">4.7 考试注意事项<a class="headerlink" href="#47" title="Permanent link">&para;</a></h2>
+<p>符合要求的设备 n 关于发射和抗扰度均认为符合本标准的要求。 </p>
+<p>对适用本标准的设备的要求是在逐个连接的基础上给出的。要求见表 1 至表 6。 </p>
+<p>可以以任何顺序进行测量。 </p>
+<p>表中列出的标准中给出了要使用的测量、测量设备、测量方法和测量设置的描述参考1和6。 </p>
+<p>由于位置广泛,所有 ICCB 都必须满足表 1 中给出的抗扰度要求。如果制造商限制产品的使用场所,则适用不太严格的干扰条件
+强度要求按表2 </p>
+<p>表中所列标准的内容在此不再赘述，但本标准包含了测量实际应用所必需的修改或附加信息。 </p>
+<h2 id="5">5 抗扰度要求<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p>表 1 - 交流充电的抗扰度要求 - 环境除外 </p>
+<p>生活区 </p>
+<table><tr><td>联系</td><td>测试适用性</td><td>电磁尺寸</td><td>基本规范</td><td>测试值</td><td>评价标准</td></tr><tr><td rowspan="5">住房</td><td>待机和主动操作</td><td>静电放电(ESD)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(80MHz至1000MHz)</td><td>IEC 61000-4-3</td><td>10V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(1.4GHz至2GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(2GHz至2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>只有主动工作磁场</td><td></td><td>IEC 61000-4-8</td><td>30A/mc为系统≤22kW100A/mc为系统&gt;22kW</td><td>→*</td></tr><tr><td rowspan="4">交流电输入连接器(和输入/输出连接器,如果它们直接连接到电源输入连接器)</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>4kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>4千伏安,2千伏</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td>待机和主动操作</td><td>电压骤降,短期中断</td><td>IEC 61000-4-11(≤16A)IEC 61000-4-34(&gt;16安)</td><td>25期减少30%10期减少60%1期减少&gt;95%250个周期100%减少</td><td>CCC乙C</td></tr><tr><td>交流电输出端口</td><td>待机模式</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td rowspan="3">进入/退出信号和控制连接</td><td>待机和主动操作</td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>2千伏安,1千伏</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>2kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td colspan="6">a 对地导体。b 梯子对着梯子。c 仅适用于带有易受磁场干扰的设备的设备。电平定义为50/60Hz。d 指定的测试电平是未调制载波的rms值。</td></tr></table>
+
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>表 2 - 交流充电的抗扰度要求 - 住宅位置</p>
+<table><tr><td>联系</td><td>测试适用性</td><td>电磁尺寸</td><td>基本规范</td><td>测试值</td><td>评价标准</td></tr><tr><td rowspan="5">住房</td><td>待机和主动操作</td><td>静电放电(ESD)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>辐射频场(80MHz至1000MHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射频场(1.4GHz至2GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射频场(2GHz至2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>只有主动工作磁场</td><td></td><td>IEC 61000-4-8</td><td>30A/mc</td><td>→*</td></tr><tr><td rowspan="4">交流电输入连接器(和输入/输出连接器,前提是它们直接连接到电源输入连接器)</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>2kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>2kVa,0.5kVb</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>3V(Effektivwert)</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>电压骤降,短期中断</td><td>IEC 61000-4-11</td><td>25期减少30%1期减少&gt;95%250个周期100%减少</td><td>C乙C</td></tr><tr><td>交流输出连接</td><td>待机模式</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>3V(Effektivwert)</td><td>→*</td></tr><tr><td rowspan="3">进入/退出信号和控制连接</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>1kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td></td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>1kVa,0.5kVb</td><td>乙</td></tr><tr><td></td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>3V(Effektivwert)</td><td>→*</td></tr><tr><td colspan="6">→对地导体。b梯子对着梯子。c仅适用于带有易受磁场干扰的设备的设备。电平定义为50/60Hz。d指定的测试电平是未调制载波的rms值。</td></tr></table>
+
+<p>表 3 - 直流充电的抗扰度要求 - 环境除外</p>
+<p>生活区</p>
+<table><tr><td>联系</td><td>测试适用性</td><td>电磁尺寸</td><td>基本规范</td><td>测试值</td><td>评价标准</td></tr><tr><td rowspan="5">住房</td><td>待机和主动操作</td><td>静电放电(ESD)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(80MHz至1000MHz)</td><td>IEC 61000-4-3</td><td>10V/md</td><td>→</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(1.4GHz至2GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→</td></tr><tr><td>待机和主动操作</td><td>辐射射频场(2GHz至2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→</td></tr><tr><td>只有主动工作磁场</td><td></td><td>IEC 61000-4-8</td><td>100A/mc</td><td>→</td></tr><tr><td rowspan="4">交流连接</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>4kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>4千伏安,2千伏</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td>待机和主动操作</td><td>电压骤降,短期中断</td><td>IEC 61000-4-11(≤16A)IEC 61000-4-34(&gt;16安)</td><td>25期减少30%10期减少60%&gt;95%减少1期250个周期100%减少</td><td>CCC乙C</td></tr><tr><td rowspan="2">直流连接</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>1kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td rowspan="3">交流输入连接器(以及输入/输出连接器,如果直接连接到交流输入连接器)</td><td></td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>2kV(5/50ns,5kHz)4kV(5/50ns,5kHz)用于连接到电源的控制端子</td><td>乙</td></tr><tr><td></td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>4千伏安,2kVb为连接到电源的控制端子2kV,2Ω,用于屏蔽电缆</td><td></td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td colspan="6">对地导体。b梯子对着梯子。c仅适用于带有易受磁场干扰的设备的设备。电平定义为50/60Hz。d指定的测试电平是未调制载波的rms值。</td></tr></table>
+
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>表 4 - 直流充电的抗扰度要求 - 住宅区</p>
+<table><tr><td>联系</td><td>测试适用性</td><td>电磁尺寸</td><td>基本规范</td><td>测试值</td><td>评价标准</td></tr><tr><td rowspan="5">住房</td><td>待机和主动操作</td><td>静电放电(ESD)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>辐射频场(80MHz至1000MHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射频场(1.4GHz至2GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>待机和主动操作</td><td>辐射频场(2GHz至2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/md</td><td>→*</td></tr><tr><td>只有主动工作磁场</td><td></td><td>IEC 61000-4-8</td><td>30A/mc</td><td>→*</td></tr><tr><td rowspan="4">交流连接</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>2kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>2千伏安,1千伏</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td>待机和主动操作</td><td>电压骤降,短期中断</td><td>IEC 61000-4-11</td><td>25期减少30%1期减少&gt;95%250个周期100%减少</td><td>C乙C</td></tr><tr><td rowspan="2">直流连接</td><td>待机和主动操作</td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>1kV(5/50ns,5kHz)</td><td>乙</td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td rowspan="3">进入/退出信号与控制连接</td><td></td><td>快速瞬态电气干扰/爆裂</td><td>IEC 61000-4-4</td><td>2kV(5/50ns,5kHz)4kV(5/50ns,5kHz)用于连接到电源的控制端子</td><td>乙</td></tr><tr><td></td><td>浪涌电压</td><td>IEC 61000-4-5</td><td>1kVb,2kVA为连接到电源的控制端子2kV,2Ω,用于屏蔽电缆</td><td></td></tr><tr><td>待机和主动操作</td><td>传导干扰,由高频场引起(0.15MHz至80MHz)</td><td>IEC 61000-4-6</td><td>10V(Effektivwert)A</td><td></td></tr><tr><td colspan="6">→对地导体。b梯子对着梯子。C仅适用于带有易受磁场干扰的设备的设备。电平定义为50/60Hz。d指定的测试电平是未调制载波的rms值。</td></tr></table>
+
+<h2 id="6">6 排放要求<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<p>表 5 - 低频发射</p>
+<table><tr><td>联系</td><td>电磁尺寸</td><td>基本规范</td><td>本文档的参考部分</td></tr><tr><td>交流连接</td><td>谐波</td><td>IEC 61000-3-2 (≤16 A/相)IEC 61000-3-12 (&gt;16 A 和 ≤75 A/相)</td><td>7.2.1.2</td></tr><tr><td></td><td>电压变化,电压波动和闪烁</td><td>IEC 61000-3-3IEC 61000-3-11</td><td>7.2.1.3</td></tr></table>
+
+<p>表 6 - 射频发射</p>
+<table><tr><td>联系</td><td>电磁尺寸</td><td>基本规范</td><td>本文档的参考部分</td></tr><tr><td>交流连接</td><td>传导干扰发射(0.15 MHz至30兆赫)</td><td>CISPR 11(见注)</td><td>7.2.2.1</td></tr><tr><td>直流电输出端口</td><td>传导干扰发射(0.15 MHz至30兆赫)</td><td>CISPR 11,表x(见注解)</td><td>7.2.2.2</td></tr><tr><td>电信线路</td><td>传导干扰发射(0.15 MHz至30兆赫)</td><td>CISPR 22(见注)</td><td>7.2.2.3</td></tr><tr><td>住房</td><td>辐射干扰发射(无钥匙访问系统)</td><td>CISPR 11,表x(见注解)</td><td>7.2.2.5</td></tr><tr><td>住房</td><td>辐射干扰发射(无钥匙访问系统)</td><td>CISPR 11,表x(见注解)</td><td>7.2.2.6</td></tr><tr><td colspan="4">注:从A类或B类限值得出的性能取决于相关标准中给出的定义。</td></tr></table>
+
+<h2 id="61">6.1 测量期间的条件<a class="headerlink" href="#61" title="Permanent link">&para;</a></h2>
+<p>并非总是可以检查设备的所有功能。测试应在制造商指定的操作模式下进行，该操作模式在要检查的频率范围内产生最高发射或对干扰的敏感性最高，并且与正常应用兼容。试验期间应遵守的条件由制造商在试验计划中规定。 </p>
+<p>如果设备是系统的一部分或可以连接到其他设备,则根据 CISPR 22 操作端口所需的附加设备的最低配置,在连接状态下测试设备。 </p>
+<p>必须在测试计划中定义配置和操作模式，并且必须在测试报告中准确列出测试期间的实际情况。 </p>
+<p>如果设备有大量类似的连接或与许多类似的电路连接,则应选择足够的数量来代表实际操作条件,并确保已涵盖所有不同的连接类型（例如 20% 的连接器或至少四个连接器）。 </p>
+<p>获得 TÜLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>除非相关基本标准另有规定，否则试验应在设备规定的工作范围内和额定电源电压下进行。 </p>
+<h2 id="62">6.2 排放限值<a class="headerlink" href="#62" title="Permanent link">&para;</a></h2>
+<p>针对每个单独的连接（en:端口）规定了根据该标准对设备的干扰发射的测试和限值。 </p>
+<p>对于每种类型的干扰,测量必须以定义和可重复的方式进行。 </p>
+<p>在表 1 至表 6 中提到的基本标准中给出了测试的描述、测试方法和测试设置。这些基本标准的内容在此不再赘述，但在本标准中给出了实际实施试验所需的修改或补充信息。 </p>
+<p>注:对 “基本标准”的引用仅限于标准中提供测试描述、测试方法和测试设置的部分。 </p>
+<h2 id="621">6.2.1 低频<a class="headerlink" href="#621" title="Permanent link">&para;</a></h2>
+<h2 id="6211">6.2.1.1 谐波<a class="headerlink" href="#6211" title="Permanent link">&para;</a></h2>
+<p>电压谐波仅适用于属于以下类别的设备： </p>
+<ul>
+<li>
+<p>额定电压高达 240 V, 单相, 两线或三线; </p>
+</li>
+<li>
+<p>额定电压高达 690 V, 三相, 三线或四线; </p>
+</li>
+<li>
+<p>额定频率 50 Hz 或 60 Hz。 </p>
+</li>
+</ul>
+<p>其他配电网络不在基本标准范围内,因此不适用。 </p>
+<p>连接到公共低压交流配电网络的设备输入电流≤16 A 每相的电动汽车充电站应符合 IEC 61000-3-2。所有 EV 充电器均归类为 IEC 61000-3-2 中定义的 A 类设备。 </p>
+<p>对于超过 16A 的系统, IEC 61000-3-12 适用。 </p>
+<p>连接到公共低压交流配电网络的设备输入电流 $&gt;16\mathrm{A}$ 且每相 $\leqslant 75\mathrm{A}$ 的EV充电站应符合IEC61000-3-12。 </p>
+<p>注 1: 根据 IEC 61000-3-6 或国家法规和/或通过网络运营商和客户之间的合同协议进行控制。预计非公共网络的运营商以确保符合 IEC 61000-3-6 规范或国家法规和/或基于合同协议的方式管理 EMC 环境。 </p>
+<p>测试应根据IEC61000-4-7进行。测试条件为电动汽车直流充电站最大额定电流下的最高输出功率。 </p>
+<p>注 2 在某些国家,每相设备输入电流 &gt; 75 A 或连接到自己设备的 EV 直流充电站可能符合国家法规或电网运营商与客户之间的合同协议:JP. </p>
+<p>Machine Trans. 获得 TJIV Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>6.2.1.2 电压波动和闪变 </p>
+<p>设备输入电流为每相 16 A 至 $\leqslant$ 75 A 且连接到公共低压交流配电网络的 EV 直流充电站产生的电压波动和闪烁的排放应符合 IEC 61000-3-11. </p>
+<p>6.2.2 高频 </p>
+<p>对于本标准的应用,设备根据其环境分类进行分类。 </p>
+<p>这些规定在 CISPR 11, 5.3 中有详细描述,总结如下: </p>
+<p>A 类设备是适用于除家庭以外的所有区域以及直接连接到（也）为家庭建筑供电的低压供电网络的区域的设备。 </p>
+<p>A 类设备必须符合 A 类限制。 </p>
+<p>警告 - A 类设备旨在用于工业环境。为用户提供的随附文档中必须包含一项声明，提请注意以下事实：由于发生的传导和辐射干扰，在其他环境中可能难以确保电磁兼容性。 </p>
+<p>B 类设备是适合在住宅区和直接连接到（也）为住宅楼供电的低压供电网络的区域运行的设备。 </p>
+<p>B 类设备必须符合 B 类限制。 </p>
+<p>6.2.2.1 传导发射 - 交流连接（150 kHz 至 30 MHz） </p>
+<p>测量将根据 CISPR 11 使用其中列出的测试设备进行,具体取决于要求。 </p>
+<p>CISPR 11 表 3 适用于所有通过电线传输能量的 B 类充电器。 </p>
+<p>CISPR 11 表 4 适用于所有通过电线传输能量的 A 类充电器。 </p>
+<p>表 6 (A 类)或表 7 (B 类)适用于感应式/无线充电器。 </p>
+<p>6.2.2.2 传导发射 - 直流连接（150 kHz 至 30 MHz） </p>
+<p>测量将根据 CISPR 11 使用其中列出的测试设备进行,具体取决于要求。 </p>
+<p>CISPR 11 表 3 适用于所有 B 类充电器。 </p>
+<p>CISPR 11 表 4 适用于所有 A 类充电器。 </p>
+<p>6.2.2.3 传导发射 - 电信线路 </p>
+<p>测量将根据 CISPR 22 使用其中列出的测试设备进行,具体取决于要求。 </p>
+<p>CISPR 22、表 3 和表 4 适用于所有充电器。 </p>
+<p>Machine Trans.获得TJIV Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for DawerXing (2019-06-24) </p>
+<ul>
+<li>草案 - </li>
+</ul>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>6.2.2.4 外壳的辐射发射（30 MHz 至 1 000 MHz） </p>
+<p>测量将根据 CISPR 11 使用其中列出的测试设备进行,具体取决于要求。 </p>
+<p>CISPR 11 表 5 适用于所有通过电线传输能量的 B 类充电器。 </p>
+<p>CISPR 11 表 4 适用于所有通过电线传输能量的 A 类充电器。 </p>
+<p>表 9 (A 类)或表 11 (B 类)适用于感应式/无线充电器。 </p>
+<h2 id="6225-1-ghz">6.2.2.5 外壳的辐射干扰发射(&gt;1 GHz)<a class="headerlink" href="#6225-1-ghz" title="Permanent link">&para;</a></h2>
+<p>测量将根据 CISPR 11 使用其中列出的测试设备进行,具体取决于要求。 </p>
+<p>CISPR 11 表 5 适用于所有通过电线传输能量的 B 类充电器。 </p>
+<p>CISPR 11 表 4 适用于所有通过电线传输能量的 A 类充电器。 </p>
+<p>表 9 (A 类)或表 11 (B 类)适用于感应式/无线充电器。 </p>
+<h2 id="63">6.3 电信线路要求<a class="headerlink" href="#63" title="Permanent link">&para;</a></h2>
+<p>6.3.1 通过电网传输数据（en:电力线通信） </p>
+<h2 id="7">7 检测结果及检测报告<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<p>测试结果应记录在一份全面的测试报告中，并提供足够详细的信息以确保重现性。 </p>
+<p>测试报告必须至少包含以下信息： </p>
+<ul>
+<li>
+<p>考生的描述； </p>
+</li>
+<li>
+<p>EMV-Prüfplan; </p>
+</li>
+<li>
+<p>测试数据和结果；- 测试设备和设 </p>
+</li>
+</ul>
+<p>置。 </p>
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>4 电动汽车传导充电系统 </p>
+<p>5 第21-2部分： </p>
+<p>6 非车载电动汽车充电系统的 EMC 要求 </p>
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<h2 id="e-din-en-61851-21-2-vde-0122-2-1-2-2013-01">E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01<a class="headerlink" href="#e-din-en-61851-21-2-vde-0122-2-1-2-2013-01" title="Permanent link">&para;</a></h2>
+<h2 id="_4">内容<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>12 前言
+13 1 范围 …… 6
+14 2 规范性参考文献 …… 6
+15 3 术语和定义 …… 7
+16 4 EMC 测试计划 …… 8
+17 4.1 概述 …… 8
+18 4.2 环境条件/限制 …… 8
+19 4.3 测试负载 …… 8
+20 4.3.1 交流充电 …… 9
+21 4.3.2 直流充电 …… 9
+22 4.3.3 无线/感应充电 …… 9
+23 4.4 测试期间 EUT 的配置 …… 9
+24 4.5 测试期间的操作条件 …… 9
+25 4.5.1 概述 …… 9
+26 4.5.2 交流充电 …… 10
+27 4.5.3 直流充电 …… 10
+28 4.5.4 无线/感应充电 …… 10
+29 4.6 性能标准 …… 10
+30 4.6.1 性能标准 A …… 10
+31 4.6.2 性能标准 B …… 10
+32 4.6.3 性能标准 C …… 11
+33 4.7 测试说明 …… 11
+34 5 抗扰度要求 …… 11
+35 6 排放要求 …… 17
+36 6.1 测量期间的条件 …… 17
+37 6.2 排放限值 …… 17
+38 6.2.1 低频 …… 18
+39 6.2.2 高频 …… 18
+40 7 检测结果及检测报告 …… 20 </p>
+<p>国际电工委员会 </p>
+<h2 id="-21-2-emc">电动汽车导电充电系统 - 第21-2部分:非车载电动汽车充电系统的 EMC 要求<a class="headerlink" href="#-21-2-emc" title="Permanent link">&para;</a></h2>
+<p>前言 </p>
+<p>1) 国际电工委员会 (IEC) 是一个由所有国家电工委员会 (IEC National Committees) 组成的全球标准化组织。IEC 的目标是促进有关电气和电子领域标准化的所有问题的国际合作。为此，除其他活动外，IEC 还发布了国际标准、技术规范、技术报告、公开可用规范 (PAS) 和指南（以下简称 “IEC 出版物”）。他们的准备工作委托给技术委员会；任何对所处理主题感兴趣的 IEC 国家委员会都可以参与这项准备工作。与 IEC 联络的国际、政府和非政府组织也参与了这项准备工作。IEC 与国际标准化组织 (ISO) 根据两个组织之间的协议确定的条件密切合作。 </p>
+<p>2) 由于每个技术委员会都有来自所有感兴趣的 IEC 国家委员会的代表,因此 IEC 关于技术问题的正式决定或协议尽可能地表达了对相关主题的国际意见共识。 </p>
+<p>3) IEC 出版物具有国际使用的推荐形式，并在这个意义上被 IEC 国家委员会接受。尽管已尽一切合理努力确保 IEC 出版物的技术内容准确无误，但 IEC 不对它们的使用方式或任何最终用户的任何误解负责。 </p>
+<p>4) 为了促进国际统一, IEC 国家委员会承诺在其国家和地区出版物中尽可能透明地应用 IEC 出版物。任何 IEC 出版物与相应的国家或地区出版物之间的任何分歧都应在后者中明确指出。 </p>
+<p>5) IEC 本身不提供任何符合性证明。独立认证机构提供合格评定服务，并在某些领域提供 IEC 合格标志。IEC 不对独立认证机构提供的任何服务负责。 </p>
+<p>6) 所有用户应确保他们拥有本出版物的最新版本。 </p>
+<p>7) 对于任何人身伤害、财产损失或其他任何性质的直接或间接损失，IEC 或其董事、雇员、雇员或代理人（包括个人专家及其技术委员会和 IEC 国家委员会的成员）不承担任何责任，或因出版、使用或依赖本 IEC 出版物或任何其他 IEC 所产生的成本（包括法律费用）和开支 </p>
+<p>出版物。 </p>
+<p>8) 请注意本出版物中引用的规范性参考文献。引用的出版物的使用是对本出版物的正确应用必不可少。 </p>
+<p>9) 提请注意本 IEC 出版物的某些要素可能成为以下主题的可能性专利权。IEC 不负责识别任何或所有此类专利权。 </p>
+<p>IEC 69 技术委员会制定了国际标准 IEC 61851-21-2:电动道路车辆和电动工业卡车。 </p>
+<p>本标准的正文以下列文件为基础： </p>
+<table><tr><td>FDIS</td><td>投票报告</td></tr><tr><td>69 / XX / FDIS</td><td>69/XX/RVD</td></tr></table>
+
+<p>批准本标准的全部表决情况见上表所示表决情况报告。 </p>
+<p>本出版物是根据 ISO/IEC 指令第 2 部分起草的。 </p>
+<p>Machine T获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>IEC 61851 系列所有部分的列表, 总标题为: 电动汽车传导充电系统, 可在 IEC 网站上找到。 </p>
+<p>委员会决定本出版物的内容将保持不变,直至维护结果日期 1)在 IEC 网站 “http://webstore.iec.ch”下与特定出版物相关的数据中指明。届时，该刊物将 </p>
+<p>重新确认、撤回、被 </p>
+<p>修订版替换或修 </p>
+<p>正。 </p>
+<p>编者注： </p>
+<p>本文件是 IEC 61851-21-2 的第一个委员会草案,涵盖非车载充电器的 EMC。 </p>
+<p>本标准未涵盖低频和电能质量现象,但将包含在 IEC 61851-1 中。 </p>
+<p>预计排放要求将适时更新，以反映排放标准 CISPR 11 的变化，该标准将为充电器的直流端口提供新的限制和测试方法。目前关于这项活动的工作可以在 CISPR/B/533/CD 中找到。 </p>
+<h2 id="_5">电动车导电充电系统<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h2 id="21-2-emc">第 21-2 部分:非车载电动汽车充电系统的 EMC 要求<a class="headerlink" href="#21-2-emc" title="Permanent link">&para;</a></h2>
+<h2 id="1_1">1范围<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h2>
+<p>IEC 61851 的这一部分定义了用于为电动汽车充电的任何非车载系统的 EMC 要求,包括传导交流充电、根据 IEC 60038 高达 1000 V 的交流电源电压、直流充电和非传导充电。 </p>
+<p>该标准涵盖了包括 IEC61851-1 中定义的模式 1、模式 2、模式 3 和模式 4 充电的非车载设备。 </p>
+<p>注 1 ICCB 被认为是电动汽车供电设备 (EVSE) 的外部设备。 </p>
+<p>注 2 有关电动汽车感应传输的电磁场对健康的影响 (EMF) 的具体方面不在本标准的范围内。 </p>
+<p>本标准不适用于 EMC 要求符合 IEC 61851-21-1 的任何车载设备。 </p>
+<h2 id="2_1">2 规范性参考<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h2>
+<p>以下参考文件对于本文件的应用是必不可少的。对于注明日期的参考文献，仅引用的版本适用。对于未注明日期的引用文件，引用文件的最新版本（包括任何修改）适用。 </p>
+<p>对于注明日期的参考资料,任何这些出版物的后续修订或修订均不适用。但是,鼓励基于 IEC 61851 的这一部分达成协议的各方研究应用以下所示规范性文件的最新版本的可能性。 </p>
+<p>IEC 61851-1:2010,电动汽车传导充电系统 - 第 1 部分:一般要求 </p>
+<p>IEC 61000-3-2,电磁兼容性 (EMC) - 第 3-2 部分:限值 - 谐波电流发射限值（设备输入 FXUUHQW $SHUSKDVH </p>
+<p>IEC 61000-3-3,电磁兼容性 (EMC) – 第 3-3 部分:限制 – 公共低压供电系统中电压变化、电压波动和闪烁的限制,用于 </p>
+<p>HTXLSPHQWZLWKUDWHGFXUUHQW $SHUSKDVHDQGQRt 受条件连接 </p>
+<p>IEC 61000-3-11,电磁兼容性 (EMC) - 第 3-11 部分:限制 - 公共低压供电系统中电压变化、电压波动和闪烁的限制 - </p>
+<p>(TXLSPHQWZLWKUDWHGFXUUHQW $DQGVXEject 到条件连接 </p>
+<p>IEC 61000-3-12,电磁兼容性 (EMC) – 第 3-12 部分:限值 – 连接到公共低压系统的设备产生的谐波电流限值,输入为 FXUUHQW! $DQG $SHUSKDVH </p>
+<p>IEC 61000-4-2,电磁兼容性 (EMC) - 第 4-2 部分: 测试和测量技术 - 静电放电抗扰度测试 </p>
+<p>IEC 61000-4-3,电磁兼容性 (EMC) - 第 4-3 部分: 测试和测量技术 - 辐射、射频、电磁场抗扰度测试 </p>
+<p>获得 TÜLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>IEC 61000-4-4,电磁兼容性 (EMC) - 第 4-4 部分: 测试和测量技术 - 电快速瞬变/突发抗扰度测试 </p>
+<p>IEC 61000-4-5,电磁兼容性 (EMC) - 第 4 部分-7HVWLQJDQG 测量技术 - 浪涌抗扰度测试 </p>
+<p>IEC 61000-4-6,电磁兼容性 (EMC) - 第 4 部分-7HVWLQJDQGPHDVXUHPHQW </p>
+<p>技术－不受射频场引起的传导干扰的影响 </p>
+<p>IEC 61000-4-7,电磁兼容性 (EMC) - 第 4 部分 - 7HVWLQJ DQG PHDVXUHPHQW </p>
+<p>技术 - 谐波和间谐波测量和仪器的通用指南,用于电源系统和与其连接的设备 </p>
+<p>IEC 61000-4-8,电磁兼容性 (EMC) - 第 4-8 部分: 测试和测量技术 - </p>
+<p>3RZUIUHTXHQF\PDJQHWLFILHOGLPPXQLW\WHVW$PHQGPHQW </p>
+<p>IEC 61000-4-11,电磁兼容性 (EMC) - 第 4-11 部分: 测试和测量技术 - 电压骤降、短时中断和电压变化抗扰度测试 </p>
+<p>IEC 61000-6-1,电磁兼容性 (EMC) - 3DUW -1:通用标准 - </p>
+<p>住宅、商业和轻工业环境的抗扰度 </p>
+<p>IEC 61000-6-2,电磁兼容性 (EMC) - 3DUW -1:通用标准 - 工业环境抗扰度 </p>
+<p>IEC 61000-6-3,电磁兼容性 (EMC) - 3DUW -1:通用标准 - </p>
+<p>住宅、商业和轻工业环境的排放 </p>
+<p>IEC 61000-6-4,电磁兼容性 (EMC) - PDUW -1:通用标准 - 工业环境排放 </p>
+<p>CISPR 11, 工业、科学和医疗 (ISM) 射频设备 - </p>
+<p>电磁干扰特性－限值和测量方法 </p>
+<p>CISPR 22,信息技术设备 - 无线电干扰特性 - 限制和测量方法 </p>
+<h2 id="3_1">3 术语和定义<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h2>
+<p>第 1 部分第 3 条适用,但以下情况除外: </p>
+<p>注:住房示例可以是建筑物或车库等。 </p>
+<p>3.1 </p>
+<p>端口 </p>
+<p>特定设备与外部电磁环境的特定接口 </p>
+<p><img alt="" src="images/7114f441531ce1629cd0b682e5f0f8ea20722592eda8f8877caf995f92e78745.jpg" /></p>
+<p>图1-端口示例</p>
+<p>3.2外壳端口电磁场辐射或撞击设备的物理边界。 </p>
+<p>3.3
+功能性接地端口信号、控制或电源端口以外的端口，用于连接到大地以用于电气安全以外的目的 </p>
+<p>3.4<br />
+信号端口用于传输信号的导体或电缆与设备连接的端口 </p>
+<p>注:示例是模拟输入、输出和控制线;数据总线;通讯网络等 </p>
+<p>[IEC 61000-6-1 的 3.4] </p>
+<p>3.5<br />
+电源端口（AC或DC)承载设备或相关设备运行（功能)所需电力的导体或电缆与设备连接的端口 </p>
+<p>注：1. 此定义适用于输入和输出电源端口。电源可以是输入也可以是输出，并且两者兼有。 </p>
+<h2 id="4-emc">4 EMC测试计划<a class="headerlink" href="#4-emc" title="Permanent link">&para;</a></h2>
+<h2 id="41">4.1 概述<a class="headerlink" href="#41" title="Permanent link">&para;</a></h2>
+<p>测试前应制定 EMC 测试计划。它至少应包含 5.2 至 5.7 中给出的元素。 </p>
+<h2 id="42_1">4.2 环境条件/限制<a class="headerlink" href="#42_1" title="Permanent link">&para;</a></h2>
+<p>本标准的制定考虑了所有类型的非车载充电器的正常 EMC 环境。然而，就其本质而言，充电器可以在各种位置使用和安装。该标准涵盖所有住宅、商业、轻工业和工业环境。 </p>
+<h2 id="43_1">4.3 试验负荷<a class="headerlink" href="#43_1" title="Permanent link">&para;</a></h2>
+<p>以下测试载荷已被定义为代表实际载荷。 </p>
+<p>获得 TÜLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<h2 id="431_1">4.3.1 交流充电<a class="headerlink" href="#431_1" title="Permanent link">&para;</a></h2>
+<p>充电站的输出应连接到电阻负载。所有其他端口应连接到下面或 CISPR 16 中定义的代表性负载。 </p>
+<p>电阻负载的值应使充电器能够在标称电流下运行。 </p>
+<p>如果系统运行需要,控制导频电路和接近电路应分别符合 IEC 61851-1 附录 A 和 B。 </p>
+<p>如果系统运行需要,PLC 注入电路应符合 ISO/IEC 15118-3 附录 B。 </p>
+<h2 id="432">4.3.2 直流充电<a class="headerlink" href="#432" title="Permanent link">&para;</a></h2>
+<p>从草案 CISPR 11 中提取。所有其他端口应连接到下文或 CISPR 16 中定义的代表性负载。 </p>
+<p>如果系统运行需要,控制先导电路和接近电路应分别符合 IEC 61851-1 附录 A 和 B 以及 IEC 61851-24。 </p>
+<p>如果系统运行需要,PLC 注入电路应符合 ISO/IEC 15118-3 附录 B。 </p>
+<h2 id="433_1">4.3.3 无线/感应充电<a class="headerlink" href="#433_1" title="Permanent link">&para;</a></h2>
+<p>由于设备输入端的 EMC 特性与直流充电器相同,因此适用第 5.3.2 条。负载将在 IEC 61980-1 标准发布时定义。 </p>
+<p>4.4 测试期间EUT的配置EUT的配置应尽可能接近其最 </p>
+<p>终安装，并以代表最终使用的模式运行。应使用制造商提供的电缆将第 5.3 条中定义的测试负载连接到充电器的输出端。 </p>
+<h2 id="45_1">4.5 测试期间的操作条件<a class="headerlink" href="#45_1" title="Permanent link">&para;</a></h2>
+<p>4.5.1 一般的 </p>
+<p>并非总是可以测试设备的每个功能。测试应在制造商考虑的典型操作模式下进行，以在与正常应用一致的被调查频带内适当地产生最大发射或最大噪声敏感性。制造商应在测试计划中定义测试期间的条件。 </p>
+<p>配置和操作模式应在测试计划中指定,测试期间的实际条件应在测试报告中准确注明。 </p>
+<p>至少应考虑以下两种操作模式：待机模式（状态 B1）；IEC 61851-1 附录 A 中定义的活动模式（状态 C2 或 D2）。 </p>
+<p>如果设备有大量类似的端口或具有许多类似连接的端口,则应选择足够的数量来模拟实际操作条件并确保覆盖所有不同类型的端接（例如 20% 的端口或在至少四个端口）。 </p>
+<p>除非相关基本标准中另有说明,否则试验应在设备规定的工作范围内并在其额定电源电压下进行。 </p>
+<h2 id="452_1">4.5.2 交流充电<a class="headerlink" href="#452_1" title="Permanent link">&para;</a></h2>
+<p>活动模式:在测试期间,交流充电器应以制造商定义的标称值提供电流。 </p>
+<p>待机模式:交流充电器应在代表已连接并准备好充电的状态下运行。 </p>
+<h2 id="453_1">4.5.3 直流充电<a class="headerlink" href="#453_1" title="Permanent link">&para;</a></h2>
+<p>活动模式: 在测试期间, 直流充电器应以制造商定义的最小值提供电流。在开始测试之前, 应对 EUT 进行评估以确定最高排放的条件。在排放测试期间应使用此条件。 </p>
+<p>待机模式:直流充电器应在代表已连接并准备好充电的状态下运行。 </p>
+<h2 id="454">4.5.4 无线/感应充电<a class="headerlink" href="#454" title="Permanent link">&para;</a></h2>
+<p>见上文第 5.5.3 条 </p>
+<h2 id="46_1">4.6 性能标准<a class="headerlink" href="#46_1" title="Permanent link">&para;</a></h2>
+<p>电动汽车充电站不应因应用本标准规定的测试而变得危险或不安全。 </p>
+<p>基于 EUT 的充电模式有不同的性能标准,特别是模式 3 和模式 4。 </p>
+<p>在 EMC 测试期间或作为其结果的功能描述和性能标准定义应由制造商提供，并根据以下标准在测试报告中注明。 </p>
+<h2 id="461-a_1">4.6.1 性能标准A<a class="headerlink" href="#461-a_1" title="Permanent link">&para;</a></h2>
+<p>在应用适当的测试期间和之后,设备应在制造商定义的公差范围内继续按预期运行。它不应改变其工作状态（即,如果处于充电模式,则充电将继续,如果处于待机模式,则应保持空闲）。 </p>
+<p>注意:对于模式 2 和 3,状态变化包括 PWM 信号的变化,对于直流充电,这包括充电电流的任何变化（超出制造商定义的容差）。 </p>
+<h2 id="462-b_1">4.6.2 绩效标准 B<a class="headerlink" href="#462-b_1" title="Permanent link">&para;</a></h2>
+<p>Machine T获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>充电器的主要功能应保持适当的测试（在制造商定义的公差范围内）。次要功能（包括显示器等）在测试期间可能会降低性能，但应在测试后恢复到原始状态。 </p>
+<p>在应用适用的测试之后,充电器不应改变其运行状态（即,如果处于充电模式,则充电应继续,如果处于待机模式,则应保持空闲）。 </p>
+<p>注意:对于模式 2 和 3,状态变化包括 PWM 信号的变化,对于直流充电,这包括充电电流的任何变化（超出制造商定义的容差）。 </p>
+<h2 id="463-c">4.6.3 绩效标准 C<a class="headerlink" href="#463-c" title="Permanent link">&para;</a></h2>
+<p>在完成适当的测试期间和之后,充电器可以更改为故障保护状态。如果满足 IEC61851-1 中定义的安全条件,此状态需要用户干预以重新启动充电周期或自动恢复充电。 </p>
+<h2 id="47_1">4.7 测试说明<a class="headerlink" href="#47_1" title="Permanent link">&para;</a></h2>
+<p>满足发射和抗扰度要求的设备被认为满足本标准的要求。 </p>
+<p>本标准涵盖的设备要求是逐个端口给出的。 </p>
+<p>要求在表 x 至 y 中说明。 </p>
+<p>可以以任何顺序执行测量。 </p>
+<p>测量的描述、测量仪器、测量方法和要使用的测量装置在标准中给出,参见表 x 至 y。 </p>
+<p>由于位置不同,所有 ICCB 都应满足表 x 中定义的抗扰度要求。如果产品制造商限制产品的位置,则适用表 x(1) 中定义的不太严格的抗扰度要求。 </p>
+<p>表中引用的标准内容在此不再赘述,但本标准给出了测量实际应用所需的修改或附加信息。 </p>
+<h2 id="5_1">5 抗扰度要求<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h2>
+<p>表 1 – 交流充电抗扰度要求 – 住宅以外的环境</p>
+<table><tr><td>港口</td><td>测试适用性</td><td>现象</td><td>基本标准</td><td>测试值</td><td>表现标准</td></tr><tr><td rowspan="5">外壳</td><td>待机和主动模式</td><td>静电放电(ESD)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(80-1000MHz)</td><td>IEC 61000-4-3</td><td>10V/md)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(1.4-2GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(2-2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>-*</td></tr><tr><td>仅活动模式</td><td>磁场</td><td>IEC 61000-4-8</td><td>30A/m为 C)V\VWHPV千瓦100A/m 适用于&gt;22 kW 的系统</td><td>-*</td></tr><tr><td rowspan="4">交流电源输入端口(以及它们直接所在的 I/O 端口)连接到电源输入端口)</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>4kV (5/50ns, 5kHz) 4kVa),</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>2kVb)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场 (0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>电压骤降和中断</td><td>IEC 61000-4-11$IEC 61000-4-34 (&gt;16A)</td><td>25个循环减少30%10个循环减少60%1个循环减少95%250个循环减少100%</td><td>CCZC</td></tr><tr><td>交流电源输出端口</td><td colspan="2">待机模式传导射频场 (0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td rowspan="3">I/O 信号/控制</td><td>待机和主动模式</td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>2kVa), 1kVb)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场 (0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>2kV (5/50ns, 5kHz)</td><td>乙</td></tr><tr><td colspan="6">a)线对地(地线)b)线对线c)仅适用于包含易受磁场影响的设备的设备。电平定义为50/60Hzd)规定的测试电平是未调制载波的rms值</td></tr></table>
+
+<p>表 2 – 交流充电抗扰度要求 – 住宅环境</p>
+<table><tr><td>港口</td><td>测试适用性</td><td>现象</td><td>基本标准</td><td>测试值</td><td>表现标准</td></tr><tr><td rowspan="5">外壳</td><td>待机和主动模式</td><td>静电放电(静电放电)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(80-1000MHz)</td><td>IEC 61000-4-3</td><td>3V/md)</td><td>一种</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(1.4-2GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>一种</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(2-2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>一种</td></tr><tr><td>仅活动模式</td><td>磁场</td><td>IEC 61000-4-8</td><td>30A/米 c)</td><td>一种</td></tr><tr><td rowspan="4">交流电源输入端口(以及直接连接到电源输入端口的I/O端口)</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>2kV (5/50ns, 5kHz) 2kVa),</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>0.5Vb)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>3V(有效值)</td><td>一种</td></tr><tr><td>待机和主动模式</td><td>电压骤降和中断</td><td>IEC 61000-4-11</td><td>25次循环减少30%&gt;95%</td><td>C</td></tr></table>
+
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<table><tr><td></td><td></td><td></td><td></td><td>减少1个循环100%减少250个循环</td><td>乙C</td></tr><tr><td>交流电源输出端口</td><td colspan="2">待机模式传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>3V(有效值)</td><td>一种</td></tr><tr><td rowspan="3">I/O信号/控制</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>1kV (5/50ns, 5kHz) 1kVa),</td><td>乙</td></tr><tr><td></td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>0.5kVb) B</td><td></td></tr><tr><td></td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>3V(有效值)</td><td>一种</td></tr><tr><td colspan="6">a)线对地(地线)b)线对线c)仅适用于包含易受磁场影响的设备的设备。电平定义为50/60Hzd)规定的测试电平是未调制载波的rms值</td></tr></table>
+
+<h2 id="_6">住宅以外的环境<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<table><tr><td>港口</td><td>测试适用性</td><td>现象</td><td>基本标准</td><td>测试值</td><td>表现标准</td></tr><tr><td rowspan="5">外壳</td><td>待机和主动模式</td><td>静电放电(静电放电)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>辐射频场(80-1000MHz)</td><td>IEC 61000-4-3</td><td>10V/md)</td><td>→*</td></tr><tr><td>待机和主动模式</td><td>辐射频场(1.4-2GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>→*</td></tr><tr><td>待机和主动模式</td><td>辐射频场(2-2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>→*</td></tr><tr><td>仅活动模式</td><td>磁场</td><td>IEC 61000-4-8</td><td>100A/米 C)</td><td>→*</td></tr><tr><td rowspan="4">交流电</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>4kV (5/50ns, 5kHz) 4kVa),</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>2kVb)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V(有效值)</td><td>→*</td></tr><tr><td>待机和主动模式</td><td>电压骤降和中断</td><td>IEC 61000-4-11$IEC 61000-4-34 (&gt;16A)</td><td>25个循环减少30%10个循环减少60%1个循环减少95%250个循环减少100%</td><td>CC乙C</td></tr><tr><td rowspan="2">直流电源</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>1kV (5/50ns, 5kHz)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V(有效值)</td><td>→*</td></tr><tr><td rowspan="3">交流电源输入端口(以及直接连接到电源输入端口的I/O端口)</td><td></td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>2kV (5/50ns, 5kHz)4kV (5/50ns, 5kHz)用于连接到电源的控制</td><td>乙</td></tr><tr><td></td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>4kVa), 2kVb)用于连接到的控制端口电源N9#IRU屏蔽电缆</td><td></td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V(有效值)</td><td>→*</td></tr><tr><td colspan="6">a)线对地(地线)b)线对线c)仅适用于包含易受磁场影响的设备的设备。电平定义为50/60Hz</td></tr></table>
+
+<p>获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>d) 规定的测试电平是未调制载波的 rms 值 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>表 4 – 直流充电抗扰度要求 – 住宅环境</p>
+<table><tr><td>港口</td><td>测试适用性</td><td>现象</td><td>基本标准</td><td>测试值</td><td>表现标准</td></tr><tr><td rowspan="5">外壳</td><td>待机和主动模式</td><td>静电放电(静电放电)</td><td>IEC 61000-4-2</td><td>8kV/4kV空气/接触</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(80-1000MHz)</td><td>IEC 61000-4-3</td><td>3V/md)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(1.4-2GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>辐射射频场(2-2.7GHz)</td><td>IEC 61000-4-3</td><td>3V/米 d)</td><td>-*</td></tr><tr><td>仅活动模式</td><td>磁场</td><td>IEC 61000-4-8</td><td>30A/米 C)</td><td>-*</td></tr><tr><td rowspan="4">交流电</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>2kV (5/50ns, 5kHz)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>2kVa), 1kVb)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td>待机和主动模式</td><td>电压骤降和中断</td><td>IEC 61000-4-11</td><td>25个循环减少30% 1个循环减少95% 250个循环减少100%</td><td>C乙C</td></tr><tr><td rowspan="2">直流电源</td><td>待机和主动模式</td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>1kV (5/50ns, 5kHz)</td><td>乙</td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td rowspan="3">I/O信号/控制</td><td></td><td>电快速瞬变/突发</td><td>IEC 61000-4-4</td><td>2kV (5/50ns, 5kHz)4kV (5/50ns, 5kHz)用于连接到电源的控制</td><td>乙</td></tr><tr><td></td><td>电压浪涌</td><td>IEC 61000-4-5</td><td>2kVa), 1kVb)用于连接到电源的控制N9#IRU屏蔽电缆</td><td></td></tr><tr><td>待机和主动模式</td><td>传导射频场(0.15-80MHz)</td><td>IEC 61000-4-6</td><td>10V (有效值)</td><td>-*</td></tr><tr><td colspan="6">a)线对地(地线)b)线对线c)仅适用于包含易受磁场影响的设备的设备。电平定义为50/60Hzd)规定的测试电平是未调制载波的rms值</td></tr></table>
+
+<h2 id="6_1">6 排放要求<a class="headerlink" href="#6_1" title="Permanent link">&para;</a></h2>
+<p>表 5 - 低频发射</p>
+<table><tr><td>港口</td><td>现象</td><td>基本标准</td><td>本文件中的参考条款</td></tr><tr><td>交流电</td><td>谐波</td><td>IEC 61000-3-16A/相)IEC 61000-3-12 (&gt;16A,$ SKDVH</td><td>7.2.1.2</td></tr><tr><td></td><td>电压波动和闪烁</td><td>IEC 61000-3-3IEC 61000-3-11</td><td>7.2.1.3</td></tr></table>
+
+<h2 id="6-">表 6 - 高频发射<a class="headerlink" href="#6-" title="Permanent link">&para;</a></h2>
+<table><tr><td>港口</td><td>现象</td><td>基本标准</td><td>本文件中的参考条款</td></tr><tr><td>交流电</td><td>传导发射(0.15-30兆赫)</td><td>CISPR 11(见注)</td><td>7.2.2.1</td></tr><tr><td>直流输出功率</td><td>传导发射(0.15-30兆赫)</td><td>CISPR 11,表x(见注)</td><td>7.2.2.2</td></tr><tr><td>电信线条</td><td>传导发射(0.15-30兆赫)</td><td>CISPR 22(见注)</td><td>7.2.2.3</td></tr><tr><td>外壳</td><td>辐射发射(无钥匙进入)</td><td>CISPR 11,表x(见注)</td><td>7.2.2.5</td></tr><tr><td>外壳</td><td>辐射发射(无钥匙进入)</td><td>CISPR 11,表x(见注)</td><td>7.2.2.6</td></tr><tr><td colspan="4">注意:功率导出的A类或B类限制取决于相关标准中包含的定义</td></tr></table>
+
+<h2 id="61_1">6.1 测量期间的条件并非总是可以测试设备的每个功能。测试应<a class="headerlink" href="#61_1" title="Permanent link">&para;</a></h2>
+<p>在制造商考虑的典型操作模式下进行，以在与正常应用一致的调查频带中产生适当的最大发射或最大噪声敏感性。制造商应在测试计划中定义测试期间的条件。 </p>
+<p>如果设备是系统的一部分,或者可以连接到辅助设备,则设备应在连接到根据 CISPR 22 使用端口所需的辅助设备的最低配置时进行测试。 </p>
+<p>配置和操作模式应在测试计划中指定,测试期间的实际条件应在测试报告中准确注明。 </p>
+<p>如果设备有大量类似的端口或具有许多类似连接的端口,则应选择足够的数量来模拟实际操作条件并确保覆盖所有不同类型的端接（例如20%的端口或在至少四个端口）。 </p>
+<p>除非相关基本标准中另有说明,否则试验应在设备规定的工作范围内并在其额定电源电压下进行。 </p>
+<h2 id="62_1">6.2 排放限值<a class="headerlink" href="#62_1" title="Permanent link">&para;</a></h2>
+<p>本标准涵盖的设备的排放测试和限制是逐个端口给出的。 </p>
+<p>对于每种类型的干扰,测量应在定义明确且可重复的条件下进行。 </p>
+<p>Machine T获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>测试的描述、测试方法和测试设置在表 x 到 y 中提到的基本标准中给出。这些基本标准的内容在此不再赘述，但本标准给出了测试实际应用所需的修改或附加信息。 </p>
+<p>注:对 “基本标准”的引用仅限于标准中给出测试描述、测试方法和测试设置的部分。 </p>
+<p>6.2.1低频 </p>
+<p>6.2.1.1 谐波 </p>
+<p>电压谐波仅适用于以下类别的设备 </p>
+<p>1RPLQDOYROWDJHXSWR 9 VLQJOH-相,两线或三线；1RPLQDOYROWDJHXSWR </p>
+<p>9 WKUHH-相,三线或四线；1RPLQDOIUequency 50 赫兹或 60 赫兹。 </p>
+<p>其他分配系统被排除在基本标准的范围之外,因此不适用。 </p>
+<p>每相输入小于或等于 16 A 并连接到公共低压交流配电系统的 EV 充电站应符合 IEC 61000-3-2。根据 IEC 61000-3-2 标准中的定义,所有 EV 充电器都被归类为 A 类设备。 </p>
+<p>对于超过 16 A 的系统, IEC 61000-3-12 适用。 </p>
+<p>电动汽车充电站的输入电流超过 16 A 且每相不超过 75 A, 并连接到公共低压交流配电系统, 应符合 IEC 61000-3-12。 </p>
+<p>注1 安装在私有低压系统中的直流电动汽车充电站可以使用 IEC 61000-3-6 或国家法规中定义的程序和/或通过配电网络之间的合同协议在公共耦合的 MV 点进行总体控制运营商和客户。预计私有系统的运营商将以确保符合 IEC 61000-3-6 或国家法规和/或合同协议中规定的方式管理 EMC 环境。 </p>
+<p>测试应按照 IEC 61000-4-7 进行。测试条件应为直流电动汽车充电站最大额定电流满量程输出。 </p>
+<p>注2在某些国家，每相输入超过75A或连接到厂内设备的直流电动汽车充电站可能符合国家法规或配电公司与客户之间的合同协议：JP. </p>
+<p>6.2.1.2 电压波动和闪变直流电动汽车充电站产生的电压波动和闪变 </p>
+<p>发射,该充电站的输入电流为每相 16 A 至 75 A,并连接到公共低压交流配电系统应符合 IEC 61000-3-11。 </p>
+<p>6.2.2 高频 </p>
+<p>就本标准而言,设备按其环境分类进行分组。 </p>
+<p>这些定义在 CISPR 11 第 5.3 条中有详细说明,总结如下：- </p>
+<p>获得 TÜLV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。 </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>A 类设备是适用于除家用和直接连接到为家用建筑物供电的低压供电网络之外的所有场所的设备。 </p>
+<p>A 类设备应满足 A 类限制。 </p>
+<p>警告：A 类设备旨在用于工业环境。在给用户的文件中，应包括一项声明，提请注意由于传导和辐射干扰，在其他环境中确保电磁兼容性可能存在潜在困难。 </p>
+<p>B 类设备是适用于家庭设施和直接连接到为家用建筑物供电的低压供电网络的设施的设备。 </p>
+<p>B 类设备应满足 B 类限制。 </p>
+<p>6.2.2.1 传导发射 交流端口（150 kHz - 30 MHz） </p>
+<p>应根据 CISPR 11 酌情使用 CISPR 11 中引用的测试设备进行测量。 </p>
+<p>CISPR 11 的表 3 适用于传导能量的所有 B 类充电器。 </p>
+<p>CISPR 11 的表 4 适用于传导能量的所有 A 类充电器。 </p>
+<p>表 6 (A 类)或表 7 (B 类)适用于感应式/无线充电器 </p>
+<p>6.2.2.2 传导发射 - 直流端口（150 kHz - 30 MHz） </p>
+<p>应根据 CISPR 11 酌情使用 CISPR 11 中引用的测试设备进行测量。 </p>
+<p>CISPR 11 的表 3 适用于所有 B 类充电器。 </p>
+<p>CISPR 11 的表 4 适用于所有 A 类充电器。 </p>
+<p>6.2.2.3 传导发射 电信线路 </p>
+<p>应根据 CISPR 22 使用 CISPR 22 中引用的测试设备酌情进行测量。 </p>
+<p>CISPR 22 的表 3 和表 4 适用于所有充电器。 </p>
+<p>6.2.2.4 外壳辐射发射（30 - 1000 MHz） </p>
+<p>应根据CISPR11酌情使用CISPR11中引用的测试设备进行测量。 </p>
+<p>CISPR 11 的表 5 适用于传导能量的所有 B 类充电器。 </p>
+<p>CISPR 11 的表 4 适用于传导能量的所有 A 类充电器 </p>
+<p>表 9 (A 类)或表 11 (B 类)适用于所有无线/感应充电器 </p>
+<p>Machine T获得TJIV-Anlagentechnik GmbH 许可。仅根据许可协议使用。版权所有。Personal copy for Dawerxing (2019-06-24) </p>
+<p>E DIN EN 61851-21-2 (VDE 0122-2-1-2): 2013-01 </p>
+<p>6.2.2.5 外壳辐射发射（&gt;1 GHz） </p>
+<p>应根据 CISPR 11 酌情使用 CISPR 11 中引用的测试设备进行测量。 </p>
+<p>CISPR 11 的表 5 适用于传导能量的所有 B 类充电器。 </p>
+<p>CISPR 11 的表 4 适用于传导能量的所有 A 类充电器 </p>
+<p>表 9 (A 类)或表 11 (B 类)适用于所有无线/感应充电器 </p>
+<p>6.3 电信线路要求 </p>
+<p>6.3.1 电力线通信 </p>
+<p>7 检测结果及检测报告 </p>
+<p>测试结果应记录在全面的测试报告中，并提供足够详细的信息以提供测试的可重复性。 </p>
+<p>测试报告应包含以下最少信息： </p>
+<ul>
+<li>EUT 描述；- EMC </li>
+</ul>
+<p>和结果；- 测试设备和设置。 </p>
+<p>测试计划；- 测试数据 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link", "toc.follow"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
