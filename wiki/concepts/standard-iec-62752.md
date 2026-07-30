@@ -384,7 +384,7 @@ o) 最大充电电流（如低于额定电流）
 
 ## 关联
 
-- 相关实体: [[entities/product-ic-cpd]], [[entities/standard-iec-61851-1]]
+- 相关实体: [[entities/product-ac-charger-eu]], [[concepts/standard-iec-61851-1]]
 - 相关概念: [[concepts/standard-iec-61851-1]], [[concepts/charging-modes]], [[concepts/safety-tests-iec-61851]]
 - 参见: [[concepts/comparison-gb-vs-iec-safety]], [[concepts/comparison-iec-61851-vs-62752]]
 

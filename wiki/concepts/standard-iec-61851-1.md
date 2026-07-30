@@ -317,6 +317,7 @@ IEC 61851-1:2017 是电动汽车传导充电系统的核心国际安规标准（
 - 相关认证: [[entities/certification-ce]], [[entities/certification-cb]]
 - 相关概念: [[concepts/charging-modes]], [[concepts/safety-tests-iec-61851]]
 - 适用地区: [[entities/region-europe]]
+- 系列延伸: [[concepts/standard-iec-61851-23]]（第23部分 DC 充电站，须与本标准一并阅读）、[[concepts/standard-iec-61851-21-1]]、[[concepts/standard-en-61851-21-2]]（EMC 第21-1/21-2部分）
 - 参见: [[topics/certification-process-overview]]
 
 ## 引用来源

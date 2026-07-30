@@ -32,6 +32,8 @@
 
 ## 关联
 - 适用产品: [[entities/product-ac-charger-us]]
+- 美标依据: [[concepts/standard-ul-2594]]、[[concepts/standard-ul-2202]]、[[concepts/standard-ul-2231-1]]、[[concepts/standard-ul-2231-2]]、[[concepts/standard-ul-1998]]、[[concepts/standard-sae-j1772]]（北美 EVSE 安规、人身保护与接口系列）
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]
 
 ## 引用来源

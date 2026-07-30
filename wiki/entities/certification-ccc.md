@@ -60,6 +60,8 @@ CCC（China Compulsory Certification）是中国强制性产品认证制度，�
 - 认证依据: [[concepts/standard-gb-39752]]、[[concepts/standard-gb-44263]]、[[concepts/standard-gb-t-18487-1]]
 - 安规对比: [[concepts/comparison-gb-vs-iec-safety]]
 - 补充认证: [[entities/certification-cqc]]（自愿）
+- 配件安全: [[concepts/standard-gb-2099-7]]（延长线插座 / EV 放电附件安全技术规范，CCC 目录相关）
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]、[[topics/certification-process-overview]]
 
 ## 引用来源

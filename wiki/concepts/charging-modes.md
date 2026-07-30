@@ -111,6 +111,7 @@ IEC 61851-1 定义了四种电动汽车充电模式（Mode 1-4），按连接方
 - 国标安规对比: [[concepts/comparison-gb-vs-iec-safety]]
 - 适用产品: [[entities/product-ac-charger-eu]]、[[entities/product-ac-charger-cn]]
 - 测试要求: [[concepts/safety-tests-iec-61851]]
+- 直流延伸: [[concepts/standard-iec-61851-23]]（Mode 4 直流充电站，基于本页 Mode 1–4 框架）
 - 参见: [[topics/certification-process-overview]]
 
 ## 引用来源

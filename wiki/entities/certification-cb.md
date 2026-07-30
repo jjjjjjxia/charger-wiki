@@ -46,6 +46,8 @@ CB 体系是 IECEE（国际电工委员会电工产品合格测试与认证组�
 - 适用产品: [[entities/product-ac-charger-eu]]
 - 支撑认证: [[entities/certification-ce]] 及多国认证
 - 相关概念: [[concepts/standard-iec-61851-1]]、[[concepts/safety-tests-iec-61851]]、[[concepts/charging-modes]]
+- 直流与接口: [[concepts/standard-iec-61851-23]]（DC 充电站，Mode 4）、[[concepts/standard-sae-j1772]]（北美交流接口，CB 互认可覆盖）
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]、[[topics/certification-process-overview]]
 
 ## 引用来源

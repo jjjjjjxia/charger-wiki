@@ -26,6 +26,9 @@
 
 ## 关联
 - 适用地区: [[entities/region-north-america]]
+- 美标依据: [[concepts/standard-ul-2594]]、[[concepts/standard-ul-2202]]、[[concepts/standard-ul-2231-1]]、[[concepts/standard-ul-2231-2]]、[[concepts/standard-ul-1998]]（北美 EVSE 安规与人身保护系列）
+- 北美接口: [[concepts/standard-sae-j1772]]
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]
 
 ## 引用来源

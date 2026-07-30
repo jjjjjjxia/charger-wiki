@@ -53,6 +53,8 @@ CE 标志是产品进入欧盟市场的强制性合格评定标志，表明产�
 - 适用地区: [[entities/region-europe]]
 - 相关认证: [[entities/certification-cb]]
 - 测试依据: [[concepts/standard-iec-61851-1]]、[[concepts/safety-tests-iec-61851]]
+- EMC 依据: [[concepts/standard-iec-61851-21-1]]（车载充电机）、[[concepts/standard-en-61851-21-2]]（车外充电系统，EN 草案）
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]、[[topics/certification-process-overview]]
 
 ## 引用来源

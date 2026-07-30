@@ -1,5 +1,34 @@
 # 变更日志 — 充电桩产品认证知识库
 
+## 2026-07-30
+
+### 标准编译（12 份新增充电桩认证标准）
+- ✨ **新增 10 个概念页**（编译自 `wiki/standards/` 全文副本，均含 `[[standards/xxx]]` 来源链接）：
+  - [[concepts/standard-ul-2202]] — UL 2202:2022 直流 EVSE 安规（≤1000V AC/1500V DC 输入、≤1500V DC 输出、§9.1 人身保护、Annex C 液冷）
+  - [[concepts/standard-ul-2594]] — UL 2594:2022 AC EVSE 安规（四类产品、§9.2 人身保护、§44 耦合高度、§58 碾压/§59 跌落/§61 玻璃冲击/§67 环境）
+  - [[concepts/standard-ul-2231-1]] — UL 2231-1:2016 人身保护系统通用要求（CCID/GM-I/IM-I、Table 2/3 保护组合）
+  - [[concepts/standard-ul-2231-2]] — UL 2231-2:2020 装置特殊要求（CCID5/CCID20 阈值、100Ω/V 隔离监测、§26 Table 11 介电、§28 6000 次耐久）
+  - [[concepts/standard-ul-1998]] — UL 1998:2018 可编程组件软件安全（Software Class 1/2、关键/监督段、RA 状态）
+  - [[concepts/standard-sae-j1772]] — SAE J1772（2012 与 2017 合并）北美传导式充电接口（AC Level 1/2、DC Level 1/2、CP/PP）
+  - [[concepts/standard-iec-61851-23]] — IEC 61851-23:2014 直流充电站（Mode 4、绝缘 R≥100Ω/V×U、分类与额定）
+  - [[concepts/standard-iec-61851-21-1]] — IEC 61851-21-1:2017 车载充电机 EMC
+  - [[concepts/standard-en-61851-21-2]] — EN 61851-21-2 (VDE):2013 草案 车外充电系统 EMC
+  - [[concepts/standard-gb-2099-7]] — GB 2099.7—2024 延长线插座安全技术规范（含电动自行车充电、EV 放电/V2L 专用条款）
+- ✨ **新增 1 个主题页**：[[topics/certification-guide-bacl]] — BACL 充电桩各国认证要求指南（全球准入维度、北美 UL 系列、IEC/EN 61851 系列、CCS/系统 A-B-C、各地区认证标志）
+
+### 交叉引用更新
+- 🔗 [[entities/product-ac-charger-us]] → 关联 5 份美标（UL 2594/2202/2231-1/2231-2/1998）+ SAE J1772
+- 🔗 [[entities/region-north-america]] → 关联美标系列 + SAE J1772
+- 🔗 [[entities/certification-ce]] → 关联 EMC 两份（IEC 61851-21-1、EN 61851-21-2）
+- 🔗 [[entities/certification-ccc]] / [[entities/certification-cqc]] → 关联 GB 2099.7
+- 🔗 [[entities/certification-cb]] → 关联 IEC 61851-23 / SAE J1772
+- 🔗 [[concepts/charging-modes]] / [[concepts/standard-iec-61851-1]] → 关联 IEC 61851-23（及其 EMC 第21-1/21-2部分）
+- 🔗 以上认证/地区页另增 [[topics/certification-guide-bacl]] 互链
+
+### 索引与日志
+- 📑 [[index.md]]：概念小节 11→21 条、主题小节 3→4 条；总页面数 26→37（10 概念页 + 1 主题页）；记录本次编译
+- 📌 标注事项：UL 2594 源文件含图片引用但图片不在仓库，正文文字已照常提取并加 `> 注：`；GB 2099.7 中 EV 放电/电动自行车条款为本次新增且可直接引用；BACL 指南中系统 A/B/C 地区映射按原文转述，落地以目标市场最新法规为准
+
 ## 2026-07-20
 
 ### 初始化

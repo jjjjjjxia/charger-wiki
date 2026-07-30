@@ -88,6 +88,17 @@ nav:
       - 充电模式 Mode 1-4: concepts/charging-modes.md
       - 安规测试项目: concepts/safety-tests-iec-61851.md
       - 全球插头型号体系 A-O: concepts/plug-types-worldwide.md
+      - "UL 2202:2022 直流充电设备": concepts/standard-ul-2202.md
+      - "UL 2594:2022 交流充电设备": concepts/standard-ul-2594.md
+      - "UL 2231-1:2016 人员保护（通用）": concepts/standard-ul-2231-1.md
+      - "UL 2231-2:2020 人员保护（装置）": concepts/standard-ul-2231-2.md
+      - "UL 1998:2018 软件安全": concepts/standard-ul-1998.md
+      - "SAE J1772 充电耦合器": concepts/standard-sae-j1772.md
+      - "IEC 61851-23:2014 直流充电": concepts/standard-iec-61851-23.md
+      - "IEC 61851-21-1:2017 车载充电机 EMC": concepts/standard-iec-61851-21-1.md
+      - "EN 61851-21-2 EMC 中文版": concepts/standard-en-61851-21-2.md
+      - "GB 2099.7-2024 插头插座": concepts/standard-gb-2099-7.md
+      - "BACL EV Charger 认证指南": topics/certification-guide-bacl.md
   - 原始标准全文:
       - "GB 39752-2024 供电设备安全（全文）": standards/gb-39752-2024.md
       - "GB 44263-2024 充电系统安全（全文）": standards/gb-44263-2024.md
@@ -97,4 +108,16 @@ nav:
       - "IEC 62752:2024 随车充（全文）": standards/iec-62752-2024.md
       - "IEC 62955:2018 RDC-DD（全文）": standards/iec-62955-2018.md
       - "全球插头及电压标准（全文）": standards/global-plug-standards.md
+      - "GB 2099.7-2024 插头插座（全文）": standards/gb-2099-7-2024.md
+      - "IEC 61851-23:2014 直流充电（全文）": standards/iec-61851-23-2014.md
+      - "IEC 61851-21-1:2017 车载充电机 EMC（全文）": standards/iec-61851-21-1-2017-emc.md
+      - "EN 61851-21-2 EMC 中文版（全文）": standards/en-61851-21-2-emc-cn.md
+      - "SAE J1772-2012 充电耦合器（全文）": standards/sae-j1772-2012.md
+      - "SAE J1772-2017 充电耦合器（全文）": standards/sae-j1772-2017.md
+      - "UL 1998-2018 可编程组件软件（全文）": standards/ul-1998-2018.md
+      - "UL 2202-2022 EVSE 安全（全文）": standards/ul-2202-2022.md
+      - "UL 2231-1-2016 人员保护系统（全文）": standards/ul-2231-1-2016.md
+      - "UL 2231-2-2020 人员保护系统（全文）": standards/ul-2231-2-2020.md
+      - "UL 2594-2022 EVSE 安全（全文）": standards/ul-2594-2022.md
+      - "BACL EV Charger 安全认证指南（全文）": standards/bacl-ev-charger-safety-certification.md
   - 变更日志: log.md

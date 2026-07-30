@@ -51,6 +51,8 @@ CQC 标志认证是由中国质量认证中心（CQC）开展的自愿性产品�
 - 适用地区: [[entities/region-china]]
 - 认证依据: [[concepts/standard-gb-39752]]、[[concepts/standard-gb-44263]]、[[concepts/standard-gb-t-18487-1]]
 - 配套认证: [[entities/certification-ccc]]（强制）
+- 配件安全: [[concepts/standard-gb-2099-7]]（延长线插座 / EV 放电附件安全技术规范）
+- 认证指南: [[topics/certification-guide-bacl]]
 - 参见: [[topics/certification-by-region]]
 
 ## 引用来源

@@ -1,9 +1,9 @@
 # Wiki 索引 — 充电桩产品认证知识库
 
-> 总页面数: 26（6份标准全文编译 + 全球插头查询模块）+ 8份原始标准全文
+> 总页面数: 37（实体12 + 概念21 + 主题4）｜原始标准全文: 20 份（wiki/standards/）
 > 最后更新: 2026-07-30
 > 知识库范围: 国标/欧标/美标 交流充电桩 · 国内CCC/CQC · 海外CE/CB及多国认证 · 全球插头型号查询
-> 最近更新: 全量文件完整性与可检索性核查通过（8份源文件与 standards 全文页字节级一致）；三份英文 IEC 标准翻译校对修正（IEC 62752 截面积/试验项数/UK豁免、IEC 62955 试验项数/Im公式/Table2倍数/波形/Annex K-L、IEC 61851-1 控制导引参数补全）
+> 最近更新: 全量文件完整性与可检索性核查通过；新增 12 份充电桩认证标准编译（10 个概念页 + 1 个 BACL 认证指南主题页）及交叉引用（8份源文件与 standards 全文页字节级一致）；三份英文 IEC 标准翻译校对修正（IEC 62752 截面积/试验项数/UK豁免、IEC 62955 试验项数/Im公式/Table2倍数/波形/Annex K-L、IEC 61851-1 控制导引参数补全）
 
 ---
 
@@ -27,10 +27,10 @@
 - [[entities/region-asia-pacific]] — 亚太其他 ⏳待资料
 - [[entities/region-mea]] — 中东/非洲 ⏳待资料
 
-### 概念 (11)
+### 概念 (21)
 - [[concepts/standard-iec-61851-1]] — IEC 61851-1:2017 标准详解 ✅完整性审查补全（术语/存储能量/电缆组件/开关器件/机械强度/短路保护/标志）
-- [[concepts/standard-iec-62752]] — IEC 62752:2024 IC-CPD（随车充）标准 ✅全文Markdown编译（分类/特性/构造/36项型式试验/EMC/碾压/温度控制）
-- [[concepts/standard-iec-62955]] — IEC 62955:2018 RDC-DD 直流剩余电流检测装置 ✅全文编译（分类RDC-MD/RDC-PD/特性参数/22项型式试验/Annex A-O）
+- [[concepts/standard-iec-62752]] — IEC 62752:2024 IC-CPD（随车充）标准 ✅全文Markdown编译（分类/特性/构造/34项型式试验/EMC/碾压/温度控制）
+- [[concepts/standard-iec-62955]] — IEC 62955:2018 RDC-DD 直流剩余电流检测装置 ✅全文编译（分类RDC-MD/RDC-PD/特性参数/20项型式试验/Annex A-O，含 Annex K/L）
 - [[concepts/standard-gb-39752]] — GB 39752-2024 供电设备安全要求 ✅完整性审查补全（过热着火/EMC/安装附录A）
 - [[concepts/standard-gb-44263]] — GB 44263-2024 充电系统安全要求 ✅完整性审查补全（直流异常保护§8.2.1-9/过渡期§10）
 - [[concepts/standard-gb-t-18487-1]] — GB/T 18487.1-2023 传导充电系统通用要求 ✅完整性审查补全（冲击电流/短路保护I²t/保护接地导体/SPD）
@@ -39,8 +39,19 @@
 - [[concepts/safety-tests-iec-61851]] — 安规测试项目详解 ✅完整性审查补全（机械强度IK08）
 - [[concepts/comparison-gb-vs-iec-safety]] — ⚡国标 vs IEC 61851 安规参数对比 ✅从7维度扩展至15维度（含矛盾标注）
 - [[concepts/comparison-iec-61851-vs-62752]] — ⚡IEC 61851-1 vs IEC 62752 对比分析 ✅10维度对比（含标准关系图）
+- [[concepts/standard-ul-2202]] — UL 2202:2022 直流（DC）电动汽车充电系统（EVSE）安规标准
+- [[concepts/standard-ul-2594]] — UL 2594:2022 电动汽车充电设备（AC EVSE）安规标准
+- [[concepts/standard-ul-2231-1]] — UL 2231-1:2016 电动汽车供电电路人身保护系统 通用要求
+- [[concepts/standard-ul-2231-2]] — UL 2231-2:2020 人身保护系统 装置特殊要求（CCID/GM-I/IM-I）
+- [[concepts/standard-ul-1998]] — UL 1998:2018 可编程组件中软件安全标准
+- [[concepts/standard-sae-j1772]] — SAE J1772（2012 与 2017 合并）北美传导式充电接口
+- [[concepts/standard-iec-61851-23]] — IEC 61851-23:2014 直流充电站（Mode 4）
+- [[concepts/standard-iec-61851-21-1]] — IEC 61851-21-1:2017 车载充电机 EMC 要求
+- [[concepts/standard-en-61851-21-2]] — EN 61851-21-2 (VDE):2013 草案 车外充电系统 EMC 要求
+- [[concepts/standard-gb-2099-7]] — GB 2099.7—2024 延长线插座安全技术规范（含 EV 放电/V2L）
 
-### 主题 / 导航 (3)
+### 主题 / 导航 (4)
+- [[topics/certification-guide-bacl]] — BACL 充电桩各国认证要求指南（全球准入维度/UL·IEC 系列/地区认证）
 - [[topics/certification-by-region]] — 按地区查认证（主导航入口）
 - [[topics/certification-process-overview]] — 认证流程总览 ✅已填充CE/CB测试引用
 - [[topics/global-plug-lookup]] — 全球插头查询 ✅208国插头/电压/频率查询 + 插头型号反查 + 充电桩出口参考
@@ -89,18 +100,30 @@
 
 ## 原始标准全文（可全文检索）
 
-> 以下为 8 份标准的 Markdown 全文，已加入站点搜索索引。任何术语（如"二极管存在性检测"）均可在站内搜到，点 wiki 页"来源"链接也可直达对应全文。
+> 以下为 20 份标准的 Markdown 全文，已加入站点搜索索引。任何术语均可在站内搜到，点 wiki 页"来源"链接也可直达对应全文。
 
 | 标准全文 | 说明 | 全文页面 |
 |---------|------|---------|
 | GB 39752-2024 | 供电设备安全要求（强制） | [[standards/gb-39752-2024\|GB 39752-2024 全文]] |
 | GB 44263-2024 | 充电系统安全要求（强制） | [[standards/gb-44263-2024\|GB 44263-2024 全文]] |
 | GB/T 18487.1-2023 | 传导充电系统通用要求（推荐） | [[standards/gb-t-18487-1-2023\|GB/T 18487.1-2023 全文]] |
+| GB 2099.7-2024 | 延长线插座（含 EV 放电/V2L） | [[standards/gb-2099-7-2024\|GB 2099.7-2024 全文]] |
 | IEC 61851-1:2017（上） | EV传导充电系统 通用要求 第1部分 | [[standards/iec-61851-1-2017-part1\|IEC 61851-1 全文·上]] |
 | IEC 61851-1:2017（下） | EV传导充电系统 通用要求 第1部分 | [[standards/iec-61851-1-2017-part2\|IEC 61851-1 全文·下]] |
 | IEC 62752:2024 | IC-CPD（随车充）Mode 2 充电 | [[standards/iec-62752-2024\|IEC 62752:2024 全文]] |
 | IEC 62955:2018 | Mode 3 充电用 RDC-DD 直流剩余电流检测 | [[standards/iec-62955-2018\|IEC 62955:2018 全文]] |
+| IEC 61851-23:2014 | 直流充电系统（Mode 4） | [[standards/iec-61851-23-2014\|IEC 61851-23:2014 全文]] |
+| IEC 61851-21-1:2017 | 车载充电机 EMC | [[standards/iec-61851-21-1-2017-emc\|IEC 61851-21-1 全文]] |
+| EN 61851-21-2 | 车外充电系统 EMC（中文版） | [[standards/en-61851-21-2-emc-cn\|EN 61851-21-2 全文]] |
 | 全球插头及电压标准 | 15种插头型号 + 208国查询 | [[standards/global-plug-standards\|全球插头及电压标准全文]] |
+| SAE J1772-2012 | 北美传导式充电耦合器 | [[standards/sae-j1772-2012\|SAE J1772-2012 全文]] |
+| SAE J1772-2017 | 北美传导式充电耦合器 | [[standards/sae-j1772-2017\|SAE J1772-2017 全文]] |
+| UL 2202:2022 | 直流充电设备 EVSE（DC 快充） | [[standards/ul-2202-2022\|UL 2202:2022 全文]] |
+| UL 2594:2022 | 交流充电设备 EVSE（AC） | [[standards/ul-2594-2022\|UL 2594:2022 全文]] |
+| UL 2231-1:2016 | 电动汽车供电电路人身保护 通用要求 | [[standards/ul-2231-1-2016\|UL 2231-1:2016 全文]] |
+| UL 2231-2:2020 | 人身保护系统 装置特殊要求 | [[standards/ul-2231-2-2020\|UL 2231-2:2020 全文]] |
+| UL 1998:2018 | 可编程组件中软件安全 | [[standards/ul-1998-2018\|UL 1998:2018 全文]] |
+| BACL EV Charger 认证指南 | 第三方机构各国认证要求指南 | [[standards/bacl-ev-charger-safety-certification\|BACL 认证指南全文]] |
 
 ---
 
